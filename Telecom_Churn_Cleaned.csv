@@ -1,0 +1,1501 @@
+CustomerID,Gender,SeniorCitizen,Partner,Dependents,Tenure_Months,PhoneService,InternetService,Contract,PaymentMethod,MonthlyCharges,TotalCharges,Churn,ChurnFlag,TenureSegment,ChargeCategory,ContractRisk,RevenueLost
+CUST00001,Male,No,No,Yes,29,Yes,No,Month-to-month,Electronic check,79.05,2245.63,Yes,1,25-48 Months,High (70-90),High Risk,79.05
+CUST00002,Male,No,Yes,No,29,No,No,Month-to-month,Electronic check,95.88,2746.49,Yes,1,25-48 Months,Premium (90+),High Risk,95.88
+CUST00003,Female,No,Yes,No,14,Yes,Fiber optic,Month-to-month,Bank transfer,80.37,1155.89,Yes,1,13-24 Months,High (70-90),High Risk,80.37
+CUST00004,Male,Yes,Yes,No,47,Yes,No,Month-to-month,Mailed check,97.31,4622.09,No,0,25-48 Months,Premium (90+),High Risk,0.0
+CUST00005,Male,Yes,No,No,47,Yes,Fiber optic,Month-to-month,Bank transfer,90.18,4256.81,Yes,1,25-48 Months,Premium (90+),High Risk,90.18
+CUST00006,Male,No,Yes,No,49,No,No,One year,Mailed check,88.46,4368.83,No,0,49+ Months (Loyal),High (70-90),Medium Risk,0.0
+CUST00007,Male,No,No,No,35,Yes,DSL,Two year,Bank transfer,41.26,1444.02,No,0,25-48 Months,Medium (40-70),Low Risk,0.0
+CUST00008,Female,No,No,Yes,32,No,No,Month-to-month,Credit card,56.2,1848.13,Yes,1,25-48 Months,Medium (40-70),High Risk,56.2
+CUST00009,Female,No,Yes,Yes,20,Yes,No,Month-to-month,Electronic check,58.48,1179.19,Yes,1,13-24 Months,Medium (40-70),High Risk,58.48
+CUST00010,Female,No,Yes,No,44,Yes,Fiber optic,Month-to-month,Credit card,20.32,916.29,No,0,25-48 Months,Low (<40),High Risk,0.0
+CUST00011,Male,No,No,Yes,20,No,DSL,Month-to-month,Electronic check,79.89,1596.66,Yes,1,13-24 Months,High (70-90),High Risk,79.89
+CUST00012,Female,Yes,Yes,Yes,31,Yes,DSL,One year,Electronic check,117.8,3655.07,Yes,1,25-48 Months,Premium (90+),Medium Risk,117.8
+CUST00013,Female,No,No,No,28,Yes,No,Month-to-month,Bank transfer,63.81,1788.44,Yes,1,25-48 Months,Medium (40-70),High Risk,63.81
+CUST00014,Male,No,No,Yes,71,Yes,No,Month-to-month,Electronic check,90.78,6401.27,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,90.78
+CUST00015,Male,Yes,Yes,Yes,36,No,DSL,Month-to-month,Credit card,44.3,1592.1,Yes,1,25-48 Months,Medium (40-70),High Risk,44.3
+CUST00016,Male,No,No,No,55,No,Fiber optic,Two year,Electronic check,87.34,4852.12,Yes,1,49+ Months (Loyal),High (70-90),Low Risk,87.34
+CUST00017,Female,Yes,Yes,Yes,25,Yes,No,Month-to-month,Credit card,38.35,955.01,No,0,25-48 Months,Low (<40),High Risk,0.0
+CUST00018,Male,Yes,Yes,Yes,70,Yes,DSL,Two year,Mailed check,36.63,2562.66,No,0,49+ Months (Loyal),Low (<40),Low Risk,0.0
+CUST00019,Female,No,Yes,No,1,No,Fiber optic,Two year,Credit card,48.52,68.18,No,0,0-12 Months (New),Medium (40-70),Low Risk,0.0
+CUST00020,Female,No,Yes,No,28,Yes,No,One year,Electronic check,94.8,2610.12,No,0,25-48 Months,Premium (90+),Medium Risk,0.0
+CUST00021,Male,No,Yes,Yes,9,Yes,No,Two year,Credit card,31.99,326.94,Yes,1,0-12 Months (New),Low (<40),Low Risk,31.99
+CUST00022,Male,No,No,No,34,Yes,No,One year,Mailed check,46.56,1546.13,No,0,25-48 Months,Medium (40-70),Medium Risk,0.0
+CUST00023,Female,Yes,Yes,Yes,59,Yes,DSL,Month-to-month,Bank transfer,33.25,1946.65,Yes,1,49+ Months (Loyal),Low (<40),High Risk,33.25
+CUST00024,Male,Yes,No,Yes,57,No,No,Two year,Electronic check,86.79,4952.49,No,0,49+ Months (Loyal),High (70-90),Low Risk,0.0
+CUST00025,Male,No,No,Yes,14,Yes,Fiber optic,Month-to-month,Mailed check,91.76,1255.0,Yes,1,13-24 Months,Premium (90+),High Risk,91.76
+CUST00026,Female,Yes,No,Yes,12,No,Fiber optic,Month-to-month,Bank transfer,97.11,1179.03,Yes,1,0-12 Months (New),Premium (90+),High Risk,97.11
+CUST00027,Female,Yes,Yes,Yes,10,Yes,No,Month-to-month,Bank transfer,78.25,747.31,Yes,1,0-12 Months (New),High (70-90),High Risk,78.25
+CUST00028,Female,Yes,Yes,No,27,Yes,No,Month-to-month,Credit card,117.38,3194.21,No,0,25-48 Months,Premium (90+),High Risk,0.0
+CUST00029,Male,No,Yes,No,4,Yes,No,Two year,Credit card,100.22,437.29,No,0,0-12 Months (New),Premium (90+),Low Risk,0.0
+CUST00030,Female,No,Yes,No,5,No,DSL,Month-to-month,Credit card,54.97,306.9,No,0,0-12 Months (New),Medium (40-70),High Risk,0.0
+CUST00031,Male,No,Yes,No,43,No,DSL,Two year,Bank transfer,55.11,2370.67,No,0,25-48 Months,Medium (40-70),Low Risk,0.0
+CUST00032,Female,No,Yes,No,23,No,DSL,Month-to-month,Credit card,54.57,1283.75,Yes,1,13-24 Months,Medium (40-70),High Risk,54.57
+CUST00033,Male,Yes,Yes,No,6,No,DSL,Month-to-month,Mailed check,56.42,295.52,Yes,1,0-12 Months (New),Medium (40-70),High Risk,56.42
+CUST00034,Female,Yes,Yes,No,65,No,No,Month-to-month,Credit card,89.72,5837.24,Yes,1,49+ Months (Loyal),High (70-90),High Risk,89.72
+CUST00035,Female,No,No,No,71,Yes,Fiber optic,Month-to-month,Credit card,98.58,7009.85,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,98.58
+CUST00036,Female,Yes,Yes,No,22,Yes,Fiber optic,Month-to-month,Bank transfer,29.34,690.68,Yes,1,13-24 Months,Low (<40),High Risk,29.34
+CUST00037,Female,No,Yes,Yes,4,Yes,DSL,Two year,Electronic check,65.54,300.77,No,0,0-12 Months (New),Medium (40-70),Low Risk,0.0
+CUST00038,Female,Yes,No,Yes,19,Yes,DSL,One year,Mailed check,37.59,760.01,No,0,13-24 Months,Low (<40),Medium Risk,0.0
+CUST00039,Male,No,Yes,No,18,No,No,Month-to-month,Bank transfer,115.0,2109.14,Yes,1,13-24 Months,Premium (90+),High Risk,115.0
+CUST00040,Female,Yes,Yes,No,58,No,DSL,One year,Bank transfer,96.58,5603.77,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
+CUST00041,Female,Yes,Yes,No,31,No,Fiber optic,Month-to-month,Electronic check,33.84,1022.17,Yes,1,25-48 Months,Low (<40),High Risk,33.84
+CUST00042,Male,No,No,No,43,No,Fiber optic,Month-to-month,Credit card,58.95,2561.83,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST00043,Male,Yes,No,Yes,46,No,Fiber optic,Two year,Credit card,73.82,3419.18,No,0,25-48 Months,High (70-90),Low Risk,0.0
+CUST00044,Male,Yes,Yes,No,56,No,DSL,Month-to-month,Credit card,92.42,5209.57,No,0,49+ Months (Loyal),Premium (90+),High Risk,0.0
+CUST00045,Male,Yes,Yes,Yes,55,Yes,Fiber optic,Month-to-month,Bank transfer,57.91,3156.22,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,57.91
+CUST00046,Female,Yes,No,No,11,No,DSL,One year,Electronic check,119.99,1304.89,No,0,0-12 Months (New),Premium (90+),Medium Risk,0.0
+CUST00047,Male,No,Yes,Yes,3,Yes,DSL,Month-to-month,Electronic check,76.4,201.0,Yes,1,0-12 Months (New),High (70-90),High Risk,76.4
+CUST00048,Female,No,Yes,Yes,40,Yes,No,Month-to-month,Bank transfer,77.58,3144.0,Yes,1,25-48 Months,High (70-90),High Risk,77.58
+CUST00049,Male,No,Yes,Yes,39,Yes,No,One year,Bank transfer,73.27,2873.68,Yes,1,25-48 Months,High (70-90),Medium Risk,73.27
+CUST00050,Female,No,No,No,14,No,Fiber optic,One year,Credit card,90.73,1263.77,No,0,13-24 Months,Premium (90+),Medium Risk,0.0
+CUST00051,Female,Yes,No,No,35,No,DSL,One year,Electronic check,47.89,1671.23,No,0,25-48 Months,Medium (40-70),Medium Risk,0.0
+CUST00052,Female,Yes,Yes,No,42,Yes,Fiber optic,Month-to-month,Bank transfer,54.03,2307.29,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST00053,Female,No,Yes,Yes,31,No,Fiber optic,Month-to-month,Mailed check,89.06,2775.45,Yes,1,25-48 Months,High (70-90),High Risk,89.06
+CUST00054,Male,No,No,Yes,52,Yes,Fiber optic,One year,Bank transfer,67.33,3504.25,No,0,49+ Months (Loyal),Medium (40-70),Medium Risk,0.0
+CUST00055,Female,Yes,No,No,40,No,DSL,Month-to-month,Mailed check,51.55,2086.29,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST00056,Male,No,Yes,No,36,No,DSL,One year,Bank transfer,42.75,1506.94,Yes,1,25-48 Months,Medium (40-70),Medium Risk,42.75
+CUST00057,Male,Yes,Yes,Yes,71,No,No,Two year,Credit card,30.26,2099.69,No,0,49+ Months (Loyal),Low (<40),Low Risk,0.0
+CUST00058,Female,Yes,No,Yes,7,No,Fiber optic,Month-to-month,Electronic check,60.07,377.9,Yes,1,0-12 Months (New),Medium (40-70),High Risk,60.07
+CUST00059,Male,No,Yes,No,11,Yes,DSL,Month-to-month,Credit card,80.63,916.0,Yes,1,0-12 Months (New),High (70-90),High Risk,80.63
+CUST00060,Female,Yes,No,No,55,No,No,One year,Electronic check,114.76,6282.58,Yes,1,49+ Months (Loyal),Premium (90+),Medium Risk,114.76
+CUST00061,Male,No,Yes,Yes,71,Yes,DSL,Month-to-month,Credit card,88.94,6311.73,Yes,1,49+ Months (Loyal),High (70-90),High Risk,88.94
+CUST00062,Female,Yes,No,Yes,30,No,No,Month-to-month,Mailed check,62.51,1879.76,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST00063,Female,No,Yes,Yes,22,No,No,One year,Bank transfer,63.92,1403.11,No,0,13-24 Months,Medium (40-70),Medium Risk,0.0
+CUST00064,Female,Yes,No,No,11,Yes,Fiber optic,One year,Bank transfer,22.59,221.38,No,0,0-12 Months (New),Low (<40),Medium Risk,0.0
+CUST00065,Male,Yes,Yes,Yes,61,No,Fiber optic,Month-to-month,Credit card,83.48,5091.45,Yes,1,49+ Months (Loyal),High (70-90),High Risk,83.48
+CUST00066,Female,Yes,No,No,14,Yes,Fiber optic,Month-to-month,Credit card,48.82,728.0,No,0,13-24 Months,Medium (40-70),High Risk,0.0
+CUST00067,Male,Yes,Yes,No,33,No,DSL,Two year,Credit card,106.49,3546.66,Yes,1,25-48 Months,Premium (90+),Low Risk,106.49
+CUST00068,Female,Yes,Yes,Yes,67,No,No,One year,Credit card,96.0,6402.36,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
+CUST00069,Female,Yes,No,Yes,4,Yes,No,Month-to-month,Electronic check,75.23,260.24,No,0,0-12 Months (New),High (70-90),High Risk,0.0
+CUST00070,Male,Yes,Yes,Yes,64,No,No,One year,Credit card,103.47,6670.1,Yes,1,49+ Months (Loyal),Premium (90+),Medium Risk,103.47
+CUST00071,Male,Yes,Yes,Yes,9,No,Fiber optic,Month-to-month,Bank transfer,102.05,896.73,Yes,1,0-12 Months (New),Premium (90+),High Risk,102.05
+CUST00072,Female,No,No,No,45,No,No,One year,Credit card,65.53,2931.03,Yes,1,25-48 Months,Medium (40-70),Medium Risk,65.53
+CUST00073,Male,Yes,Yes,No,6,No,No,Month-to-month,Credit card,58.61,368.03,No,0,0-12 Months (New),Medium (40-70),High Risk,0.0
+CUST00074,Male,Yes,Yes,Yes,65,No,DSL,Two year,Credit card,29.97,1989.09,Yes,1,49+ Months (Loyal),Low (<40),Low Risk,29.97
+CUST00075,Male,Yes,Yes,Yes,61,No,Fiber optic,One year,Credit card,84.98,5218.96,No,0,49+ Months (Loyal),High (70-90),Medium Risk,0.0
+CUST00076,Female,Yes,No,Yes,9,Yes,No,One year,Bank transfer,119.74,1102.34,Yes,1,0-12 Months (New),Premium (90+),Medium Risk,119.74
+CUST00077,Male,No,No,Yes,39,Yes,DSL,Month-to-month,Electronic check,49.34,1911.74,Yes,1,25-48 Months,Medium (40-70),High Risk,49.34
+CUST00078,Female,No,Yes,Yes,11,No,No,One year,Credit card,111.28,1188.39,No,0,0-12 Months (New),Premium (90+),Medium Risk,0.0
+CUST00079,Female,Yes,No,Yes,60,No,No,Month-to-month,Electronic check,64.17,3834.76,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST00080,Female,Yes,No,No,26,No,Fiber optic,Month-to-month,Credit card,77.19,2014.42,No,0,25-48 Months,High (70-90),High Risk,0.0
+CUST00081,Female,No,No,No,2,Yes,No,One year,Bank transfer,97.57,168.15,No,0,0-12 Months (New),Premium (90+),Medium Risk,0.0
+CUST00082,Male,No,No,Yes,13,Yes,Fiber optic,One year,Electronic check,77.96,1036.72,Yes,1,13-24 Months,High (70-90),Medium Risk,77.96
+CUST00083,Female,Yes,No,Yes,26,Yes,No,Two year,Bank transfer,73.09,1941.69,No,0,25-48 Months,High (70-90),Low Risk,0.0
+CUST00084,Female,Yes,No,No,15,No,DSL,Month-to-month,Mailed check,106.01,1612.57,No,0,13-24 Months,Premium (90+),High Risk,0.0
+CUST00085,Female,No,No,Yes,34,Yes,Fiber optic,Month-to-month,Bank transfer,78.46,2699.88,No,0,25-48 Months,High (70-90),High Risk,0.0
+CUST00086,Male,No,No,Yes,72,No,No,Month-to-month,Electronic check,83.54,6011.31,No,0,49+ Months (Loyal),High (70-90),High Risk,0.0
+CUST00087,Female,No,Yes,Yes,5,No,Fiber optic,Month-to-month,Mailed check,108.73,507.22,Yes,1,0-12 Months (New),Premium (90+),High Risk,108.73
+CUST00088,Female,No,No,Yes,63,No,Fiber optic,Month-to-month,Bank transfer,41.73,2623.46,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,41.73
+CUST00089,Female,No,No,No,8,No,Fiber optic,Month-to-month,Electronic check,114.9,951.62,Yes,1,0-12 Months (New),Premium (90+),High Risk,114.9
+CUST00090,Male,No,Yes,No,32,Yes,No,Month-to-month,Mailed check,78.64,2547.79,Yes,1,25-48 Months,High (70-90),High Risk,78.64
+CUST00091,Male,No,No,Yes,17,No,DSL,Month-to-month,Electronic check,33.18,549.88,No,0,13-24 Months,Low (<40),High Risk,0.0
+CUST00092,Female,No,Yes,No,7,Yes,No,Month-to-month,Electronic check,94.57,659.61,Yes,1,0-12 Months (New),Premium (90+),High Risk,94.57
+CUST00093,Male,Yes,Yes,Yes,67,No,Fiber optic,One year,Electronic check,26.08,1745.26,No,0,49+ Months (Loyal),Low (<40),Medium Risk,0.0
+CUST00094,Male,Yes,No,Yes,11,No,No,Month-to-month,Mailed check,47.5,535.81,Yes,1,0-12 Months (New),Medium (40-70),High Risk,47.5
+CUST00095,Female,Yes,No,No,65,No,DSL,One year,Electronic check,105.28,6858.29,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
+CUST00096,Male,Yes,No,Yes,53,No,Fiber optic,Month-to-month,Electronic check,51.25,2697.5,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,51.25
+CUST00097,Male,Yes,Yes,Yes,11,Yes,Fiber optic,Month-to-month,Bank transfer,101.18,1118.62,Yes,1,0-12 Months (New),Premium (90+),High Risk,101.18
+CUST00098,Female,No,No,No,55,Yes,Fiber optic,One year,Bank transfer,30.36,1670.54,Yes,1,49+ Months (Loyal),Low (<40),Medium Risk,30.36
+CUST00099,Female,No,Yes,No,72,No,DSL,One year,Mailed check,100.72,7286.36,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
+CUST00100,Male,Yes,Yes,Yes,35,No,Fiber optic,Month-to-month,Mailed check,106.99,3751.28,Yes,1,25-48 Months,Premium (90+),High Risk,106.99
+CUST00101,Male,No,Yes,Yes,49,No,Fiber optic,Month-to-month,Bank transfer,51.16,2489.28,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST00102,Male,No,Yes,Yes,7,Yes,Fiber optic,Month-to-month,Credit card,68.57,474.19,Yes,1,0-12 Months (New),Medium (40-70),High Risk,68.57
+CUST00103,Male,Yes,No,Yes,37,No,No,One year,Electronic check,42.05,1604.29,Yes,1,25-48 Months,Medium (40-70),Medium Risk,42.05
+CUST00104,Male,Yes,Yes,Yes,33,No,Fiber optic,Month-to-month,Credit card,94.7,3092.67,Yes,1,25-48 Months,Premium (90+),High Risk,94.7
+CUST00105,Male,Yes,Yes,No,6,No,DSL,Month-to-month,Electronic check,106.21,644.84,Yes,1,0-12 Months (New),Premium (90+),High Risk,106.21
+CUST00106,Female,Yes,Yes,No,3,No,DSL,One year,Credit card,103.2,351.58,Yes,1,0-12 Months (New),Premium (90+),Medium Risk,103.2
+CUST00107,Male,No,No,No,68,Yes,Fiber optic,Two year,Bank transfer,42.16,2894.79,Yes,1,49+ Months (Loyal),Medium (40-70),Low Risk,42.16
+CUST00108,Male,No,No,No,19,Yes,DSL,Month-to-month,Mailed check,37.35,674.94,No,0,13-24 Months,Low (<40),High Risk,0.0
+CUST00109,Male,No,No,No,58,No,No,Month-to-month,Credit card,26.83,1550.36,Yes,1,49+ Months (Loyal),Low (<40),High Risk,26.83
+CUST00110,Female,No,No,Yes,40,No,Fiber optic,Month-to-month,Bank transfer,103.17,4084.47,No,0,25-48 Months,Premium (90+),High Risk,0.0
+CUST00111,Male,Yes,No,Yes,58,Yes,Fiber optic,One year,Mailed check,115.77,6709.71,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
+CUST00112,Female,No,Yes,Yes,32,No,Fiber optic,Month-to-month,Mailed check,56.39,1846.27,Yes,1,25-48 Months,Medium (40-70),High Risk,56.39
+CUST00113,Female,No,No,Yes,43,Yes,No,One year,Bank transfer,45.2,1978.76,No,0,25-48 Months,Medium (40-70),Medium Risk,0.0
+CUST00114,Male,Yes,Yes,Yes,45,No,No,One year,Credit card,32.9,1501.38,Yes,1,25-48 Months,Low (<40),Medium Risk,32.9
+CUST00115,Female,Yes,Yes,Yes,55,No,DSL,Month-to-month,Mailed check,115.12,6315.77,No,0,49+ Months (Loyal),Premium (90+),High Risk,0.0
+CUST00116,Male,No,Yes,Yes,10,No,DSL,Month-to-month,Electronic check,86.19,899.54,Yes,1,0-12 Months (New),High (70-90),High Risk,86.19
+CUST00117,Female,No,Yes,Yes,22,No,DSL,Month-to-month,Mailed check,116.96,2584.18,No,0,13-24 Months,Premium (90+),High Risk,0.0
+CUST00118,Female,No,Yes,No,61,Yes,Fiber optic,One year,Credit card,66.17,4014.55,No,0,49+ Months (Loyal),Medium (40-70),Medium Risk,0.0
+CUST00119,Female,No,Yes,Yes,33,Yes,No,Month-to-month,Bank transfer,75.45,2450.11,No,0,25-48 Months,High (70-90),High Risk,0.0
+CUST00120,Male,Yes,Yes,Yes,35,No,No,Month-to-month,Credit card,29.17,1062.0,No,0,25-48 Months,Low (<40),High Risk,0.0
+CUST00121,Female,No,No,Yes,51,No,DSL,Month-to-month,Electronic check,57.49,2884.81,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST00122,Female,No,Yes,Yes,37,No,No,One year,Credit card,64.86,2350.35,Yes,1,25-48 Months,Medium (40-70),Medium Risk,64.86
+CUST00123,Female,No,Yes,No,15,No,DSL,Month-to-month,Electronic check,43.84,671.5,No,0,13-24 Months,Medium (40-70),High Risk,0.0
+CUST00124,Male,No,No,Yes,66,Yes,No,Month-to-month,Credit card,20.16,1315.84,No,0,49+ Months (Loyal),Low (<40),High Risk,0.0
+CUST00125,Male,No,No,Yes,68,Yes,Fiber optic,Two year,Electronic check,83.57,5730.86,Yes,1,49+ Months (Loyal),High (70-90),Low Risk,83.57
+CUST00126,Male,Yes,Yes,No,31,Yes,No,One year,Bank transfer,33.34,1018.77,No,0,25-48 Months,Low (<40),Medium Risk,0.0
+CUST00127,Male,Yes,No,Yes,18,Yes,No,One year,Credit card,23.7,396.76,No,0,13-24 Months,Low (<40),Medium Risk,0.0
+CUST00128,Male,Yes,No,No,70,No,Fiber optic,Month-to-month,Mailed check,48.61,3438.91,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,48.61
+CUST00129,Female,Yes,Yes,No,56,No,No,Month-to-month,Credit card,53.9,2987.08,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST00130,Female,Yes,Yes,No,11,No,No,Two year,Mailed check,74.55,802.17,Yes,1,0-12 Months (New),High (70-90),Low Risk,74.55
+CUST00131,Female,Yes,No,No,22,No,Fiber optic,Month-to-month,Bank transfer,81.49,1786.27,Yes,1,13-24 Months,High (70-90),High Risk,81.49
+CUST00132,Male,No,No,No,66,Yes,DSL,Month-to-month,Credit card,23.48,1506.4,No,0,49+ Months (Loyal),Low (<40),High Risk,0.0
+CUST00133,Female,Yes,No,Yes,20,No,Fiber optic,Month-to-month,Electronic check,77.39,1550.75,Yes,1,13-24 Months,High (70-90),High Risk,77.39
+CUST00134,Female,No,Yes,Yes,24,No,No,Month-to-month,Electronic check,46.18,1084.35,Yes,1,13-24 Months,Medium (40-70),High Risk,46.18
+CUST00135,Female,Yes,Yes,Yes,18,Yes,Fiber optic,Month-to-month,Credit card,119.73,2186.19,No,0,13-24 Months,Premium (90+),High Risk,0.0
+CUST00136,Female,Yes,Yes,No,39,Yes,No,One year,Mailed check,99.37,3876.31,Yes,1,25-48 Months,Premium (90+),Medium Risk,99.37
+CUST00137,Male,No,Yes,No,4,No,No,Month-to-month,Credit card,100.37,406.64,Yes,1,0-12 Months (New),Premium (90+),High Risk,100.37
+CUST00138,Male,No,No,No,62,No,Fiber optic,One year,Electronic check,32.53,1998.56,Yes,1,49+ Months (Loyal),Low (<40),Medium Risk,32.53
+CUST00139,Female,Yes,Yes,Yes,17,No,No,Two year,Electronic check,103.14,1755.19,No,0,13-24 Months,Premium (90+),Low Risk,0.0
+CUST00140,Male,Yes,Yes,No,67,No,DSL,Month-to-month,Bank transfer,32.52,2159.12,Yes,1,49+ Months (Loyal),Low (<40),High Risk,32.52
+CUST00141,Male,No,Yes,No,6,Yes,DSL,Month-to-month,Bank transfer,85.11,537.36,Yes,1,0-12 Months (New),High (70-90),High Risk,85.11
+CUST00142,Male,Yes,No,No,62,Yes,No,Month-to-month,Credit card,27.3,1648.59,Yes,1,49+ Months (Loyal),Low (<40),High Risk,27.3
+CUST00143,Female,Yes,Yes,No,19,No,No,Month-to-month,Bank transfer,117.54,2196.34,Yes,1,13-24 Months,Premium (90+),High Risk,117.54
+CUST00144,Male,Yes,Yes,No,16,No,Fiber optic,Month-to-month,Electronic check,25.06,445.5,No,0,13-24 Months,Low (<40),High Risk,0.0
+CUST00145,Female,No,Yes,No,41,Yes,DSL,Month-to-month,Credit card,69.88,2845.93,Yes,1,25-48 Months,Medium (40-70),High Risk,69.88
+CUST00146,Female,Yes,Yes,Yes,46,Yes,DSL,Month-to-month,Credit card,48.57,2185.04,Yes,1,25-48 Months,Medium (40-70),High Risk,48.57
+CUST00147,Male,Yes,No,No,47,Yes,Fiber optic,Month-to-month,Mailed check,56.25,2622.61,Yes,1,25-48 Months,Medium (40-70),High Risk,56.25
+CUST00148,Female,Yes,Yes,Yes,13,No,Fiber optic,One year,Bank transfer,75.78,971.7,Yes,1,13-24 Months,High (70-90),Medium Risk,75.78
+CUST00149,Female,No,Yes,Yes,18,No,Fiber optic,Month-to-month,Mailed check,80.63,1452.89,Yes,1,13-24 Months,High (70-90),High Risk,80.63
+CUST00150,Female,No,No,No,44,No,No,Month-to-month,Credit card,101.57,4455.92,No,0,25-48 Months,Premium (90+),High Risk,0.0
+CUST00151,Female,Yes,Yes,No,34,Yes,No,Month-to-month,Credit card,37.05,1272.6,No,0,25-48 Months,Low (<40),High Risk,0.0
+CUST00152,Female,No,Yes,Yes,15,Yes,DSL,Month-to-month,Credit card,35.14,546.15,Yes,1,13-24 Months,Low (<40),High Risk,35.14
+CUST00153,Female,No,Yes,Yes,72,No,No,Month-to-month,Credit card,51.38,3666.68,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST00154,Female,Yes,No,No,25,Yes,Fiber optic,Month-to-month,Mailed check,114.15,2901.98,Yes,1,25-48 Months,Premium (90+),High Risk,114.15
+CUST00155,Male,Yes,No,No,45,No,Fiber optic,Month-to-month,Credit card,109.58,4920.55,Yes,1,25-48 Months,Premium (90+),High Risk,109.58
+CUST00156,Male,Yes,Yes,No,11,No,Fiber optic,One year,Credit card,41.4,488.2,Yes,1,0-12 Months (New),Medium (40-70),Medium Risk,41.4
+CUST00157,Female,No,Yes,Yes,32,Yes,No,Two year,Mailed check,83.79,2636.53,No,0,25-48 Months,High (70-90),Low Risk,0.0
+CUST00158,Female,No,Yes,Yes,71,Yes,Fiber optic,One year,Credit card,67.74,4779.49,No,0,49+ Months (Loyal),Medium (40-70),Medium Risk,0.0
+CUST00159,Female,Yes,Yes,Yes,30,Yes,DSL,Month-to-month,Mailed check,113.39,3355.33,No,0,25-48 Months,Premium (90+),High Risk,0.0
+CUST00160,Female,No,No,Yes,2,No,No,One year,Bank transfer,48.46,145.83,No,0,0-12 Months (New),Medium (40-70),Medium Risk,0.0
+CUST00161,Female,No,No,No,25,Yes,Fiber optic,Month-to-month,Credit card,84.83,2142.61,Yes,1,25-48 Months,High (70-90),High Risk,84.83
+CUST00162,Female,Yes,Yes,Yes,52,No,No,Month-to-month,Credit card,86.93,4488.84,Yes,1,49+ Months (Loyal),High (70-90),High Risk,86.93
+CUST00163,Female,No,Yes,No,50,Yes,Fiber optic,One year,Bank transfer,50.19,2531.79,Yes,1,49+ Months (Loyal),Medium (40-70),Medium Risk,50.19
+CUST00164,Female,No,Yes,Yes,60,No,DSL,Month-to-month,Bank transfer,89.03,5355.67,No,0,49+ Months (Loyal),High (70-90),High Risk,0.0
+CUST00165,Female,No,Yes,Yes,62,Yes,Fiber optic,One year,Bank transfer,61.58,3822.88,No,0,49+ Months (Loyal),Medium (40-70),Medium Risk,0.0
+CUST00166,Male,No,Yes,No,68,No,DSL,Two year,Electronic check,26.18,1785.0,No,0,49+ Months (Loyal),Low (<40),Low Risk,0.0
+CUST00167,Male,No,No,No,15,Yes,No,Month-to-month,Electronic check,109.89,1642.9,Yes,1,13-24 Months,Premium (90+),High Risk,109.89
+CUST00168,Male,Yes,No,Yes,72,No,No,One year,Electronic check,59.59,4322.13,No,0,49+ Months (Loyal),Medium (40-70),Medium Risk,0.0
+CUST00169,Male,No,No,No,9,Yes,DSL,Two year,Credit card,23.17,199.42,No,0,0-12 Months (New),Low (<40),Low Risk,0.0
+CUST00170,Female,Yes,No,No,49,No,DSL,One year,Mailed check,85.35,4166.93,Yes,1,49+ Months (Loyal),High (70-90),Medium Risk,85.35
+CUST00171,Female,No,Yes,Yes,3,No,Fiber optic,One year,Credit card,73.19,251.91,Yes,1,0-12 Months (New),High (70-90),Medium Risk,73.19
+CUST00172,Female,No,No,Yes,15,Yes,No,Month-to-month,Electronic check,44.07,617.78,No,0,13-24 Months,Medium (40-70),High Risk,0.0
+CUST00173,Female,No,Yes,Yes,52,No,DSL,Month-to-month,Electronic check,34.01,1817.87,Yes,1,49+ Months (Loyal),Low (<40),High Risk,34.01
+CUST00174,Female,Yes,Yes,No,19,Yes,Fiber optic,Month-to-month,Electronic check,75.67,1446.9,No,0,13-24 Months,High (70-90),High Risk,0.0
+CUST00175,Male,Yes,No,Yes,45,No,No,Month-to-month,Credit card,60.83,2717.34,Yes,1,25-48 Months,Medium (40-70),High Risk,60.83
+CUST00176,Female,No,Yes,No,19,No,DSL,Month-to-month,Credit card,75.73,1402.28,Yes,1,13-24 Months,High (70-90),High Risk,75.73
+CUST00177,Male,Yes,Yes,No,48,Yes,No,One year,Mailed check,25.15,1194.92,No,0,25-48 Months,Low (<40),Medium Risk,0.0
+CUST00178,Male,No,Yes,Yes,62,Yes,Fiber optic,Month-to-month,Electronic check,41.18,2522.16,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST00179,Female,No,Yes,No,31,No,Fiber optic,Month-to-month,Bank transfer,50.84,1562.0,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST00180,Female,No,No,No,27,No,Fiber optic,Month-to-month,Mailed check,94.13,2493.13,Yes,1,25-48 Months,Premium (90+),High Risk,94.13
+CUST00181,Female,Yes,Yes,Yes,43,Yes,Fiber optic,Month-to-month,Mailed check,69.93,3022.45,Yes,1,25-48 Months,Medium (40-70),High Risk,69.93
+CUST00182,Female,Yes,No,No,22,No,DSL,Month-to-month,Credit card,38.4,883.74,No,0,13-24 Months,Low (<40),High Risk,0.0
+CUST00183,Male,No,Yes,Yes,1,No,DSL,One year,Mailed check,26.8,8.1,Yes,1,0-12 Months (New),Low (<40),Medium Risk,26.8
+CUST00184,Female,Yes,Yes,No,63,Yes,DSL,Month-to-month,Credit card,21.19,1337.91,Yes,1,49+ Months (Loyal),Low (<40),High Risk,21.19
+CUST00185,Female,No,No,Yes,14,Yes,No,Month-to-month,Mailed check,81.98,1122.96,Yes,1,13-24 Months,High (70-90),High Risk,81.98
+CUST00186,Female,No,No,No,59,Yes,No,Month-to-month,Electronic check,85.37,5072.65,No,0,49+ Months (Loyal),High (70-90),High Risk,0.0
+CUST00187,Male,Yes,No,No,71,No,DSL,One year,Mailed check,28.27,2041.7,No,0,49+ Months (Loyal),Low (<40),Medium Risk,0.0
+CUST00188,Female,No,Yes,Yes,28,No,Fiber optic,Month-to-month,Electronic check,88.44,2454.36,Yes,1,25-48 Months,High (70-90),High Risk,88.44
+CUST00189,Male,No,No,Yes,27,Yes,No,One year,Electronic check,49.93,1354.51,No,0,25-48 Months,Medium (40-70),Medium Risk,0.0
+CUST00190,Female,Yes,No,Yes,11,No,DSL,Month-to-month,Mailed check,103.87,1126.63,Yes,1,0-12 Months (New),Premium (90+),High Risk,103.87
+CUST00191,Female,Yes,Yes,No,58,No,DSL,Month-to-month,Credit card,63.18,3682.41,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST00192,Male,Yes,Yes,Yes,11,No,DSL,Month-to-month,Mailed check,93.97,1015.34,Yes,1,0-12 Months (New),Premium (90+),High Risk,93.97
+CUST00193,Male,Yes,No,No,35,Yes,DSL,Month-to-month,Credit card,64.88,2276.27,Yes,1,25-48 Months,Medium (40-70),High Risk,64.88
+CUST00194,Male,No,No,Yes,42,No,DSL,Month-to-month,Credit card,97.92,4135.12,Yes,1,25-48 Months,Premium (90+),High Risk,97.92
+CUST00195,Male,No,No,Yes,18,No,Fiber optic,Month-to-month,Mailed check,26.33,467.41,Yes,1,13-24 Months,Low (<40),High Risk,26.33
+CUST00196,Female,No,No,No,32,No,No,One year,Credit card,30.7,962.87,No,0,25-48 Months,Low (<40),Medium Risk,0.0
+CUST00197,Female,Yes,No,No,43,No,No,Two year,Mailed check,50.04,2162.04,No,0,25-48 Months,Medium (40-70),Low Risk,0.0
+CUST00198,Female,Yes,Yes,No,41,No,No,One year,Credit card,116.78,4816.18,No,0,25-48 Months,Premium (90+),Medium Risk,0.0
+CUST00199,Female,Yes,No,Yes,26,Yes,No,One year,Electronic check,115.3,2993.96,No,0,25-48 Months,Premium (90+),Medium Risk,0.0
+CUST00200,Female,Yes,Yes,No,64,Yes,No,Month-to-month,Bank transfer,85.87,5517.2,No,0,49+ Months (Loyal),High (70-90),High Risk,0.0
+CUST00201,Male,Yes,No,No,69,No,No,Month-to-month,Bank transfer,90.16,6252.27,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,90.16
+CUST00202,Male,No,Yes,No,22,Yes,No,Two year,Credit card,116.68,2550.12,No,0,13-24 Months,Premium (90+),Low Risk,0.0
+CUST00203,Male,No,Yes,No,29,Yes,Fiber optic,Month-to-month,Credit card,97.23,2828.53,Yes,1,25-48 Months,Premium (90+),High Risk,97.23
+CUST00204,Female,No,No,Yes,38,No,DSL,Month-to-month,Mailed check,54.83,2067.85,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST00205,Female,Yes,No,Yes,57,No,Fiber optic,Month-to-month,Electronic check,101.02,5719.65,No,0,49+ Months (Loyal),Premium (90+),High Risk,0.0
+CUST00206,Male,No,Yes,Yes,71,Yes,Fiber optic,Month-to-month,Credit card,43.19,3056.99,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,43.19
+CUST00207,Female,Yes,Yes,Yes,58,No,Fiber optic,Month-to-month,Mailed check,40.58,2378.87,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST00208,Male,No,Yes,No,42,Yes,Fiber optic,Month-to-month,Credit card,72.77,3070.25,Yes,1,25-48 Months,High (70-90),High Risk,72.77
+CUST00209,Female,No,No,No,59,Yes,No,One year,Bank transfer,111.87,6609.35,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
+CUST00210,Female,No,Yes,No,15,Yes,Fiber optic,One year,Credit card,61.82,891.09,No,0,13-24 Months,Medium (40-70),Medium Risk,0.0
+CUST00211,Male,Yes,Yes,Yes,63,No,DSL,Month-to-month,Credit card,81.94,5198.77,No,0,49+ Months (Loyal),High (70-90),High Risk,0.0
+CUST00212,Female,No,Yes,No,72,No,Fiber optic,One year,Credit card,91.01,6547.11,Yes,1,49+ Months (Loyal),Premium (90+),Medium Risk,91.01
+CUST00213,Male,No,No,Yes,36,Yes,No,Month-to-month,Credit card,76.57,2783.77,Yes,1,25-48 Months,High (70-90),High Risk,76.57
+CUST00214,Male,No,No,No,70,Yes,No,Month-to-month,Mailed check,118.98,8288.84,No,0,49+ Months (Loyal),Premium (90+),High Risk,0.0
+CUST00215,Male,Yes,Yes,No,34,No,DSL,Month-to-month,Electronic check,97.56,3290.73,No,0,25-48 Months,Premium (90+),High Risk,0.0
+CUST00216,Female,Yes,Yes,Yes,27,Yes,DSL,Month-to-month,Bank transfer,79.69,2118.47,No,0,25-48 Months,High (70-90),High Risk,0.0
+CUST00217,Female,Yes,No,Yes,18,No,DSL,Two year,Mailed check,90.14,1585.79,Yes,1,13-24 Months,Premium (90+),Low Risk,90.14
+CUST00218,Female,No,No,No,19,No,No,Month-to-month,Credit card,27.55,552.91,No,0,13-24 Months,Low (<40),High Risk,0.0
+CUST00219,Female,Yes,No,No,63,No,No,Month-to-month,Electronic check,93.09,5860.51,No,0,49+ Months (Loyal),Premium (90+),High Risk,0.0
+CUST00220,Female,No,No,Yes,55,Yes,Fiber optic,Month-to-month,Bank transfer,53.78,2965.69,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,53.78
+CUST00221,Female,Yes,Yes,Yes,13,No,DSL,Month-to-month,Mailed check,64.13,783.76,No,0,13-24 Months,Medium (40-70),High Risk,0.0
+CUST00222,Male,No,No,Yes,36,Yes,No,Month-to-month,Electronic check,57.18,2098.86,Yes,1,25-48 Months,Medium (40-70),High Risk,57.18
+CUST00223,Female,Yes,Yes,No,12,Yes,DSL,Month-to-month,Electronic check,33.27,371.86,No,0,0-12 Months (New),Low (<40),High Risk,0.0
+CUST00224,Male,No,No,Yes,55,Yes,Fiber optic,Month-to-month,Credit card,28.93,1621.75,Yes,1,49+ Months (Loyal),Low (<40),High Risk,28.93
+CUST00225,Female,Yes,Yes,No,18,Yes,DSL,Month-to-month,Electronic check,81.03,1424.95,Yes,1,13-24 Months,High (70-90),High Risk,81.03
+CUST00226,Male,No,No,No,28,Yes,DSL,Month-to-month,Electronic check,78.96,2199.28,No,0,25-48 Months,High (70-90),High Risk,0.0
+CUST00227,Female,No,Yes,No,11,Yes,No,One year,Bank transfer,97.9,1095.95,No,0,0-12 Months (New),Premium (90+),Medium Risk,0.0
+CUST00228,Female,No,Yes,No,38,Yes,DSL,Month-to-month,Electronic check,44.11,1689.99,Yes,1,25-48 Months,Medium (40-70),High Risk,44.11
+CUST00229,Male,Yes,No,Yes,50,No,Fiber optic,Month-to-month,Mailed check,96.27,4858.95,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,96.27
+CUST00230,Male,No,Yes,No,28,Yes,DSL,Two year,Credit card,70.66,1991.34,No,0,25-48 Months,High (70-90),Low Risk,0.0
+CUST00231,Female,Yes,No,Yes,69,Yes,Fiber optic,Month-to-month,Electronic check,71.13,4878.29,No,0,49+ Months (Loyal),High (70-90),High Risk,0.0
+CUST00232,Female,Yes,Yes,No,56,Yes,DSL,Month-to-month,Credit card,31.6,1780.83,Yes,1,49+ Months (Loyal),Low (<40),High Risk,31.6
+CUST00233,Male,No,Yes,Yes,2,Yes,Fiber optic,Two year,Bank transfer,36.7,36.09,No,0,0-12 Months (New),Low (<40),Low Risk,0.0
+CUST00234,Female,No,Yes,No,55,No,No,Month-to-month,Electronic check,69.61,3829.63,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,69.61
+CUST00235,Male,Yes,Yes,No,14,Yes,DSL,One year,Electronic check,24.4,377.89,No,0,13-24 Months,Low (<40),Medium Risk,0.0
+CUST00236,Female,Yes,No,Yes,23,Yes,No,One year,Credit card,42.45,951.18,No,0,13-24 Months,Medium (40-70),Medium Risk,0.0
+CUST00237,Female,Yes,Yes,No,16,Yes,DSL,Month-to-month,Electronic check,115.41,1803.45,Yes,1,13-24 Months,Premium (90+),High Risk,115.41
+CUST00238,Female,Yes,No,Yes,71,No,DSL,Month-to-month,Bank transfer,76.38,5403.37,No,0,49+ Months (Loyal),High (70-90),High Risk,0.0
+CUST00239,Female,Yes,No,Yes,70,Yes,DSL,Month-to-month,Credit card,22.39,1571.45,No,0,49+ Months (Loyal),Low (<40),High Risk,0.0
+CUST00240,Male,Yes,Yes,No,40,Yes,DSL,Month-to-month,Mailed check,61.98,2525.32,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST00241,Male,Yes,Yes,Yes,30,No,No,Two year,Credit card,117.46,3482.29,Yes,1,25-48 Months,Premium (90+),Low Risk,117.46
+CUST00242,Male,Yes,Yes,Yes,56,Yes,DSL,Month-to-month,Bank transfer,112.6,6294.9,No,0,49+ Months (Loyal),Premium (90+),High Risk,0.0
+CUST00243,Female,Yes,No,No,30,Yes,DSL,Month-to-month,Electronic check,35.54,1032.64,Yes,1,25-48 Months,Low (<40),High Risk,35.54
+CUST00244,Female,No,No,Yes,58,No,Fiber optic,Month-to-month,Electronic check,29.04,1715.08,Yes,1,49+ Months (Loyal),Low (<40),High Risk,29.04
+CUST00245,Male,No,No,Yes,12,Yes,Fiber optic,Month-to-month,Electronic check,87.72,1028.66,No,0,0-12 Months (New),High (70-90),High Risk,0.0
+CUST00246,Male,Yes,No,Yes,13,No,DSL,One year,Mailed check,32.15,374.12,No,0,13-24 Months,Low (<40),Medium Risk,0.0
+CUST00247,Male,No,Yes,No,48,Yes,No,Month-to-month,Electronic check,22.18,1021.09,No,0,25-48 Months,Low (<40),High Risk,0.0
+CUST00248,Female,No,Yes,No,16,Yes,Fiber optic,Month-to-month,Credit card,102.17,1624.22,Yes,1,13-24 Months,Premium (90+),High Risk,102.17
+CUST00249,Female,No,No,Yes,24,No,Fiber optic,Month-to-month,Mailed check,23.46,574.96,Yes,1,13-24 Months,Low (<40),High Risk,23.46
+CUST00250,Female,Yes,No,No,8,Yes,Fiber optic,Month-to-month,Credit card,39.95,358.07,Yes,1,0-12 Months (New),Low (<40),High Risk,39.95
+CUST00251,Male,Yes,No,No,70,No,Fiber optic,Two year,Bank transfer,58.84,4086.78,Yes,1,49+ Months (Loyal),Medium (40-70),Low Risk,58.84
+CUST00252,Male,No,No,Yes,61,No,No,Two year,Mailed check,30.01,1846.3,No,0,49+ Months (Loyal),Low (<40),Low Risk,0.0
+CUST00253,Male,No,No,No,23,Yes,DSL,Month-to-month,Bank transfer,111.4,2515.02,No,0,13-24 Months,Premium (90+),High Risk,0.0
+CUST00254,Male,No,No,No,23,No,DSL,Month-to-month,Mailed check,80.17,1795.9,Yes,1,13-24 Months,High (70-90),High Risk,80.17
+CUST00255,Female,No,Yes,No,23,No,DSL,Month-to-month,Mailed check,97.44,2275.77,No,0,13-24 Months,Premium (90+),High Risk,0.0
+CUST00256,Male,Yes,No,Yes,44,No,Fiber optic,Month-to-month,Mailed check,93.24,4096.25,Yes,1,25-48 Months,Premium (90+),High Risk,93.24
+CUST00257,Female,Yes,Yes,No,29,Yes,Fiber optic,Month-to-month,Bank transfer,32.73,972.05,No,0,25-48 Months,Low (<40),High Risk,0.0
+CUST00258,Female,No,Yes,No,29,Yes,Fiber optic,Month-to-month,Electronic check,43.8,1318.44,Yes,1,25-48 Months,Medium (40-70),High Risk,43.8
+CUST00259,Male,Yes,No,Yes,34,Yes,DSL,One year,Bank transfer,45.67,1513.58,Yes,1,25-48 Months,Medium (40-70),Medium Risk,45.67
+CUST00260,Female,Yes,No,Yes,53,No,Fiber optic,Month-to-month,Credit card,30.14,1595.37,No,0,49+ Months (Loyal),Low (<40),High Risk,0.0
+CUST00261,Male,No,No,Yes,5,No,DSL,Month-to-month,Electronic check,27.42,104.11,Yes,1,0-12 Months (New),Low (<40),High Risk,27.42
+CUST00262,Male,No,No,No,4,No,No,Month-to-month,Credit card,35.71,102.97,Yes,1,0-12 Months (New),Low (<40),High Risk,35.71
+CUST00263,Male,Yes,No,No,39,Yes,DSL,Month-to-month,Credit card,35.36,1365.12,Yes,1,25-48 Months,Low (<40),High Risk,35.36
+CUST00264,Female,Yes,Yes,Yes,4,Yes,DSL,One year,Electronic check,67.36,230.99,No,0,0-12 Months (New),Medium (40-70),Medium Risk,0.0
+CUST00265,Female,Yes,No,Yes,70,No,DSL,Month-to-month,Credit card,56.94,3980.38,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,56.94
+CUST00266,Female,Yes,Yes,No,8,Yes,No,One year,Electronic check,86.81,725.3,Yes,1,0-12 Months (New),High (70-90),Medium Risk,86.81
+CUST00267,Male,No,No,No,69,No,No,Two year,Credit card,49.89,3431.89,No,0,49+ Months (Loyal),Medium (40-70),Low Risk,0.0
+CUST00268,Male,No,Yes,No,23,Yes,DSL,One year,Mailed check,24.27,516.05,No,0,13-24 Months,Low (<40),Medium Risk,0.0
+CUST00269,Male,No,No,No,9,Yes,Fiber optic,Month-to-month,Bank transfer,105.66,952.91,Yes,1,0-12 Months (New),Premium (90+),High Risk,105.66
+CUST00270,Male,Yes,Yes,No,20,Yes,No,Month-to-month,Electronic check,112.49,2256.07,Yes,1,13-24 Months,Premium (90+),High Risk,112.49
+CUST00271,Female,Yes,No,No,50,No,No,One year,Electronic check,37.22,1851.3,No,0,49+ Months (Loyal),Low (<40),Medium Risk,0.0
+CUST00272,Female,No,No,No,31,Yes,No,Month-to-month,Bank transfer,109.7,3352.72,No,0,25-48 Months,Premium (90+),High Risk,0.0
+CUST00273,Female,Yes,No,No,13,Yes,DSL,Month-to-month,Credit card,97.4,1248.29,No,0,13-24 Months,Premium (90+),High Risk,0.0
+CUST00274,Male,No,No,Yes,53,No,No,Two year,Electronic check,71.53,3756.99,No,0,49+ Months (Loyal),High (70-90),Low Risk,0.0
+CUST00275,Female,No,Yes,Yes,25,Yes,DSL,Month-to-month,Credit card,25.06,612.54,Yes,1,25-48 Months,Low (<40),High Risk,25.06
+CUST00276,Female,Yes,No,Yes,4,Yes,Fiber optic,Month-to-month,Credit card,37.76,188.09,Yes,1,0-12 Months (New),Low (<40),High Risk,37.76
+CUST00277,Female,Yes,Yes,No,12,No,DSL,Month-to-month,Mailed check,105.38,1292.54,Yes,1,0-12 Months (New),Premium (90+),High Risk,105.38
+CUST00278,Male,No,Yes,No,53,Yes,No,Month-to-month,Mailed check,84.74,4501.33,Yes,1,49+ Months (Loyal),High (70-90),High Risk,84.74
+CUST00279,Female,Yes,No,No,49,No,Fiber optic,Month-to-month,Credit card,50.21,2462.35,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,50.21
+CUST00280,Male,No,No,No,39,Yes,Fiber optic,Month-to-month,Bank transfer,84.06,3314.49,Yes,1,25-48 Months,High (70-90),High Risk,84.06
+CUST00281,Female,No,Yes,Yes,8,No,No,Month-to-month,Mailed check,92.13,752.58,No,0,0-12 Months (New),Premium (90+),High Risk,0.0
+CUST00282,Female,Yes,No,No,5,Yes,Fiber optic,One year,Mailed check,88.63,456.98,Yes,1,0-12 Months (New),High (70-90),Medium Risk,88.63
+CUST00283,Female,Yes,Yes,Yes,38,Yes,Fiber optic,Month-to-month,Bank transfer,92.52,3521.66,No,0,25-48 Months,Premium (90+),High Risk,0.0
+CUST00284,Female,No,Yes,No,29,No,Fiber optic,One year,Bank transfer,57.17,1666.49,No,0,25-48 Months,Medium (40-70),Medium Risk,0.0
+CUST00285,Male,Yes,Yes,Yes,61,Yes,No,Month-to-month,Credit card,72.98,4443.09,No,0,49+ Months (Loyal),High (70-90),High Risk,0.0
+CUST00286,Male,No,Yes,No,53,No,DSL,Month-to-month,Mailed check,97.89,5186.93,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,97.89
+CUST00287,Male,Yes,Yes,Yes,58,No,DSL,One year,Mailed check,77.63,4468.38,No,0,49+ Months (Loyal),High (70-90),Medium Risk,0.0
+CUST00288,Male,No,No,No,52,No,Fiber optic,Month-to-month,Electronic check,73.38,3838.83,No,0,49+ Months (Loyal),High (70-90),High Risk,0.0
+CUST00289,Female,No,Yes,Yes,32,Yes,No,Two year,Bank transfer,32.89,1040.84,No,0,25-48 Months,Low (<40),Low Risk,0.0
+CUST00290,Male,No,Yes,No,38,No,No,Month-to-month,Bank transfer,63.37,2426.74,Yes,1,25-48 Months,Medium (40-70),High Risk,63.37
+CUST00291,Female,Yes,Yes,Yes,52,Yes,DSL,Month-to-month,Mailed check,41.12,2090.43,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,41.12
+CUST00292,Male,Yes,Yes,No,33,Yes,No,Two year,Electronic check,85.36,2768.85,No,0,25-48 Months,High (70-90),Low Risk,0.0
+CUST00293,Female,Yes,No,Yes,71,No,Fiber optic,One year,Mailed check,89.52,6368.95,Yes,1,49+ Months (Loyal),High (70-90),Medium Risk,89.52
+CUST00294,Male,Yes,Yes,No,14,Yes,Fiber optic,Month-to-month,Electronic check,69.77,987.68,No,0,13-24 Months,Medium (40-70),High Risk,0.0
+CUST00295,Male,Yes,No,No,21,Yes,No,Month-to-month,Mailed check,88.82,1863.29,Yes,1,13-24 Months,High (70-90),High Risk,88.82
+CUST00296,Male,No,Yes,No,20,Yes,No,Month-to-month,Electronic check,110.48,2224.03,Yes,1,13-24 Months,Premium (90+),High Risk,110.48
+CUST00297,Female,Yes,No,Yes,13,Yes,DSL,Two year,Bank transfer,100.16,1283.35,No,0,13-24 Months,Premium (90+),Low Risk,0.0
+CUST00298,Male,No,Yes,Yes,22,No,Fiber optic,Two year,Bank transfer,107.85,2332.0,No,0,13-24 Months,Premium (90+),Low Risk,0.0
+CUST00299,Male,No,No,No,59,No,Fiber optic,One year,Credit card,99.99,5914.29,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
+CUST00300,Male,No,Yes,Yes,14,No,No,Month-to-month,Credit card,38.13,521.8,Yes,1,13-24 Months,Low (<40),High Risk,38.13
+CUST00301,Male,No,No,No,15,No,Fiber optic,Month-to-month,Bank transfer,85.5,1233.74,No,0,13-24 Months,High (70-90),High Risk,0.0
+CUST00302,Male,Yes,Yes,No,32,No,Fiber optic,One year,Credit card,34.87,1148.48,No,0,25-48 Months,Low (<40),Medium Risk,0.0
+CUST00303,Male,No,Yes,No,64,Yes,DSL,One year,Bank transfer,44.09,2868.77,Yes,1,49+ Months (Loyal),Medium (40-70),Medium Risk,44.09
+CUST00304,Male,Yes,No,Yes,11,No,Fiber optic,One year,Credit card,28.8,316.65,Yes,1,0-12 Months (New),Low (<40),Medium Risk,28.8
+CUST00305,Female,No,Yes,No,53,Yes,No,Month-to-month,Electronic check,99.18,5302.86,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,99.18
+CUST00306,Male,Yes,No,No,7,Yes,Fiber optic,Month-to-month,Credit card,91.67,628.02,Yes,1,0-12 Months (New),Premium (90+),High Risk,91.67
+CUST00307,Male,No,Yes,No,46,No,No,Month-to-month,Electronic check,24.58,1097.1,Yes,1,25-48 Months,Low (<40),High Risk,24.58
+CUST00308,Female,No,No,Yes,25,Yes,Fiber optic,Month-to-month,Mailed check,91.68,2252.78,Yes,1,25-48 Months,Premium (90+),High Risk,91.68
+CUST00309,Male,Yes,No,Yes,64,Yes,No,One year,Credit card,103.88,6646.61,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
+CUST00310,Male,No,Yes,Yes,50,No,No,Two year,Credit card,117.95,5939.09,No,0,49+ Months (Loyal),Premium (90+),Low Risk,0.0
+CUST00311,Female,Yes,No,No,58,Yes,DSL,Month-to-month,Bank transfer,104.31,6054.76,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,104.31
+CUST00312,Male,No,Yes,No,45,Yes,No,One year,Mailed check,70.39,3186.98,No,0,25-48 Months,High (70-90),Medium Risk,0.0
+CUST00313,Male,Yes,No,No,69,No,Fiber optic,One year,Electronic check,22.53,1519.1,No,0,49+ Months (Loyal),Low (<40),Medium Risk,0.0
+CUST00314,Male,Yes,Yes,No,33,Yes,DSL,One year,Bank transfer,40.4,1337.32,No,0,25-48 Months,Medium (40-70),Medium Risk,0.0
+CUST00315,Female,No,Yes,No,31,No,No,One year,Credit card,58.76,1867.23,No,0,25-48 Months,Medium (40-70),Medium Risk,0.0
+CUST00316,Female,No,Yes,No,26,No,DSL,Two year,Bank transfer,95.51,2487.92,No,0,25-48 Months,Premium (90+),Low Risk,0.0
+CUST00317,Male,Yes,No,Yes,10,Yes,DSL,One year,Electronic check,57.72,570.05,No,0,0-12 Months (New),Medium (40-70),Medium Risk,0.0
+CUST00318,Male,No,No,Yes,43,No,No,Two year,Electronic check,35.37,1503.17,Yes,1,25-48 Months,Low (<40),Low Risk,35.37
+CUST00319,Female,Yes,No,Yes,41,Yes,DSL,Month-to-month,Mailed check,61.59,2528.89,Yes,1,25-48 Months,Medium (40-70),High Risk,61.59
+CUST00320,Male,No,No,No,47,No,DSL,Two year,Credit card,119.66,5656.39,No,0,25-48 Months,Premium (90+),Low Risk,0.0
+CUST00321,Male,No,No,No,31,Yes,DSL,One year,Bank transfer,58.14,1831.96,Yes,1,25-48 Months,Medium (40-70),Medium Risk,58.14
+CUST00322,Female,Yes,Yes,No,66,No,Fiber optic,Month-to-month,Mailed check,52.03,3392.21,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,52.03
+CUST00323,Male,No,Yes,Yes,55,Yes,DSL,Month-to-month,Credit card,84.66,4700.28,No,0,49+ Months (Loyal),High (70-90),High Risk,0.0
+CUST00324,Male,No,No,No,5,Yes,DSL,Month-to-month,Bank transfer,75.81,386.55,Yes,1,0-12 Months (New),High (70-90),High Risk,75.81
+CUST00325,Female,Yes,No,No,52,No,Fiber optic,Month-to-month,Electronic check,73.48,3835.1,Yes,1,49+ Months (Loyal),High (70-90),High Risk,73.48
+CUST00326,Male,No,No,Yes,38,No,No,Month-to-month,Credit card,58.14,2241.53,Yes,1,25-48 Months,Medium (40-70),High Risk,58.14
+CUST00327,Male,No,Yes,No,70,No,No,Month-to-month,Bank transfer,115.74,8052.92,No,0,49+ Months (Loyal),Premium (90+),High Risk,0.0
+CUST00328,Male,No,Yes,Yes,51,Yes,Fiber optic,Month-to-month,Bank transfer,41.17,2140.23,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST00329,Male,No,Yes,Yes,33,Yes,DSL,Month-to-month,Electronic check,105.14,3512.86,No,0,25-48 Months,Premium (90+),High Risk,0.0
+CUST00330,Female,No,No,Yes,33,Yes,DSL,One year,Credit card,115.15,3785.66,No,0,25-48 Months,Premium (90+),Medium Risk,0.0
+CUST00331,Male,No,No,Yes,25,No,Fiber optic,Month-to-month,Bank transfer,89.35,2198.99,Yes,1,25-48 Months,High (70-90),High Risk,89.35
+CUST00332,Female,Yes,Yes,Yes,41,Yes,DSL,One year,Credit card,47.67,1940.42,No,0,25-48 Months,Medium (40-70),Medium Risk,0.0
+CUST00333,Female,Yes,No,No,46,No,Fiber optic,Month-to-month,Mailed check,84.56,3847.96,Yes,1,25-48 Months,High (70-90),High Risk,84.56
+CUST00334,Male,No,No,Yes,10,Yes,No,One year,Credit card,96.92,940.48,Yes,1,0-12 Months (New),Premium (90+),Medium Risk,96.92
+CUST00335,Female,Yes,Yes,No,51,Yes,No,One year,Bank transfer,33.39,1703.0,Yes,1,49+ Months (Loyal),Low (<40),Medium Risk,33.39
+CUST00336,Female,No,Yes,Yes,66,Yes,Fiber optic,Month-to-month,Mailed check,93.59,6175.29,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,93.59
+CUST00337,Male,Yes,Yes,Yes,34,No,DSL,Month-to-month,Mailed check,71.79,2470.01,Yes,1,25-48 Months,High (70-90),High Risk,71.79
+CUST00338,Female,No,Yes,No,14,No,No,Month-to-month,Mailed check,57.67,795.23,No,0,13-24 Months,Medium (40-70),High Risk,0.0
+CUST00339,Male,Yes,No,Yes,67,No,Fiber optic,One year,Bank transfer,68.69,4600.44,No,0,49+ Months (Loyal),Medium (40-70),Medium Risk,0.0
+CUST00340,Male,Yes,Yes,Yes,10,No,DSL,Month-to-month,Mailed check,56.22,583.93,Yes,1,0-12 Months (New),Medium (40-70),High Risk,56.22
+CUST00341,Male,Yes,No,Yes,62,No,Fiber optic,Month-to-month,Mailed check,84.73,5244.35,Yes,1,49+ Months (Loyal),High (70-90),High Risk,84.73
+CUST00342,Male,No,Yes,Yes,19,Yes,DSL,Month-to-month,Mailed check,71.66,1352.09,No,0,13-24 Months,High (70-90),High Risk,0.0
+CUST00343,Male,Yes,Yes,Yes,58,No,Fiber optic,Month-to-month,Credit card,80.08,4674.1,No,0,49+ Months (Loyal),High (70-90),High Risk,0.0
+CUST00344,Male,Yes,Yes,No,59,Yes,DSL,Month-to-month,Mailed check,30.86,1790.97,No,0,49+ Months (Loyal),Low (<40),High Risk,0.0
+CUST00345,Female,No,Yes,Yes,61,Yes,No,Month-to-month,Electronic check,29.32,1804.46,No,0,49+ Months (Loyal),Low (<40),High Risk,0.0
+CUST00346,Male,Yes,No,No,6,No,DSL,Two year,Credit card,98.96,581.88,No,0,0-12 Months (New),Premium (90+),Low Risk,0.0
+CUST00347,Male,Yes,Yes,No,62,Yes,DSL,Month-to-month,Credit card,45.78,2788.91,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST00348,Male,No,Yes,No,27,No,Fiber optic,Month-to-month,Mailed check,62.61,1699.01,Yes,1,25-48 Months,Medium (40-70),High Risk,62.61
+CUST00349,Female,Yes,No,No,27,No,No,One year,Credit card,37.87,1028.4,No,0,25-48 Months,Low (<40),Medium Risk,0.0
+CUST00350,Female,Yes,No,Yes,16,Yes,Fiber optic,One year,Mailed check,30.03,481.31,No,0,13-24 Months,Low (<40),Medium Risk,0.0
+CUST00351,Male,No,No,Yes,12,Yes,Fiber optic,Two year,Credit card,28.81,322.03,No,0,0-12 Months (New),Low (<40),Low Risk,0.0
+CUST00352,Male,Yes,No,No,8,Yes,No,Month-to-month,Electronic check,40.17,337.05,No,0,0-12 Months (New),Medium (40-70),High Risk,0.0
+CUST00353,Female,No,Yes,Yes,22,Yes,Fiber optic,Month-to-month,Electronic check,117.56,2545.0,Yes,1,13-24 Months,Premium (90+),High Risk,117.56
+CUST00354,Female,Yes,No,No,26,Yes,No,One year,Electronic check,74.96,1971.57,No,0,25-48 Months,High (70-90),Medium Risk,0.0
+CUST00355,Female,Yes,No,Yes,25,No,Fiber optic,Month-to-month,Bank transfer,37.5,938.12,Yes,1,25-48 Months,Low (<40),High Risk,37.5
+CUST00356,Female,Yes,Yes,No,69,No,No,Month-to-month,Credit card,76.32,5293.08,No,0,49+ Months (Loyal),High (70-90),High Risk,0.0
+CUST00357,Female,Yes,Yes,No,15,No,DSL,Month-to-month,Mailed check,87.69,1288.34,Yes,1,13-24 Months,High (70-90),High Risk,87.69
+CUST00358,Female,No,No,Yes,37,Yes,Fiber optic,One year,Bank transfer,27.6,1064.34,No,0,25-48 Months,Low (<40),Medium Risk,0.0
+CUST00359,Female,No,No,Yes,25,No,No,Month-to-month,Mailed check,107.27,2652.43,Yes,1,25-48 Months,Premium (90+),High Risk,107.27
+CUST00360,Male,Yes,Yes,Yes,16,Yes,No,Two year,Credit card,81.38,1328.5,No,0,13-24 Months,High (70-90),Low Risk,0.0
+CUST00361,Male,Yes,No,No,64,No,Fiber optic,Month-to-month,Bank transfer,59.79,3851.58,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,59.79
+CUST00362,Female,Yes,Yes,No,51,Yes,Fiber optic,Two year,Credit card,51.57,2580.91,No,0,49+ Months (Loyal),Medium (40-70),Low Risk,0.0
+CUST00363,Female,No,No,No,34,Yes,No,Month-to-month,Bank transfer,67.13,2293.73,Yes,1,25-48 Months,Medium (40-70),High Risk,67.13
+CUST00364,Female,Yes,Yes,No,48,No,Fiber optic,Month-to-month,Mailed check,77.14,3750.65,Yes,1,25-48 Months,High (70-90),High Risk,77.14
+CUST00365,Male,Yes,Yes,No,49,Yes,DSL,One year,Mailed check,67.3,3248.67,No,0,49+ Months (Loyal),Medium (40-70),Medium Risk,0.0
+CUST00366,Male,Yes,No,No,33,Yes,Fiber optic,Month-to-month,Mailed check,26.0,889.38,Yes,1,25-48 Months,Low (<40),High Risk,26.0
+CUST00367,Male,Yes,No,No,47,No,No,Month-to-month,Bank transfer,54.41,2548.45,Yes,1,25-48 Months,Medium (40-70),High Risk,54.41
+CUST00368,Male,No,No,No,42,No,No,Month-to-month,Electronic check,58.11,2419.27,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST00369,Male,No,No,No,52,Yes,DSL,Month-to-month,Mailed check,51.35,2685.5,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST00370,Female,Yes,No,No,67,No,Fiber optic,Month-to-month,Electronic check,32.5,2150.96,Yes,1,49+ Months (Loyal),Low (<40),High Risk,32.5
+CUST00371,Male,No,Yes,No,14,Yes,DSL,Two year,Credit card,74.84,1000.4,No,0,13-24 Months,High (70-90),Low Risk,0.0
+CUST00372,Male,No,No,Yes,11,No,Fiber optic,Month-to-month,Bank transfer,64.32,670.16,Yes,1,0-12 Months (New),Medium (40-70),High Risk,64.32
+CUST00373,Male,No,Yes,No,42,No,Fiber optic,Two year,Bank transfer,74.85,3107.21,No,0,25-48 Months,High (70-90),Low Risk,0.0
+CUST00374,Male,Yes,No,No,45,No,No,Month-to-month,Electronic check,64.19,2875.13,Yes,1,25-48 Months,Medium (40-70),High Risk,64.19
+CUST00375,Female,No,Yes,Yes,45,No,Fiber optic,Month-to-month,Credit card,114.7,5159.21,Yes,1,25-48 Months,Premium (90+),High Risk,114.7
+CUST00376,Female,Yes,Yes,Yes,71,No,DSL,Month-to-month,Credit card,59.48,4189.41,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST00377,Female,Yes,Yes,No,11,No,No,Month-to-month,Bank transfer,48.47,557.46,No,0,0-12 Months (New),Medium (40-70),High Risk,0.0
+CUST00378,Female,No,Yes,Yes,18,No,DSL,One year,Credit card,47.21,862.06,Yes,1,13-24 Months,Medium (40-70),Medium Risk,47.21
+CUST00379,Male,No,Yes,Yes,24,Yes,Fiber optic,Month-to-month,Credit card,92.71,2198.32,Yes,1,13-24 Months,Premium (90+),High Risk,92.71
+CUST00380,Female,No,No,No,40,No,Fiber optic,Month-to-month,Electronic check,53.02,2155.15,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST00381,Male,Yes,No,Yes,70,No,DSL,Month-to-month,Bank transfer,101.73,7153.93,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,101.73
+CUST00382,Male,Yes,No,Yes,5,Yes,Fiber optic,One year,Electronic check,72.11,408.76,Yes,1,0-12 Months (New),High (70-90),Medium Risk,72.11
+CUST00383,Female,Yes,Yes,Yes,71,Yes,Fiber optic,Month-to-month,Bank transfer,39.87,2869.52,No,0,49+ Months (Loyal),Low (<40),High Risk,0.0
+CUST00384,Male,No,Yes,No,42,Yes,DSL,One year,Electronic check,59.58,2476.67,No,0,25-48 Months,Medium (40-70),Medium Risk,0.0
+CUST00385,Female,No,No,Yes,32,Yes,Fiber optic,Month-to-month,Bank transfer,113.08,3668.26,Yes,1,25-48 Months,Premium (90+),High Risk,113.08
+CUST00386,Male,Yes,Yes,Yes,17,No,DSL,Month-to-month,Bank transfer,100.55,1703.22,Yes,1,13-24 Months,Premium (90+),High Risk,100.55
+CUST00387,Female,Yes,Yes,No,6,No,No,Month-to-month,Bank transfer,74.27,444.63,Yes,1,0-12 Months (New),High (70-90),High Risk,74.27
+CUST00388,Female,Yes,No,No,71,Yes,DSL,Month-to-month,Credit card,49.57,3495.8,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,49.57
+CUST00389,Male,Yes,Yes,Yes,47,Yes,Fiber optic,One year,Credit card,38.99,1850.85,No,0,25-48 Months,Low (<40),Medium Risk,0.0
+CUST00390,Male,Yes,No,No,42,Yes,DSL,Month-to-month,Electronic check,24.38,1067.74,Yes,1,25-48 Months,Low (<40),High Risk,24.38
+CUST00391,Male,No,Yes,No,25,Yes,DSL,Month-to-month,Credit card,85.79,2147.33,No,0,25-48 Months,High (70-90),High Risk,0.0
+CUST00392,Female,No,No,Yes,10,Yes,DSL,One year,Electronic check,66.81,681.99,No,0,0-12 Months (New),Medium (40-70),Medium Risk,0.0
+CUST00393,Female,Yes,Yes,No,68,Yes,No,Month-to-month,Bank transfer,27.79,1861.31,Yes,1,49+ Months (Loyal),Low (<40),High Risk,27.79
+CUST00394,Male,No,No,Yes,25,Yes,No,One year,Mailed check,75.84,1901.81,No,0,25-48 Months,High (70-90),Medium Risk,0.0
+CUST00395,Female,Yes,No,Yes,22,Yes,No,Month-to-month,Bank transfer,85.75,1889.89,Yes,1,13-24 Months,High (70-90),High Risk,85.75
+CUST00396,Female,Yes,No,No,53,No,No,Month-to-month,Mailed check,76.31,4015.82,No,0,49+ Months (Loyal),High (70-90),High Risk,0.0
+CUST00397,Female,Yes,No,No,51,Yes,No,Month-to-month,Bank transfer,79.58,4060.34,No,0,49+ Months (Loyal),High (70-90),High Risk,0.0
+CUST00398,Female,No,No,Yes,28,No,DSL,One year,Bank transfer,111.91,3134.61,No,0,25-48 Months,Premium (90+),Medium Risk,0.0
+CUST00399,Male,No,Yes,No,46,Yes,DSL,Month-to-month,Mailed check,43.3,2022.91,Yes,1,25-48 Months,Medium (40-70),High Risk,43.3
+CUST00400,Female,No,Yes,No,62,Yes,Fiber optic,One year,Electronic check,79.52,4910.28,No,0,49+ Months (Loyal),High (70-90),Medium Risk,0.0
+CUST00401,Female,No,Yes,No,45,No,Fiber optic,Two year,Electronic check,106.98,4786.77,No,0,25-48 Months,Premium (90+),Low Risk,0.0
+CUST00402,Male,Yes,Yes,No,68,Yes,Fiber optic,Month-to-month,Mailed check,52.68,3602.02,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,52.68
+CUST00403,Female,Yes,Yes,Yes,56,No,Fiber optic,Month-to-month,Bank transfer,28.25,1589.14,Yes,1,49+ Months (Loyal),Low (<40),High Risk,28.25
+CUST00404,Female,Yes,Yes,No,65,No,No,Month-to-month,Mailed check,68.09,4395.66,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,68.09
+CUST00405,Male,No,Yes,Yes,35,No,Fiber optic,One year,Electronic check,31.25,1085.11,No,0,25-48 Months,Low (<40),Medium Risk,0.0
+CUST00406,Male,Yes,No,Yes,40,Yes,Fiber optic,One year,Credit card,82.32,3286.85,No,0,25-48 Months,High (70-90),Medium Risk,0.0
+CUST00407,Male,No,No,Yes,11,Yes,No,Month-to-month,Mailed check,106.88,1207.69,Yes,1,0-12 Months (New),Premium (90+),High Risk,106.88
+CUST00408,Male,Yes,No,No,3,No,DSL,One year,Mailed check,40.38,123.47,Yes,1,0-12 Months (New),Medium (40-70),Medium Risk,40.38
+CUST00409,Female,No,Yes,No,68,Yes,Fiber optic,Month-to-month,Bank transfer,40.07,2744.41,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,40.07
+CUST00410,Female,No,Yes,No,35,No,DSL,Month-to-month,Credit card,43.12,1497.27,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST00411,Male,Yes,No,Yes,24,Yes,No,Two year,Electronic check,23.98,617.75,No,0,13-24 Months,Low (<40),Low Risk,0.0
+CUST00412,Female,Yes,Yes,Yes,45,No,Fiber optic,One year,Mailed check,119.6,5429.86,Yes,1,25-48 Months,Premium (90+),Medium Risk,119.6
+CUST00413,Male,Yes,No,Yes,72,No,DSL,Month-to-month,Credit card,85.69,6128.46,Yes,1,49+ Months (Loyal),High (70-90),High Risk,85.69
+CUST00414,Male,Yes,Yes,Yes,55,No,No,Month-to-month,Mailed check,40.68,2201.26,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,40.68
+CUST00415,Male,No,No,Yes,56,Yes,No,Two year,Mailed check,51.75,2903.73,No,0,49+ Months (Loyal),Medium (40-70),Low Risk,0.0
+CUST00416,Male,No,No,Yes,4,No,Fiber optic,Two year,Bank transfer,64.3,300.58,No,0,0-12 Months (New),Medium (40-70),Low Risk,0.0
+CUST00417,Female,No,Yes,Yes,17,Yes,DSL,One year,Bank transfer,80.56,1380.76,No,0,13-24 Months,High (70-90),Medium Risk,0.0
+CUST00418,Male,No,No,Yes,62,Yes,No,One year,Credit card,91.2,5641.8,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
+CUST00419,Female,Yes,Yes,Yes,25,Yes,DSL,Month-to-month,Electronic check,112.54,2858.52,Yes,1,25-48 Months,Premium (90+),High Risk,112.54
+CUST00420,Male,No,Yes,Yes,57,No,No,Month-to-month,Credit card,108.76,6192.08,No,0,49+ Months (Loyal),Premium (90+),High Risk,0.0
+CUST00421,Female,Yes,No,Yes,67,Yes,Fiber optic,Month-to-month,Electronic check,107.78,7195.83,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,107.78
+CUST00422,Male,Yes,Yes,Yes,38,No,Fiber optic,Two year,Bank transfer,66.13,2505.19,No,0,25-48 Months,Medium (40-70),Low Risk,0.0
+CUST00423,Male,No,No,No,12,Yes,DSL,One year,Mailed check,59.31,694.07,Yes,1,0-12 Months (New),Medium (40-70),Medium Risk,59.31
+CUST00424,Female,No,No,Yes,33,No,No,One year,Mailed check,91.84,2993.07,Yes,1,25-48 Months,Premium (90+),Medium Risk,91.84
+CUST00425,Female,Yes,Yes,No,66,Yes,Fiber optic,Month-to-month,Electronic check,96.83,6432.01,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,96.83
+CUST00426,Male,No,Yes,Yes,7,No,Fiber optic,Month-to-month,Credit card,48.88,310.23,No,0,0-12 Months (New),Medium (40-70),High Risk,0.0
+CUST00427,Male,No,No,Yes,59,No,Fiber optic,Month-to-month,Electronic check,80.8,4766.55,Yes,1,49+ Months (Loyal),High (70-90),High Risk,80.8
+CUST00428,Female,Yes,No,No,11,Yes,DSL,Two year,Bank transfer,81.98,907.53,No,0,0-12 Months (New),High (70-90),Low Risk,0.0
+CUST00429,Male,No,Yes,Yes,45,Yes,DSL,Two year,Bank transfer,53.11,2348.72,Yes,1,25-48 Months,Medium (40-70),Low Risk,53.11
+CUST00430,Male,No,No,Yes,59,No,DSL,Month-to-month,Bank transfer,52.28,3124.27,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST00431,Female,No,No,No,18,Yes,No,Two year,Bank transfer,72.71,1311.24,No,0,13-24 Months,High (70-90),Low Risk,0.0
+CUST00432,Male,No,Yes,No,37,No,No,One year,Bank transfer,72.54,2733.48,No,0,25-48 Months,High (70-90),Medium Risk,0.0
+CUST00433,Male,Yes,No,No,24,Yes,No,Month-to-month,Mailed check,20.16,436.24,No,0,13-24 Months,Low (<40),High Risk,0.0
+CUST00434,Male,No,No,No,6,No,Fiber optic,Month-to-month,Mailed check,21.13,96.9,Yes,1,0-12 Months (New),Low (<40),High Risk,21.13
+CUST00435,Male,Yes,No,No,1,Yes,No,Month-to-month,Credit card,92.44,104.04,Yes,1,0-12 Months (New),Premium (90+),High Risk,92.44
+CUST00436,Male,No,No,No,62,No,DSL,One year,Credit card,35.54,2199.54,No,0,49+ Months (Loyal),Low (<40),Medium Risk,0.0
+CUST00437,Female,Yes,No,Yes,67,No,No,One year,Bank transfer,75.52,5011.71,No,0,49+ Months (Loyal),High (70-90),Medium Risk,0.0
+CUST00438,Female,Yes,Yes,Yes,36,Yes,Fiber optic,Two year,Mailed check,77.1,2764.56,No,0,25-48 Months,High (70-90),Low Risk,0.0
+CUST00439,Female,Yes,Yes,No,53,Yes,Fiber optic,Two year,Bank transfer,65.19,3500.14,Yes,1,49+ Months (Loyal),Medium (40-70),Low Risk,65.19
+CUST00440,Female,No,Yes,No,5,Yes,DSL,Month-to-month,Electronic check,99.9,540.0,Yes,1,0-12 Months (New),Premium (90+),High Risk,99.9
+CUST00441,Female,Yes,No,No,19,Yes,No,One year,Mailed check,40.52,723.54,No,0,13-24 Months,Medium (40-70),Medium Risk,0.0
+CUST00442,Male,No,No,Yes,12,No,Fiber optic,Two year,Electronic check,72.06,880.62,Yes,1,0-12 Months (New),High (70-90),Low Risk,72.06
+CUST00443,Female,No,No,Yes,25,No,Fiber optic,Month-to-month,Credit card,87.11,2155.02,Yes,1,25-48 Months,High (70-90),High Risk,87.11
+CUST00444,Male,No,Yes,Yes,70,No,No,Month-to-month,Mailed check,114.33,8033.5,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,114.33
+CUST00445,Male,No,No,No,70,No,DSL,Month-to-month,Credit card,110.33,7678.15,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,110.33
+CUST00446,Male,Yes,No,Yes,58,No,Fiber optic,Month-to-month,Mailed check,91.29,5311.91,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,91.29
+CUST00447,Female,No,Yes,No,13,No,Fiber optic,One year,Credit card,67.05,916.39,Yes,1,13-24 Months,Medium (40-70),Medium Risk,67.05
+CUST00448,Female,Yes,No,Yes,43,No,Fiber optic,Month-to-month,Electronic check,67.53,2888.93,Yes,1,25-48 Months,Medium (40-70),High Risk,67.53
+CUST00449,Male,Yes,No,Yes,66,Yes,Fiber optic,One year,Electronic check,52.59,3485.89,No,0,49+ Months (Loyal),Medium (40-70),Medium Risk,0.0
+CUST00450,Female,Yes,No,Yes,32,Yes,Fiber optic,Month-to-month,Bank transfer,40.82,1325.65,Yes,1,25-48 Months,Medium (40-70),High Risk,40.82
+CUST00451,Female,Yes,Yes,Yes,10,No,DSL,Month-to-month,Credit card,52.54,485.17,Yes,1,0-12 Months (New),Medium (40-70),High Risk,52.54
+CUST00452,Female,Yes,Yes,Yes,49,No,Fiber optic,One year,Electronic check,29.05,1455.15,No,0,49+ Months (Loyal),Low (<40),Medium Risk,0.0
+CUST00453,Male,No,Yes,No,69,No,Fiber optic,One year,Credit card,39.57,2748.48,Yes,1,49+ Months (Loyal),Low (<40),Medium Risk,39.57
+CUST00454,Female,Yes,No,Yes,2,No,DSL,Two year,Electronic check,56.92,118.73,Yes,1,0-12 Months (New),Medium (40-70),Low Risk,56.92
+CUST00455,Female,No,No,Yes,31,No,No,Month-to-month,Bank transfer,91.18,2817.18,Yes,1,25-48 Months,Premium (90+),High Risk,91.18
+CUST00456,Male,No,No,Yes,25,No,Fiber optic,One year,Mailed check,48.85,1258.52,Yes,1,25-48 Months,Medium (40-70),Medium Risk,48.85
+CUST00457,Male,No,Yes,Yes,63,No,DSL,Month-to-month,Credit card,106.02,6718.62,No,0,49+ Months (Loyal),Premium (90+),High Risk,0.0
+CUST00458,Female,No,No,No,71,No,Fiber optic,Month-to-month,Mailed check,62.48,4386.82,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,62.48
+CUST00459,Male,Yes,No,No,5,Yes,No,Month-to-month,Bank transfer,31.32,154.75,Yes,1,0-12 Months (New),Low (<40),High Risk,31.32
+CUST00460,Male,Yes,No,Yes,67,Yes,DSL,Month-to-month,Electronic check,88.41,5927.39,Yes,1,49+ Months (Loyal),High (70-90),High Risk,88.41
+CUST00461,Male,Yes,Yes,No,59,No,No,One year,Credit card,55.29,3309.89,No,0,49+ Months (Loyal),Medium (40-70),Medium Risk,0.0
+CUST00462,Male,No,No,No,8,No,No,Month-to-month,Electronic check,85.63,664.22,Yes,1,0-12 Months (New),High (70-90),High Risk,85.63
+CUST00463,Male,Yes,No,Yes,17,Yes,Fiber optic,Month-to-month,Bank transfer,47.52,783.54,No,0,13-24 Months,Medium (40-70),High Risk,0.0
+CUST00464,Male,No,No,No,23,No,No,Month-to-month,Mailed check,99.94,2334.82,Yes,1,13-24 Months,Premium (90+),High Risk,99.94
+CUST00465,Male,No,Yes,No,53,No,DSL,One year,Mailed check,41.09,2201.21,No,0,49+ Months (Loyal),Medium (40-70),Medium Risk,0.0
+CUST00466,Female,No,Yes,Yes,60,No,Fiber optic,Month-to-month,Mailed check,57.98,3499.36,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,57.98
+CUST00467,Male,Yes,Yes,No,58,No,No,Month-to-month,Electronic check,29.74,1728.05,Yes,1,49+ Months (Loyal),Low (<40),High Risk,29.74
+CUST00468,Female,Yes,No,No,35,Yes,Fiber optic,One year,Credit card,66.11,2331.38,Yes,1,25-48 Months,Medium (40-70),Medium Risk,66.11
+CUST00469,Male,Yes,Yes,No,71,Yes,No,Month-to-month,Electronic check,21.2,1464.97,Yes,1,49+ Months (Loyal),Low (<40),High Risk,21.2
+CUST00470,Female,Yes,Yes,No,33,Yes,DSL,Month-to-month,Electronic check,25.69,857.18,No,0,25-48 Months,Low (<40),High Risk,0.0
+CUST00471,Male,No,Yes,Yes,17,No,No,One year,Mailed check,109.6,1882.77,Yes,1,13-24 Months,Premium (90+),Medium Risk,109.6
+CUST00472,Female,No,No,No,55,No,Fiber optic,Month-to-month,Electronic check,47.73,2581.39,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,47.73
+CUST00473,Male,Yes,No,Yes,57,Yes,Fiber optic,Two year,Mailed check,81.03,4586.55,No,0,49+ Months (Loyal),High (70-90),Low Risk,0.0
+CUST00474,Male,Yes,Yes,Yes,57,No,DSL,Month-to-month,Electronic check,77.13,4371.47,Yes,1,49+ Months (Loyal),High (70-90),High Risk,77.13
+CUST00475,Female,No,Yes,Yes,50,No,DSL,One year,Credit card,77.46,3874.54,No,0,49+ Months (Loyal),High (70-90),Medium Risk,0.0
+CUST00476,Female,Yes,No,No,9,Yes,DSL,Month-to-month,Credit card,32.12,292.61,No,0,0-12 Months (New),Low (<40),High Risk,0.0
+CUST00477,Female,Yes,No,Yes,12,No,No,Two year,Bank transfer,28.05,332.56,No,0,0-12 Months (New),Low (<40),Low Risk,0.0
+CUST00478,Male,No,Yes,No,25,No,No,Month-to-month,Electronic check,83.06,2062.43,Yes,1,25-48 Months,High (70-90),High Risk,83.06
+CUST00479,Female,No,Yes,Yes,25,Yes,No,Two year,Mailed check,68.92,1679.3,No,0,25-48 Months,Medium (40-70),Low Risk,0.0
+CUST00480,Female,Yes,No,Yes,5,No,DSL,Month-to-month,Electronic check,60.55,273.92,Yes,1,0-12 Months (New),Medium (40-70),High Risk,60.55
+CUST00481,Female,No,Yes,Yes,5,Yes,Fiber optic,One year,Credit card,110.72,565.44,Yes,1,0-12 Months (New),Premium (90+),Medium Risk,110.72
+CUST00482,Male,No,Yes,Yes,40,Yes,Fiber optic,One year,Electronic check,101.78,4031.83,No,0,25-48 Months,Premium (90+),Medium Risk,0.0
+CUST00483,Male,No,Yes,No,44,No,Fiber optic,Month-to-month,Mailed check,52.16,2341.51,Yes,1,25-48 Months,Medium (40-70),High Risk,52.16
+CUST00484,Male,No,No,Yes,16,No,DSL,One year,Mailed check,89.63,1439.42,No,0,13-24 Months,High (70-90),Medium Risk,0.0
+CUST00485,Male,No,Yes,No,21,Yes,Fiber optic,Month-to-month,Electronic check,37.94,755.65,Yes,1,13-24 Months,Low (<40),High Risk,37.94
+CUST00486,Female,Yes,No,Yes,27,Yes,No,Month-to-month,Credit card,61.2,1696.21,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST00487,Male,No,No,Yes,39,No,Fiber optic,Month-to-month,Mailed check,39.19,1577.07,No,0,25-48 Months,Low (<40),High Risk,0.0
+CUST00488,Female,No,No,Yes,36,Yes,DSL,Month-to-month,Mailed check,88.52,3233.58,Yes,1,25-48 Months,High (70-90),High Risk,88.52
+CUST00489,Male,No,Yes,Yes,47,No,DSL,Month-to-month,Bank transfer,81.68,3877.97,Yes,1,25-48 Months,High (70-90),High Risk,81.68
+CUST00490,Male,No,Yes,Yes,4,No,No,Month-to-month,Mailed check,92.14,377.83,Yes,1,0-12 Months (New),Premium (90+),High Risk,92.14
+CUST00491,Male,Yes,Yes,Yes,42,Yes,DSL,Month-to-month,Credit card,106.99,4481.13,Yes,1,25-48 Months,Premium (90+),High Risk,106.99
+CUST00492,Female,Yes,Yes,No,19,Yes,No,Month-to-month,Credit card,57.35,1085.42,Yes,1,13-24 Months,Medium (40-70),High Risk,57.35
+CUST00493,Female,Yes,Yes,No,17,Yes,No,Month-to-month,Bank transfer,33.65,607.22,Yes,1,13-24 Months,Low (<40),High Risk,33.65
+CUST00494,Male,Yes,Yes,No,21,Yes,No,Two year,Mailed check,28.65,637.35,No,0,13-24 Months,Low (<40),Low Risk,0.0
+CUST00495,Male,Yes,No,No,2,No,No,Two year,Mailed check,52.73,113.41,No,0,0-12 Months (New),Medium (40-70),Low Risk,0.0
+CUST00496,Male,No,No,Yes,6,No,No,One year,Electronic check,62.57,364.85,No,0,0-12 Months (New),Medium (40-70),Medium Risk,0.0
+CUST00497,Male,Yes,No,Yes,11,Yes,No,One year,Mailed check,33.27,345.55,No,0,0-12 Months (New),Low (<40),Medium Risk,0.0
+CUST00498,Male,No,No,No,21,No,No,One year,Electronic check,117.64,2466.82,Yes,1,13-24 Months,Premium (90+),Medium Risk,117.64
+CUST00499,Female,No,No,No,1,Yes,Fiber optic,Two year,Bank transfer,73.09,52.75,No,0,0-12 Months (New),High (70-90),Low Risk,0.0
+CUST00500,Male,No,No,Yes,66,No,DSL,Month-to-month,Bank transfer,66.54,4345.73,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,66.54
+CUST00501,Male,No,Yes,No,31,Yes,No,Month-to-month,Mailed check,95.32,2981.01,Yes,1,25-48 Months,Premium (90+),High Risk,95.32
+CUST00502,Female,Yes,No,Yes,9,No,Fiber optic,Month-to-month,Electronic check,67.02,606.37,Yes,1,0-12 Months (New),Medium (40-70),High Risk,67.02
+CUST00503,Female,Yes,No,Yes,25,No,DSL,Month-to-month,Mailed check,48.84,1266.66,Yes,1,25-48 Months,Medium (40-70),High Risk,48.84
+CUST00504,Female,No,Yes,No,20,Yes,No,Two year,Electronic check,49.32,1033.36,No,0,13-24 Months,Medium (40-70),Low Risk,0.0
+CUST00505,Male,Yes,No,No,57,Yes,Fiber optic,Month-to-month,Electronic check,107.18,6082.49,No,0,49+ Months (Loyal),Premium (90+),High Risk,0.0
+CUST00506,Female,Yes,No,No,63,No,Fiber optic,Month-to-month,Mailed check,109.83,6899.94,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,109.83
+CUST00507,Male,Yes,No,No,7,Yes,Fiber optic,Month-to-month,Mailed check,81.86,539.1,Yes,1,0-12 Months (New),High (70-90),High Risk,81.86
+CUST00508,Male,No,Yes,Yes,31,Yes,DSL,Two year,Mailed check,64.09,1973.76,No,0,25-48 Months,Medium (40-70),Low Risk,0.0
+CUST00509,Male,Yes,No,Yes,48,No,No,Two year,Bank transfer,32.15,1495.69,No,0,25-48 Months,Low (<40),Low Risk,0.0
+CUST00510,Male,Yes,No,Yes,1,No,No,One year,Credit card,109.6,156.56,No,0,0-12 Months (New),Premium (90+),Medium Risk,0.0
+CUST00511,Male,Yes,No,Yes,62,Yes,DSL,One year,Electronic check,50.81,3140.38,No,0,49+ Months (Loyal),Medium (40-70),Medium Risk,0.0
+CUST00512,Female,Yes,Yes,No,8,Yes,No,Month-to-month,Bank transfer,39.57,274.92,No,0,0-12 Months (New),Low (<40),High Risk,0.0
+CUST00513,Male,Yes,Yes,No,41,Yes,No,Month-to-month,Mailed check,91.6,3748.36,Yes,1,25-48 Months,Premium (90+),High Risk,91.6
+CUST00514,Male,Yes,No,No,40,No,No,Month-to-month,Credit card,94.15,3757.56,Yes,1,25-48 Months,Premium (90+),High Risk,94.15
+CUST00515,Male,Yes,No,Yes,12,Yes,DSL,Month-to-month,Bank transfer,26.61,365.33,No,0,0-12 Months (New),Low (<40),High Risk,0.0
+CUST00516,Male,No,No,No,54,Yes,No,Month-to-month,Mailed check,39.93,2189.45,Yes,1,49+ Months (Loyal),Low (<40),High Risk,39.93
+CUST00517,Female,No,No,No,64,No,DSL,Month-to-month,Electronic check,35.4,2245.62,No,0,49+ Months (Loyal),Low (<40),High Risk,0.0
+CUST00518,Female,No,No,No,23,No,No,One year,Electronic check,31.94,712.34,No,0,13-24 Months,Low (<40),Medium Risk,0.0
+CUST00519,Male,Yes,No,No,34,No,No,One year,Bank transfer,71.25,2430.03,No,0,25-48 Months,High (70-90),Medium Risk,0.0
+CUST00520,Male,No,Yes,No,60,Yes,Fiber optic,Month-to-month,Bank transfer,56.12,3380.82,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST00521,Male,Yes,No,Yes,66,Yes,No,Month-to-month,Electronic check,79.88,5238.79,Yes,1,49+ Months (Loyal),High (70-90),High Risk,79.88
+CUST00522,Female,Yes,No,No,13,No,DSL,Month-to-month,Bank transfer,57.3,743.39,Yes,1,13-24 Months,Medium (40-70),High Risk,57.3
+CUST00523,Male,No,Yes,Yes,65,Yes,DSL,One year,Electronic check,61.73,4054.05,Yes,1,49+ Months (Loyal),Medium (40-70),Medium Risk,61.73
+CUST00524,Male,No,No,No,40,No,DSL,One year,Bank transfer,37.22,1469.27,No,0,25-48 Months,Low (<40),Medium Risk,0.0
+CUST00525,Male,No,Yes,Yes,30,No,DSL,Month-to-month,Electronic check,62.48,1900.7,Yes,1,25-48 Months,Medium (40-70),High Risk,62.48
+CUST00526,Male,Yes,No,Yes,26,Yes,DSL,One year,Electronic check,66.91,1780.51,Yes,1,25-48 Months,Medium (40-70),Medium Risk,66.91
+CUST00527,Female,No,Yes,Yes,27,Yes,DSL,One year,Electronic check,29.08,819.75,No,0,25-48 Months,Low (<40),Medium Risk,0.0
+CUST00528,Female,Yes,Yes,Yes,65,Yes,DSL,One year,Electronic check,72.88,4758.78,No,0,49+ Months (Loyal),High (70-90),Medium Risk,0.0
+CUST00529,Male,No,Yes,Yes,65,No,Fiber optic,One year,Mailed check,63.97,4203.82,Yes,1,49+ Months (Loyal),Medium (40-70),Medium Risk,63.97
+CUST00530,Female,Yes,No,Yes,66,Yes,Fiber optic,Month-to-month,Bank transfer,32.36,2096.79,Yes,1,49+ Months (Loyal),Low (<40),High Risk,32.36
+CUST00531,Female,Yes,Yes,Yes,42,No,DSL,Month-to-month,Credit card,80.04,3342.88,No,0,25-48 Months,High (70-90),High Risk,0.0
+CUST00532,Female,No,No,No,55,Yes,DSL,Two year,Credit card,113.91,6251.79,Yes,1,49+ Months (Loyal),Premium (90+),Low Risk,113.91
+CUST00533,Female,No,No,No,67,Yes,DSL,Month-to-month,Credit card,89.5,6044.26,No,0,49+ Months (Loyal),High (70-90),High Risk,0.0
+CUST00534,Male,No,No,Yes,44,Yes,No,One year,Credit card,32.28,1454.13,No,0,25-48 Months,Low (<40),Medium Risk,0.0
+CUST00535,Female,Yes,No,No,61,No,Fiber optic,Month-to-month,Mailed check,96.8,5865.6,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,96.8
+CUST00536,Female,No,Yes,Yes,13,Yes,DSL,Month-to-month,Electronic check,117.21,1511.99,No,0,13-24 Months,Premium (90+),High Risk,0.0
+CUST00537,Male,Yes,Yes,Yes,67,No,Fiber optic,Month-to-month,Credit card,69.03,4601.18,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,69.03
+CUST00538,Male,No,No,Yes,50,No,Fiber optic,Two year,Credit card,65.97,3251.79,No,0,49+ Months (Loyal),Medium (40-70),Low Risk,0.0
+CUST00539,Female,No,No,No,18,No,No,Month-to-month,Electronic check,76.89,1383.08,No,0,13-24 Months,High (70-90),High Risk,0.0
+CUST00540,Female,Yes,Yes,Yes,51,No,Fiber optic,Month-to-month,Credit card,81.69,4151.47,No,0,49+ Months (Loyal),High (70-90),High Risk,0.0
+CUST00541,Female,No,Yes,Yes,17,No,Fiber optic,One year,Electronic check,96.52,1653.36,Yes,1,13-24 Months,Premium (90+),Medium Risk,96.52
+CUST00542,Female,Yes,No,No,45,Yes,No,Month-to-month,Mailed check,84.81,3825.7,No,0,25-48 Months,High (70-90),High Risk,0.0
+CUST00543,Male,Yes,Yes,No,22,Yes,No,Month-to-month,Credit card,85.78,1879.41,Yes,1,13-24 Months,High (70-90),High Risk,85.78
+CUST00544,Female,Yes,Yes,No,3,No,Fiber optic,Month-to-month,Bank transfer,77.25,262.58,Yes,1,0-12 Months (New),High (70-90),High Risk,77.25
+CUST00545,Male,Yes,No,No,22,No,Fiber optic,Two year,Mailed check,69.7,1568.13,No,0,13-24 Months,Medium (40-70),Low Risk,0.0
+CUST00546,Male,Yes,No,Yes,39,No,DSL,One year,Electronic check,91.77,3586.85,No,0,25-48 Months,Premium (90+),Medium Risk,0.0
+CUST00547,Female,No,No,No,27,No,DSL,One year,Bank transfer,70.46,1882.41,No,0,25-48 Months,High (70-90),Medium Risk,0.0
+CUST00548,Female,No,No,No,33,No,No,One year,Mailed check,108.09,3579.75,No,0,25-48 Months,Premium (90+),Medium Risk,0.0
+CUST00549,Male,Yes,Yes,No,35,No,No,One year,Electronic check,72.23,2514.48,Yes,1,25-48 Months,High (70-90),Medium Risk,72.23
+CUST00550,Male,Yes,No,No,41,Yes,No,Month-to-month,Credit card,46.69,1892.99,Yes,1,25-48 Months,Medium (40-70),High Risk,46.69
+CUST00551,Male,Yes,Yes,Yes,20,Yes,DSL,Month-to-month,Bank transfer,66.42,1334.38,Yes,1,13-24 Months,Medium (40-70),High Risk,66.42
+CUST00552,Male,No,Yes,No,18,Yes,Fiber optic,One year,Bank transfer,85.87,1513.26,No,0,13-24 Months,High (70-90),Medium Risk,0.0
+CUST00553,Female,No,Yes,Yes,41,No,DSL,Two year,Credit card,109.68,4514.05,No,0,25-48 Months,Premium (90+),Low Risk,0.0
+CUST00554,Female,No,Yes,Yes,65,Yes,No,One year,Bank transfer,69.65,4486.27,No,0,49+ Months (Loyal),Medium (40-70),Medium Risk,0.0
+CUST00555,Female,Yes,No,Yes,55,Yes,DSL,Month-to-month,Mailed check,116.99,6428.4,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,116.99
+CUST00556,Male,Yes,No,Yes,41,No,Fiber optic,One year,Bank transfer,107.94,4469.24,Yes,1,25-48 Months,Premium (90+),Medium Risk,107.94
+CUST00557,Female,Yes,Yes,Yes,7,Yes,Fiber optic,Month-to-month,Bank transfer,83.89,607.29,Yes,1,0-12 Months (New),High (70-90),High Risk,83.89
+CUST00558,Male,No,No,No,2,No,Fiber optic,Month-to-month,Mailed check,49.74,135.42,Yes,1,0-12 Months (New),Medium (40-70),High Risk,49.74
+CUST00559,Female,Yes,No,Yes,36,Yes,Fiber optic,Month-to-month,Credit card,112.65,4038.67,Yes,1,25-48 Months,Premium (90+),High Risk,112.65
+CUST00560,Male,No,No,Yes,46,No,No,One year,Bank transfer,65.33,2957.92,Yes,1,25-48 Months,Medium (40-70),Medium Risk,65.33
+CUST00561,Male,Yes,Yes,Yes,52,Yes,No,Month-to-month,Electronic check,31.08,1591.12,No,0,49+ Months (Loyal),Low (<40),High Risk,0.0
+CUST00562,Male,Yes,No,No,62,Yes,Fiber optic,Month-to-month,Bank transfer,99.95,6166.77,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,99.95
+CUST00563,Male,Yes,No,Yes,3,Yes,No,One year,Mailed check,110.68,379.45,Yes,1,0-12 Months (New),Premium (90+),Medium Risk,110.68
+CUST00564,Male,No,No,No,34,Yes,DSL,Two year,Mailed check,114.72,3862.22,No,0,25-48 Months,Premium (90+),Low Risk,0.0
+CUST00565,Female,Yes,No,Yes,29,Yes,DSL,Two year,Bank transfer,48.8,1414.62,Yes,1,25-48 Months,Medium (40-70),Low Risk,48.8
+CUST00566,Male,No,No,Yes,54,Yes,Fiber optic,One year,Electronic check,49.02,2623.26,No,0,49+ Months (Loyal),Medium (40-70),Medium Risk,0.0
+CUST00567,Male,Yes,No,Yes,2,No,DSL,Two year,Credit card,88.69,198.71,No,0,0-12 Months (New),High (70-90),Low Risk,0.0
+CUST00568,Female,No,Yes,Yes,7,No,DSL,Month-to-month,Bank transfer,119.67,881.62,No,0,0-12 Months (New),Premium (90+),High Risk,0.0
+CUST00569,Male,No,No,No,39,No,No,Month-to-month,Electronic check,78.05,3019.98,Yes,1,25-48 Months,High (70-90),High Risk,78.05
+CUST00570,Female,Yes,Yes,Yes,41,No,DSL,Month-to-month,Bank transfer,24.42,964.01,No,0,25-48 Months,Low (<40),High Risk,0.0
+CUST00571,Female,Yes,No,No,34,No,No,Month-to-month,Mailed check,51.55,1802.16,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST00572,Male,Yes,Yes,Yes,20,Yes,DSL,Month-to-month,Credit card,46.02,941.0,Yes,1,13-24 Months,Medium (40-70),High Risk,46.02
+CUST00573,Female,No,No,No,72,No,Fiber optic,Month-to-month,Mailed check,32.37,2290.0,No,0,49+ Months (Loyal),Low (<40),High Risk,0.0
+CUST00574,Male,No,No,Yes,1,Yes,Fiber optic,Two year,Mailed check,96.83,114.52,No,0,0-12 Months (New),Premium (90+),Low Risk,0.0
+CUST00575,Male,Yes,Yes,No,48,Yes,Fiber optic,Month-to-month,Electronic check,66.02,3189.73,Yes,1,25-48 Months,Medium (40-70),High Risk,66.02
+CUST00576,Female,No,No,Yes,58,No,No,Two year,Mailed check,41.14,2340.99,No,0,49+ Months (Loyal),Medium (40-70),Low Risk,0.0
+CUST00577,Female,No,Yes,No,12,No,Fiber optic,Month-to-month,Credit card,28.92,382.27,Yes,1,0-12 Months (New),Low (<40),High Risk,28.92
+CUST00578,Female,Yes,Yes,Yes,39,No,Fiber optic,One year,Bank transfer,110.37,4314.78,Yes,1,25-48 Months,Premium (90+),Medium Risk,110.37
+CUST00579,Male,Yes,Yes,No,58,No,Fiber optic,Month-to-month,Credit card,29.02,1675.41,Yes,1,49+ Months (Loyal),Low (<40),High Risk,29.02
+CUST00580,Male,Yes,No,Yes,6,No,Fiber optic,One year,Mailed check,113.07,681.15,No,0,0-12 Months (New),Premium (90+),Medium Risk,0.0
+CUST00581,Male,Yes,No,No,11,No,Fiber optic,Month-to-month,Mailed check,88.43,952.77,Yes,1,0-12 Months (New),High (70-90),High Risk,88.43
+CUST00582,Female,Yes,Yes,Yes,6,Yes,No,Month-to-month,Electronic check,66.47,420.85,No,0,0-12 Months (New),Medium (40-70),High Risk,0.0
+CUST00583,Female,Yes,Yes,Yes,15,No,DSL,One year,Credit card,24.53,359.58,No,0,13-24 Months,Low (<40),Medium Risk,0.0
+CUST00584,Female,Yes,No,No,44,Yes,DSL,Month-to-month,Bank transfer,107.16,4675.67,Yes,1,25-48 Months,Premium (90+),High Risk,107.16
+CUST00585,Male,Yes,Yes,Yes,22,No,Fiber optic,One year,Credit card,50.28,1137.47,No,0,13-24 Months,Medium (40-70),Medium Risk,0.0
+CUST00586,Female,Yes,Yes,Yes,18,Yes,DSL,Month-to-month,Electronic check,89.6,1581.62,Yes,1,13-24 Months,High (70-90),High Risk,89.6
+CUST00587,Female,No,Yes,No,69,Yes,DSL,Month-to-month,Credit card,34.82,2394.77,Yes,1,49+ Months (Loyal),Low (<40),High Risk,34.82
+CUST00588,Male,Yes,No,No,3,No,No,Month-to-month,Bank transfer,76.94,264.2,Yes,1,0-12 Months (New),High (70-90),High Risk,76.94
+CUST00589,Male,No,No,No,64,No,DSL,Month-to-month,Credit card,71.34,4588.22,No,0,49+ Months (Loyal),High (70-90),High Risk,0.0
+CUST00590,Female,No,Yes,Yes,55,No,No,Month-to-month,Credit card,108.91,5951.74,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,108.91
+CUST00591,Female,Yes,No,Yes,21,No,No,Month-to-month,Bank transfer,63.81,1340.77,No,0,13-24 Months,Medium (40-70),High Risk,0.0
+CUST00592,Female,Yes,Yes,No,50,No,No,One year,Bank transfer,99.6,5009.98,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
+CUST00593,Male,Yes,Yes,No,17,Yes,DSL,Month-to-month,Credit card,30.09,503.13,No,0,13-24 Months,Low (<40),High Risk,0.0
+CUST00594,Female,No,Yes,Yes,3,No,Fiber optic,Month-to-month,Mailed check,37.47,148.36,Yes,1,0-12 Months (New),Low (<40),High Risk,37.47
+CUST00595,Male,Yes,No,Yes,30,Yes,No,Month-to-month,Bank transfer,119.37,3609.59,No,0,25-48 Months,Premium (90+),High Risk,0.0
+CUST00596,Female,No,Yes,Yes,57,No,DSL,Two year,Electronic check,102.36,5788.72,Yes,1,49+ Months (Loyal),Premium (90+),Low Risk,102.36
+CUST00597,Male,No,No,Yes,38,No,No,Month-to-month,Electronic check,35.43,1332.71,No,0,25-48 Months,Low (<40),High Risk,0.0
+CUST00598,Male,No,No,No,1,Yes,Fiber optic,Month-to-month,Mailed check,28.52,15.76,Yes,1,0-12 Months (New),Low (<40),High Risk,28.52
+CUST00599,Female,No,Yes,No,30,Yes,Fiber optic,Month-to-month,Credit card,109.81,3339.48,Yes,1,25-48 Months,Premium (90+),High Risk,109.81
+CUST00600,Female,No,No,Yes,2,Yes,DSL,Month-to-month,Credit card,118.19,202.81,Yes,1,0-12 Months (New),Premium (90+),High Risk,118.19
+CUST00601,Male,No,Yes,No,54,No,No,One year,Bank transfer,92.16,4958.01,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
+CUST00602,Female,No,No,No,27,No,No,Month-to-month,Credit card,97.54,2671.68,Yes,1,25-48 Months,Premium (90+),High Risk,97.54
+CUST00603,Female,Yes,Yes,No,28,Yes,No,Month-to-month,Bank transfer,95.7,2645.6,Yes,1,25-48 Months,Premium (90+),High Risk,95.7
+CUST00604,Female,No,No,No,65,Yes,No,Month-to-month,Bank transfer,45.98,2989.45,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,45.98
+CUST00605,Male,Yes,No,Yes,59,No,DSL,One year,Mailed check,55.03,3225.22,No,0,49+ Months (Loyal),Medium (40-70),Medium Risk,0.0
+CUST00606,Male,Yes,Yes,Yes,42,Yes,Fiber optic,Month-to-month,Mailed check,91.16,3861.56,Yes,1,25-48 Months,Premium (90+),High Risk,91.16
+CUST00607,Male,Yes,Yes,No,28,No,DSL,Month-to-month,Credit card,78.82,2208.85,Yes,1,25-48 Months,High (70-90),High Risk,78.82
+CUST00608,Female,Yes,No,No,63,No,DSL,Month-to-month,Mailed check,68.48,4310.01,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST00609,Male,No,No,No,5,Yes,No,Month-to-month,Electronic check,80.16,391.66,Yes,1,0-12 Months (New),High (70-90),High Risk,80.16
+CUST00610,Female,No,Yes,Yes,48,No,Fiber optic,Month-to-month,Credit card,22.8,1058.69,No,0,25-48 Months,Low (<40),High Risk,0.0
+CUST00611,Female,No,No,No,28,Yes,No,Month-to-month,Electronic check,74.75,2049.76,Yes,1,25-48 Months,High (70-90),High Risk,74.75
+CUST00612,Female,Yes,No,No,49,No,No,One year,Mailed check,96.2,4714.28,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
+CUST00613,Female,Yes,Yes,No,12,No,Fiber optic,Month-to-month,Credit card,53.9,601.38,Yes,1,0-12 Months (New),Medium (40-70),High Risk,53.9
+CUST00614,Female,Yes,Yes,Yes,4,No,No,One year,Electronic check,39.24,168.83,No,0,0-12 Months (New),Low (<40),Medium Risk,0.0
+CUST00615,Male,No,No,Yes,16,Yes,DSL,Month-to-month,Mailed check,44.53,733.04,No,0,13-24 Months,Medium (40-70),High Risk,0.0
+CUST00616,Female,No,No,No,6,No,DSL,Month-to-month,Mailed check,61.49,404.9,Yes,1,0-12 Months (New),Medium (40-70),High Risk,61.49
+CUST00617,Female,No,Yes,Yes,70,Yes,Fiber optic,Month-to-month,Bank transfer,96.83,6743.52,No,0,49+ Months (Loyal),Premium (90+),High Risk,0.0
+CUST00618,Male,No,No,Yes,4,Yes,Fiber optic,Month-to-month,Bank transfer,34.25,176.3,Yes,1,0-12 Months (New),Low (<40),High Risk,34.25
+CUST00619,Male,No,Yes,Yes,31,No,No,One year,Credit card,114.94,3540.07,No,0,25-48 Months,Premium (90+),Medium Risk,0.0
+CUST00620,Female,No,No,Yes,53,Yes,DSL,Month-to-month,Electronic check,44.63,2370.86,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST00621,Female,Yes,No,Yes,65,Yes,DSL,Month-to-month,Mailed check,98.2,6386.75,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,98.2
+CUST00622,Female,No,Yes,No,38,Yes,DSL,Month-to-month,Credit card,47.33,1773.63,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST00623,Female,No,No,Yes,21,Yes,Fiber optic,Month-to-month,Electronic check,103.05,2186.56,No,0,13-24 Months,Premium (90+),High Risk,0.0
+CUST00624,Female,No,No,No,34,No,Fiber optic,Month-to-month,Bank transfer,54.16,1837.42,Yes,1,25-48 Months,Medium (40-70),High Risk,54.16
+CUST00625,Male,No,Yes,No,1,Yes,No,Month-to-month,Credit card,96.25,100.06,Yes,1,0-12 Months (New),Premium (90+),High Risk,96.25
+CUST00626,Male,No,No,Yes,46,No,No,Month-to-month,Mailed check,103.91,4811.05,No,0,25-48 Months,Premium (90+),High Risk,0.0
+CUST00627,Male,Yes,No,Yes,57,Yes,DSL,One year,Bank transfer,88.06,5040.34,Yes,1,49+ Months (Loyal),High (70-90),Medium Risk,88.06
+CUST00628,Female,No,Yes,No,47,Yes,Fiber optic,Month-to-month,Mailed check,20.71,1021.8,Yes,1,25-48 Months,Low (<40),High Risk,20.71
+CUST00629,Male,Yes,No,Yes,71,Yes,No,One year,Mailed check,26.54,1847.16,Yes,1,49+ Months (Loyal),Low (<40),Medium Risk,26.54
+CUST00630,Female,No,No,Yes,3,No,No,Month-to-month,Credit card,20.2,53.31,Yes,1,0-12 Months (New),Low (<40),High Risk,20.2
+CUST00631,Male,Yes,No,No,36,Yes,No,Month-to-month,Credit card,56.15,2047.3,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST00632,Male,No,No,No,69,No,Fiber optic,Month-to-month,Mailed check,53.47,3727.44,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST00633,Male,Yes,Yes,Yes,26,Yes,Fiber optic,Month-to-month,Electronic check,22.79,585.73,Yes,1,25-48 Months,Low (<40),High Risk,22.79
+CUST00634,Female,Yes,Yes,Yes,61,Yes,Fiber optic,One year,Bank transfer,71.97,4363.84,Yes,1,49+ Months (Loyal),High (70-90),Medium Risk,71.97
+CUST00635,Female,No,No,Yes,11,Yes,DSL,Month-to-month,Electronic check,98.26,1037.06,No,0,0-12 Months (New),Premium (90+),High Risk,0.0
+CUST00636,Male,Yes,No,Yes,14,Yes,No,Month-to-month,Credit card,60.17,854.11,Yes,1,13-24 Months,Medium (40-70),High Risk,60.17
+CUST00637,Male,Yes,No,No,55,Yes,Fiber optic,One year,Electronic check,65.41,3580.37,Yes,1,49+ Months (Loyal),Medium (40-70),Medium Risk,65.41
+CUST00638,Male,No,Yes,Yes,17,No,Fiber optic,Month-to-month,Credit card,38.59,619.8,Yes,1,13-24 Months,Low (<40),High Risk,38.59
+CUST00639,Male,Yes,No,No,40,Yes,DSL,Month-to-month,Bank transfer,49.11,2011.43,Yes,1,25-48 Months,Medium (40-70),High Risk,49.11
+CUST00640,Male,No,Yes,Yes,55,No,DSL,Two year,Mailed check,98.53,5403.31,No,0,49+ Months (Loyal),Premium (90+),Low Risk,0.0
+CUST00641,Female,Yes,No,No,54,No,DSL,Month-to-month,Electronic check,69.59,3799.86,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST00642,Male,Yes,Yes,Yes,62,No,No,Month-to-month,Credit card,38.42,2431.03,Yes,1,49+ Months (Loyal),Low (<40),High Risk,38.42
+CUST00643,Male,Yes,Yes,Yes,19,No,Fiber optic,Month-to-month,Bank transfer,24.39,416.38,Yes,1,13-24 Months,Low (<40),High Risk,24.39
+CUST00644,Male,No,No,Yes,44,Yes,DSL,Month-to-month,Mailed check,104.29,4629.82,Yes,1,25-48 Months,Premium (90+),High Risk,104.29
+CUST00645,Male,Yes,Yes,No,27,No,Fiber optic,Month-to-month,Bank transfer,86.09,2368.55,No,0,25-48 Months,High (70-90),High Risk,0.0
+CUST00646,Female,No,Yes,Yes,17,Yes,DSL,Month-to-month,Bank transfer,51.8,873.55,No,0,13-24 Months,Medium (40-70),High Risk,0.0
+CUST00647,Male,No,No,Yes,42,Yes,DSL,One year,Bank transfer,107.29,4541.33,No,0,25-48 Months,Premium (90+),Medium Risk,0.0
+CUST00648,Female,No,Yes,No,9,Yes,No,Month-to-month,Bank transfer,69.86,625.17,Yes,1,0-12 Months (New),Medium (40-70),High Risk,69.86
+CUST00649,Female,Yes,No,No,35,No,No,Two year,Electronic check,40.72,1464.69,No,0,25-48 Months,Medium (40-70),Low Risk,0.0
+CUST00650,Male,Yes,Yes,No,55,No,No,Month-to-month,Bank transfer,45.45,2458.23,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST00651,Female,Yes,No,Yes,6,No,No,One year,Credit card,65.12,383.97,No,0,0-12 Months (New),Medium (40-70),Medium Risk,0.0
+CUST00652,Female,Yes,No,No,4,Yes,Fiber optic,Month-to-month,Electronic check,55.91,181.88,Yes,1,0-12 Months (New),Medium (40-70),High Risk,55.91
+CUST00653,Male,Yes,Yes,Yes,16,Yes,Fiber optic,Month-to-month,Mailed check,53.38,871.59,Yes,1,13-24 Months,Medium (40-70),High Risk,53.38
+CUST00654,Female,No,Yes,No,2,No,Fiber optic,One year,Credit card,114.58,261.35,No,0,0-12 Months (New),Premium (90+),Medium Risk,0.0
+CUST00655,Male,Yes,Yes,No,30,Yes,No,One year,Credit card,43.37,1309.8,No,0,25-48 Months,Medium (40-70),Medium Risk,0.0
+CUST00656,Female,Yes,No,Yes,41,Yes,Fiber optic,One year,Credit card,40.96,1674.36,No,0,25-48 Months,Medium (40-70),Medium Risk,0.0
+CUST00657,Female,No,Yes,No,2,No,No,One year,Bank transfer,42.55,77.67,No,0,0-12 Months (New),Medium (40-70),Medium Risk,0.0
+CUST00658,Female,Yes,Yes,Yes,18,Yes,Fiber optic,Month-to-month,Credit card,118.02,2094.78,Yes,1,13-24 Months,Premium (90+),High Risk,118.02
+CUST00659,Female,No,No,Yes,43,No,No,Two year,Electronic check,37.14,1614.51,Yes,1,25-48 Months,Low (<40),Low Risk,37.14
+CUST00660,Female,No,Yes,Yes,9,No,Fiber optic,Month-to-month,Bank transfer,85.96,730.64,Yes,1,0-12 Months (New),High (70-90),High Risk,85.96
+CUST00661,Male,No,No,No,51,Yes,DSL,Month-to-month,Credit card,67.83,3416.21,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST00662,Male,No,Yes,No,56,No,DSL,One year,Bank transfer,78.75,4410.25,No,0,49+ Months (Loyal),High (70-90),Medium Risk,0.0
+CUST00663,Female,No,Yes,Yes,58,Yes,Fiber optic,One year,Mailed check,72.59,4251.25,No,0,49+ Months (Loyal),High (70-90),Medium Risk,0.0
+CUST00664,Female,Yes,Yes,Yes,37,No,Fiber optic,One year,Bank transfer,59.11,2219.41,No,0,25-48 Months,Medium (40-70),Medium Risk,0.0
+CUST00665,Female,No,Yes,No,59,No,No,Month-to-month,Electronic check,59.36,3546.81,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,59.36
+CUST00666,Male,Yes,No,Yes,28,No,Fiber optic,Two year,Electronic check,119.53,3304.49,Yes,1,25-48 Months,Premium (90+),Low Risk,119.53
+CUST00667,Female,Yes,No,Yes,33,Yes,No,Month-to-month,Electronic check,27.32,921.01,No,0,25-48 Months,Low (<40),High Risk,0.0
+CUST00668,Female,Yes,No,Yes,51,Yes,DSL,Month-to-month,Mailed check,52.71,2713.08,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,52.71
+CUST00669,Male,No,Yes,No,18,No,Fiber optic,One year,Mailed check,103.85,1880.0,Yes,1,13-24 Months,Premium (90+),Medium Risk,103.85
+CUST00670,Male,Yes,Yes,Yes,2,No,DSL,Month-to-month,Mailed check,41.67,36.78,Yes,1,0-12 Months (New),Medium (40-70),High Risk,41.67
+CUST00671,Male,Yes,Yes,Yes,50,No,Fiber optic,Month-to-month,Electronic check,24.87,1231.24,Yes,1,49+ Months (Loyal),Low (<40),High Risk,24.87
+CUST00672,Male,Yes,Yes,Yes,12,Yes,Fiber optic,Month-to-month,Electronic check,53.71,613.74,Yes,1,0-12 Months (New),Medium (40-70),High Risk,53.71
+CUST00673,Male,No,Yes,Yes,6,No,No,Month-to-month,Bank transfer,52.27,326.3,Yes,1,0-12 Months (New),Medium (40-70),High Risk,52.27
+CUST00674,Female,Yes,Yes,Yes,28,Yes,Fiber optic,Month-to-month,Electronic check,60.21,1667.5,Yes,1,25-48 Months,Medium (40-70),High Risk,60.21
+CUST00675,Female,No,Yes,No,48,Yes,DSL,Two year,Credit card,50.15,2417.09,No,0,25-48 Months,Medium (40-70),Low Risk,0.0
+CUST00676,Male,No,No,Yes,42,No,No,Two year,Mailed check,53.2,2247.94,No,0,25-48 Months,Medium (40-70),Low Risk,0.0
+CUST00677,Female,Yes,Yes,No,3,No,Fiber optic,Month-to-month,Mailed check,70.34,231.48,Yes,1,0-12 Months (New),High (70-90),High Risk,70.34
+CUST00678,Male,No,No,Yes,55,Yes,No,Month-to-month,Mailed check,57.45,3139.41,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,57.45
+CUST00679,Male,No,Yes,No,43,Yes,Fiber optic,Month-to-month,Electronic check,72.09,3147.63,Yes,1,25-48 Months,High (70-90),High Risk,72.09
+CUST00680,Female,No,Yes,No,44,Yes,DSL,Month-to-month,Mailed check,100.15,4426.23,Yes,1,25-48 Months,Premium (90+),High Risk,100.15
+CUST00681,Female,Yes,Yes,No,1,Yes,Fiber optic,Month-to-month,Mailed check,25.21,74.41,No,0,0-12 Months (New),Low (<40),High Risk,0.0
+CUST00682,Male,No,Yes,Yes,31,Yes,Fiber optic,One year,Bank transfer,36.42,1098.77,No,0,25-48 Months,Low (<40),Medium Risk,0.0
+CUST00683,Male,Yes,No,No,26,No,Fiber optic,Month-to-month,Bank transfer,59.82,1522.1,Yes,1,25-48 Months,Medium (40-70),High Risk,59.82
+CUST00684,Female,No,No,Yes,49,No,DSL,One year,Bank transfer,79.52,3861.76,No,0,49+ Months (Loyal),High (70-90),Medium Risk,0.0
+CUST00685,Female,Yes,No,No,59,No,Fiber optic,Month-to-month,Credit card,27.19,1567.88,Yes,1,49+ Months (Loyal),Low (<40),High Risk,27.19
+CUST00686,Male,No,Yes,Yes,65,No,Fiber optic,Month-to-month,Credit card,114.03,7459.0,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,114.03
+CUST00687,Female,Yes,Yes,No,5,Yes,Fiber optic,Two year,Mailed check,39.42,190.73,Yes,1,0-12 Months (New),Low (<40),Low Risk,39.42
+CUST00688,Female,Yes,No,Yes,50,No,No,Month-to-month,Credit card,23.45,1203.81,No,0,49+ Months (Loyal),Low (<40),High Risk,0.0
+CUST00689,Male,No,No,No,19,No,DSL,One year,Mailed check,21.23,430.47,No,0,13-24 Months,Low (<40),Medium Risk,0.0
+CUST00690,Female,Yes,Yes,Yes,55,Yes,Fiber optic,Month-to-month,Bank transfer,70.06,3856.62,No,0,49+ Months (Loyal),High (70-90),High Risk,0.0
+CUST00691,Female,Yes,Yes,Yes,45,Yes,Fiber optic,One year,Credit card,89.9,3996.14,Yes,1,25-48 Months,High (70-90),Medium Risk,89.9
+CUST00692,Female,No,Yes,Yes,54,No,No,Month-to-month,Credit card,37.06,1988.71,No,0,49+ Months (Loyal),Low (<40),High Risk,0.0
+CUST00693,Male,Yes,Yes,Yes,58,Yes,DSL,Month-to-month,Mailed check,100.92,5822.55,No,0,49+ Months (Loyal),Premium (90+),High Risk,0.0
+CUST00694,Female,Yes,Yes,Yes,11,No,DSL,Month-to-month,Bank transfer,26.43,243.7,Yes,1,0-12 Months (New),Low (<40),High Risk,26.43
+CUST00695,Female,No,Yes,Yes,35,Yes,No,Month-to-month,Electronic check,29.68,1041.03,Yes,1,25-48 Months,Low (<40),High Risk,29.68
+CUST00696,Female,Yes,No,No,55,No,Fiber optic,One year,Bank transfer,119.94,6628.38,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
+CUST00697,Female,Yes,Yes,No,43,Yes,DSL,Month-to-month,Credit card,92.52,4017.16,Yes,1,25-48 Months,Premium (90+),High Risk,92.52
+CUST00698,Male,Yes,Yes,No,58,No,No,Month-to-month,Mailed check,20.31,1191.79,No,0,49+ Months (Loyal),Low (<40),High Risk,0.0
+CUST00699,Female,No,No,Yes,42,No,DSL,One year,Credit card,93.92,3974.04,No,0,25-48 Months,Premium (90+),Medium Risk,0.0
+CUST00700,Female,No,No,No,25,Yes,No,Two year,Electronic check,32.79,849.43,No,0,25-48 Months,Low (<40),Low Risk,0.0
+CUST00701,Female,No,No,Yes,62,Yes,DSL,Month-to-month,Electronic check,30.55,1943.44,Yes,1,49+ Months (Loyal),Low (<40),High Risk,30.55
+CUST00702,Female,Yes,No,Yes,33,No,No,Month-to-month,Mailed check,112.27,3718.26,Yes,1,25-48 Months,Premium (90+),High Risk,112.27
+CUST00703,Female,No,Yes,No,49,No,No,One year,Credit card,100.84,4913.52,Yes,1,49+ Months (Loyal),Premium (90+),Medium Risk,100.84
+CUST00704,Male,No,Yes,No,25,Yes,No,Month-to-month,Bank transfer,115.41,2892.94,Yes,1,25-48 Months,Premium (90+),High Risk,115.41
+CUST00705,Male,No,No,No,41,No,No,Two year,Mailed check,71.98,2961.34,No,0,25-48 Months,High (70-90),Low Risk,0.0
+CUST00706,Female,No,No,No,19,No,DSL,Month-to-month,Credit card,34.74,638.4,No,0,13-24 Months,Low (<40),High Risk,0.0
+CUST00707,Male,Yes,No,Yes,36,No,No,One year,Credit card,49.15,1816.05,Yes,1,25-48 Months,Medium (40-70),Medium Risk,49.15
+CUST00708,Female,No,Yes,Yes,7,Yes,Fiber optic,One year,Bank transfer,118.44,845.01,No,0,0-12 Months (New),Premium (90+),Medium Risk,0.0
+CUST00709,Male,Yes,No,No,61,No,Fiber optic,Month-to-month,Bank transfer,48.24,2984.95,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST00710,Female,No,Yes,No,7,No,Fiber optic,One year,Mailed check,64.19,447.57,No,0,0-12 Months (New),Medium (40-70),Medium Risk,0.0
+CUST00711,Male,No,Yes,Yes,47,Yes,No,One year,Mailed check,57.66,2758.29,No,0,25-48 Months,Medium (40-70),Medium Risk,0.0
+CUST00712,Male,No,Yes,No,61,Yes,DSL,Month-to-month,Bank transfer,79.34,4886.71,No,0,49+ Months (Loyal),High (70-90),High Risk,0.0
+CUST00713,Female,No,Yes,Yes,31,No,Fiber optic,Month-to-month,Mailed check,85.28,2631.22,Yes,1,25-48 Months,High (70-90),High Risk,85.28
+CUST00714,Male,Yes,No,No,57,No,DSL,Month-to-month,Electronic check,32.21,1850.11,No,0,49+ Months (Loyal),Low (<40),High Risk,0.0
+CUST00715,Male,No,No,No,13,Yes,Fiber optic,Month-to-month,Credit card,49.84,610.44,Yes,1,13-24 Months,Medium (40-70),High Risk,49.84
+CUST00716,Male,Yes,Yes,No,72,No,DSL,Month-to-month,Electronic check,95.35,6835.95,No,0,49+ Months (Loyal),Premium (90+),High Risk,0.0
+CUST00717,Male,No,Yes,Yes,72,No,Fiber optic,Month-to-month,Mailed check,77.51,5595.98,Yes,1,49+ Months (Loyal),High (70-90),High Risk,77.51
+CUST00718,Female,No,Yes,Yes,65,No,Fiber optic,Two year,Mailed check,62.31,4094.67,Yes,1,49+ Months (Loyal),Medium (40-70),Low Risk,62.31
+CUST00719,Female,No,No,No,18,No,No,Month-to-month,Bank transfer,80.62,1452.22,No,0,13-24 Months,High (70-90),High Risk,0.0
+CUST00720,Male,No,Yes,Yes,19,No,DSL,Two year,Mailed check,79.18,1482.16,No,0,13-24 Months,High (70-90),Low Risk,0.0
+CUST00721,Female,No,No,No,49,Yes,Fiber optic,Month-to-month,Bank transfer,87.65,4338.87,Yes,1,49+ Months (Loyal),High (70-90),High Risk,87.65
+CUST00722,Male,No,No,Yes,48,Yes,Fiber optic,One year,Bank transfer,119.24,5716.88,Yes,1,25-48 Months,Premium (90+),Medium Risk,119.24
+CUST00723,Male,No,No,Yes,69,Yes,No,Month-to-month,Electronic check,52.94,3611.76,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST00724,Female,No,Yes,No,2,Yes,Fiber optic,Two year,Mailed check,57.86,76.22,No,0,0-12 Months (New),Medium (40-70),Low Risk,0.0
+CUST00725,Male,Yes,No,Yes,68,No,No,Month-to-month,Bank transfer,75.15,5120.95,No,0,49+ Months (Loyal),High (70-90),High Risk,0.0
+CUST00726,Male,Yes,No,Yes,45,No,Fiber optic,Month-to-month,Bank transfer,20.95,944.11,Yes,1,25-48 Months,Low (<40),High Risk,20.95
+CUST00727,Male,No,No,No,7,No,No,One year,Credit card,90.68,603.07,No,0,0-12 Months (New),Premium (90+),Medium Risk,0.0
+CUST00728,Female,Yes,No,No,67,Yes,Fiber optic,One year,Electronic check,114.75,7678.9,Yes,1,49+ Months (Loyal),Premium (90+),Medium Risk,114.75
+CUST00729,Male,No,Yes,Yes,12,Yes,No,Month-to-month,Bank transfer,75.42,904.33,No,0,0-12 Months (New),High (70-90),High Risk,0.0
+CUST00730,Female,No,No,No,66,Yes,Fiber optic,Month-to-month,Mailed check,111.09,7356.53,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,111.09
+CUST00731,Female,No,Yes,No,22,Yes,DSL,Month-to-month,Mailed check,71.37,1615.39,Yes,1,13-24 Months,High (70-90),High Risk,71.37
+CUST00732,Female,No,No,Yes,44,Yes,No,Two year,Electronic check,49.01,2154.75,No,0,25-48 Months,Medium (40-70),Low Risk,0.0
+CUST00733,Male,Yes,Yes,No,66,Yes,Fiber optic,Two year,Credit card,25.75,1650.09,No,0,49+ Months (Loyal),Low (<40),Low Risk,0.0
+CUST00734,Female,Yes,Yes,Yes,45,Yes,Fiber optic,Month-to-month,Electronic check,63.08,2808.35,Yes,1,25-48 Months,Medium (40-70),High Risk,63.08
+CUST00735,Male,Yes,Yes,No,1,Yes,No,Month-to-month,Credit card,59.54,39.47,Yes,1,0-12 Months (New),Medium (40-70),High Risk,59.54
+CUST00736,Male,Yes,Yes,No,57,Yes,DSL,Month-to-month,Credit card,20.58,1211.42,No,0,49+ Months (Loyal),Low (<40),High Risk,0.0
+CUST00737,Male,No,No,Yes,18,No,Fiber optic,One year,Electronic check,36.03,618.44,No,0,13-24 Months,Low (<40),Medium Risk,0.0
+CUST00738,Female,No,No,No,71,No,No,One year,Bank transfer,95.11,6780.84,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
+CUST00739,Female,No,Yes,Yes,3,Yes,DSL,Month-to-month,Electronic check,96.74,263.87,Yes,1,0-12 Months (New),Premium (90+),High Risk,96.74
+CUST00740,Female,Yes,Yes,No,62,No,Fiber optic,Month-to-month,Credit card,44.77,2740.99,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,44.77
+CUST00741,Male,Yes,Yes,No,32,No,DSL,Month-to-month,Electronic check,90.11,2883.75,Yes,1,25-48 Months,Premium (90+),High Risk,90.11
+CUST00742,Male,No,Yes,Yes,52,Yes,Fiber optic,Two year,Mailed check,62.63,3268.41,Yes,1,49+ Months (Loyal),Medium (40-70),Low Risk,62.63
+CUST00743,Male,Yes,No,No,30,Yes,Fiber optic,Month-to-month,Electronic check,70.99,2144.09,Yes,1,25-48 Months,High (70-90),High Risk,70.99
+CUST00744,Female,Yes,No,No,54,Yes,Fiber optic,Two year,Mailed check,24.09,1256.07,No,0,49+ Months (Loyal),Low (<40),Low Risk,0.0
+CUST00745,Male,Yes,No,No,13,No,DSL,Month-to-month,Credit card,56.36,713.12,Yes,1,13-24 Months,Medium (40-70),High Risk,56.36
+CUST00746,Male,No,No,No,47,No,DSL,One year,Mailed check,78.43,3644.93,Yes,1,25-48 Months,High (70-90),Medium Risk,78.43
+CUST00747,Male,No,Yes,Yes,58,Yes,DSL,Two year,Bank transfer,50.15,2906.12,No,0,49+ Months (Loyal),Medium (40-70),Low Risk,0.0
+CUST00748,Male,No,Yes,Yes,54,No,No,Two year,Bank transfer,64.85,3523.63,No,0,49+ Months (Loyal),Medium (40-70),Low Risk,0.0
+CUST00749,Male,Yes,No,Yes,22,No,No,Two year,Bank transfer,24.54,546.5,No,0,13-24 Months,Low (<40),Low Risk,0.0
+CUST00750,Male,Yes,No,Yes,22,No,No,Month-to-month,Credit card,60.08,1298.91,Yes,1,13-24 Months,Medium (40-70),High Risk,60.08
+CUST00751,Male,No,Yes,No,65,No,Fiber optic,Two year,Bank transfer,90.83,5909.17,Yes,1,49+ Months (Loyal),Premium (90+),Low Risk,90.83
+CUST00752,Male,No,No,Yes,19,No,DSL,Month-to-month,Electronic check,84.24,1575.46,No,0,13-24 Months,High (70-90),High Risk,0.0
+CUST00753,Male,No,No,No,42,Yes,No,Two year,Bank transfer,92.21,3863.65,No,0,25-48 Months,Premium (90+),Low Risk,0.0
+CUST00754,Female,No,Yes,No,29,No,DSL,Month-to-month,Electronic check,73.74,2186.34,No,0,25-48 Months,High (70-90),High Risk,0.0
+CUST00755,Male,Yes,No,Yes,57,Yes,Fiber optic,Month-to-month,Credit card,35.56,2000.09,No,0,49+ Months (Loyal),Low (<40),High Risk,0.0
+CUST00756,Female,No,No,Yes,64,Yes,Fiber optic,Month-to-month,Mailed check,38.89,2488.01,No,0,49+ Months (Loyal),Low (<40),High Risk,0.0
+CUST00757,Female,No,No,Yes,23,No,No,One year,Electronic check,34.35,782.69,No,0,13-24 Months,Low (<40),Medium Risk,0.0
+CUST00758,Female,No,Yes,Yes,13,No,Fiber optic,Month-to-month,Electronic check,96.34,1266.87,Yes,1,13-24 Months,Premium (90+),High Risk,96.34
+CUST00759,Male,No,No,Yes,2,Yes,DSL,Month-to-month,Bank transfer,105.27,169.04,Yes,1,0-12 Months (New),Premium (90+),High Risk,105.27
+CUST00760,Female,No,No,No,62,Yes,DSL,Month-to-month,Bank transfer,82.75,5092.81,No,0,49+ Months (Loyal),High (70-90),High Risk,0.0
+CUST00761,Male,Yes,Yes,No,19,Yes,DSL,Month-to-month,Credit card,58.54,1097.59,Yes,1,13-24 Months,Medium (40-70),High Risk,58.54
+CUST00762,Female,No,No,Yes,15,Yes,DSL,Two year,Bank transfer,55.73,847.52,Yes,1,13-24 Months,Medium (40-70),Low Risk,55.73
+CUST00763,Male,No,Yes,Yes,55,No,No,Month-to-month,Credit card,35.02,1942.83,Yes,1,49+ Months (Loyal),Low (<40),High Risk,35.02
+CUST00764,Female,Yes,Yes,No,64,No,Fiber optic,One year,Electronic check,98.89,6365.13,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
+CUST00765,Male,Yes,Yes,No,58,No,DSL,Month-to-month,Credit card,115.96,6703.53,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,115.96
+CUST00766,Male,No,No,No,41,No,Fiber optic,Month-to-month,Credit card,80.17,3300.63,Yes,1,25-48 Months,High (70-90),High Risk,80.17
+CUST00767,Male,Yes,No,No,69,No,No,Month-to-month,Mailed check,58.46,4041.84,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,58.46
+CUST00768,Male,No,Yes,No,1,Yes,DSL,Month-to-month,Credit card,115.76,157.85,Yes,1,0-12 Months (New),Premium (90+),High Risk,115.76
+CUST00769,Female,Yes,Yes,No,59,Yes,No,Two year,Credit card,44.25,2643.53,Yes,1,49+ Months (Loyal),Medium (40-70),Low Risk,44.25
+CUST00770,Male,No,Yes,No,4,No,Fiber optic,Month-to-month,Electronic check,86.27,302.46,Yes,1,0-12 Months (New),High (70-90),High Risk,86.27
+CUST00771,Male,No,Yes,No,19,Yes,DSL,Month-to-month,Credit card,34.97,632.67,No,0,13-24 Months,Low (<40),High Risk,0.0
+CUST00772,Female,Yes,No,No,57,Yes,Fiber optic,Month-to-month,Electronic check,108.12,6116.05,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,108.12
+CUST00773,Male,No,No,No,59,No,No,Month-to-month,Mailed check,62.37,3645.51,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST00774,Female,No,Yes,No,8,Yes,Fiber optic,Month-to-month,Electronic check,101.66,810.12,Yes,1,0-12 Months (New),Premium (90+),High Risk,101.66
+CUST00775,Female,Yes,Yes,Yes,48,No,DSL,Month-to-month,Electronic check,27.78,1343.76,No,0,25-48 Months,Low (<40),High Risk,0.0
+CUST00776,Male,No,No,Yes,70,Yes,DSL,Month-to-month,Electronic check,95.65,6676.41,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,95.65
+CUST00777,Male,No,No,Yes,6,No,DSL,Month-to-month,Electronic check,114.35,636.95,Yes,1,0-12 Months (New),Premium (90+),High Risk,114.35
+CUST00778,Female,Yes,Yes,No,51,No,DSL,One year,Electronic check,53.13,2749.28,No,0,49+ Months (Loyal),Medium (40-70),Medium Risk,0.0
+CUST00779,Male,No,No,No,5,No,DSL,Month-to-month,Credit card,27.88,152.0,No,0,0-12 Months (New),Low (<40),High Risk,0.0
+CUST00780,Male,No,Yes,Yes,65,No,Fiber optic,One year,Bank transfer,49.08,3202.55,No,0,49+ Months (Loyal),Medium (40-70),Medium Risk,0.0
+CUST00781,Male,Yes,Yes,Yes,10,Yes,No,One year,Credit card,29.74,248.89,No,0,0-12 Months (New),Low (<40),Medium Risk,0.0
+CUST00782,Female,No,No,Yes,59,No,DSL,Two year,Mailed check,26.82,1590.03,No,0,49+ Months (Loyal),Low (<40),Low Risk,0.0
+CUST00783,Male,No,No,No,61,No,Fiber optic,One year,Mailed check,113.98,6999.95,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
+CUST00784,Female,Yes,No,No,17,No,Fiber optic,Month-to-month,Bank transfer,57.37,993.51,Yes,1,13-24 Months,Medium (40-70),High Risk,57.37
+CUST00785,Female,No,Yes,Yes,72,Yes,DSL,Two year,Bank transfer,57.58,4152.77,No,0,49+ Months (Loyal),Medium (40-70),Low Risk,0.0
+CUST00786,Male,Yes,No,Yes,45,No,Fiber optic,One year,Credit card,30.91,1358.98,Yes,1,25-48 Months,Low (<40),Medium Risk,30.91
+CUST00787,Female,Yes,Yes,No,43,Yes,Fiber optic,Month-to-month,Credit card,41.26,1798.31,Yes,1,25-48 Months,Medium (40-70),High Risk,41.26
+CUST00788,Female,No,Yes,No,19,Yes,Fiber optic,Month-to-month,Credit card,26.24,529.41,No,0,13-24 Months,Low (<40),High Risk,0.0
+CUST00789,Female,No,Yes,Yes,3,No,Fiber optic,Month-to-month,Mailed check,28.36,42.01,Yes,1,0-12 Months (New),Low (<40),High Risk,28.36
+CUST00790,Female,Yes,No,Yes,34,Yes,DSL,Month-to-month,Credit card,54.2,1868.12,Yes,1,25-48 Months,Medium (40-70),High Risk,54.2
+CUST00791,Female,Yes,No,No,69,Yes,No,Month-to-month,Credit card,102.3,7064.79,No,0,49+ Months (Loyal),Premium (90+),High Risk,0.0
+CUST00792,Male,No,Yes,No,41,Yes,DSL,Two year,Mailed check,69.94,2849.18,No,0,25-48 Months,Medium (40-70),Low Risk,0.0
+CUST00793,Female,Yes,Yes,No,17,No,No,Two year,Electronic check,23.65,426.62,Yes,1,13-24 Months,Low (<40),Low Risk,23.65
+CUST00794,Male,Yes,Yes,No,27,Yes,No,Month-to-month,Electronic check,57.03,1526.19,Yes,1,25-48 Months,Medium (40-70),High Risk,57.03
+CUST00795,Female,No,No,No,53,No,Fiber optic,Month-to-month,Credit card,72.32,3859.47,Yes,1,49+ Months (Loyal),High (70-90),High Risk,72.32
+CUST00796,Male,Yes,No,No,23,Yes,No,Month-to-month,Bank transfer,104.51,2422.59,Yes,1,13-24 Months,Premium (90+),High Risk,104.51
+CUST00797,Female,No,Yes,Yes,12,Yes,No,Two year,Electronic check,69.64,860.85,No,0,0-12 Months (New),Medium (40-70),Low Risk,0.0
+CUST00798,Male,Yes,Yes,No,54,Yes,DSL,One year,Credit card,31.45,1733.93,No,0,49+ Months (Loyal),Low (<40),Medium Risk,0.0
+CUST00799,Female,Yes,No,No,1,No,DSL,Month-to-month,Bank transfer,107.96,84.41,No,0,0-12 Months (New),Premium (90+),High Risk,0.0
+CUST00800,Female,No,Yes,No,5,Yes,DSL,Month-to-month,Bank transfer,104.08,522.3,Yes,1,0-12 Months (New),Premium (90+),High Risk,104.08
+CUST00801,Female,Yes,Yes,No,31,No,DSL,One year,Credit card,102.85,3218.48,No,0,25-48 Months,Premium (90+),Medium Risk,0.0
+CUST00802,Male,Yes,Yes,No,41,Yes,Fiber optic,Month-to-month,Mailed check,70.43,2900.77,No,0,25-48 Months,High (70-90),High Risk,0.0
+CUST00803,Female,No,No,Yes,12,Yes,DSL,Month-to-month,Mailed check,22.78,294.12,No,0,0-12 Months (New),Low (<40),High Risk,0.0
+CUST00804,Male,Yes,Yes,Yes,59,No,DSL,Month-to-month,Mailed check,49.69,2935.25,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,49.69
+CUST00805,Female,Yes,Yes,No,11,Yes,No,Month-to-month,Electronic check,31.09,384.71,Yes,1,0-12 Months (New),Low (<40),High Risk,31.09
+CUST00806,Male,Yes,No,Yes,12,Yes,Fiber optic,One year,Mailed check,59.08,708.06,Yes,1,0-12 Months (New),Medium (40-70),Medium Risk,59.08
+CUST00807,Male,Yes,Yes,Yes,54,No,Fiber optic,One year,Credit card,100.85,5413.88,Yes,1,49+ Months (Loyal),Premium (90+),Medium Risk,100.85
+CUST00808,Male,No,Yes,No,45,No,No,Month-to-month,Electronic check,35.84,1636.97,No,0,25-48 Months,Low (<40),High Risk,0.0
+CUST00809,Male,No,Yes,Yes,28,No,DSL,Two year,Electronic check,52.75,1448.98,No,0,25-48 Months,Medium (40-70),Low Risk,0.0
+CUST00810,Male,Yes,No,No,26,Yes,Fiber optic,One year,Bank transfer,66.7,1765.1,No,0,25-48 Months,Medium (40-70),Medium Risk,0.0
+CUST00811,Female,No,No,Yes,26,No,Fiber optic,Month-to-month,Bank transfer,36.57,921.4,No,0,25-48 Months,Low (<40),High Risk,0.0
+CUST00812,Female,Yes,No,No,41,Yes,No,Month-to-month,Mailed check,76.71,3132.51,No,0,25-48 Months,High (70-90),High Risk,0.0
+CUST00813,Male,Yes,Yes,Yes,66,No,No,Month-to-month,Bank transfer,59.83,3910.24,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST00814,Female,No,No,Yes,10,Yes,No,Month-to-month,Mailed check,97.95,941.73,Yes,1,0-12 Months (New),Premium (90+),High Risk,97.95
+CUST00815,Male,Yes,Yes,No,42,Yes,No,Month-to-month,Bank transfer,80.18,3370.29,Yes,1,25-48 Months,High (70-90),High Risk,80.18
+CUST00816,Female,No,No,No,41,No,DSL,Month-to-month,Credit card,69.87,2913.7,Yes,1,25-48 Months,Medium (40-70),High Risk,69.87
+CUST00817,Male,Yes,Yes,No,50,Yes,No,Month-to-month,Electronic check,84.37,4254.11,No,0,49+ Months (Loyal),High (70-90),High Risk,0.0
+CUST00818,Female,Yes,Yes,No,5,Yes,Fiber optic,One year,Electronic check,66.99,367.94,Yes,1,0-12 Months (New),Medium (40-70),Medium Risk,66.99
+CUST00819,Female,Yes,No,No,52,Yes,No,One year,Credit card,81.23,4213.29,No,0,49+ Months (Loyal),High (70-90),Medium Risk,0.0
+CUST00820,Female,Yes,Yes,No,14,Yes,DSL,Month-to-month,Electronic check,33.87,523.53,No,0,13-24 Months,Low (<40),High Risk,0.0
+CUST00821,Female,No,Yes,Yes,25,No,No,Two year,Electronic check,45.97,1177.74,Yes,1,25-48 Months,Medium (40-70),Low Risk,45.97
+CUST00822,Female,No,No,No,49,No,No,Month-to-month,Mailed check,78.35,3801.14,Yes,1,49+ Months (Loyal),High (70-90),High Risk,78.35
+CUST00823,Male,Yes,No,Yes,67,Yes,No,Month-to-month,Credit card,117.63,7863.4,No,0,49+ Months (Loyal),Premium (90+),High Risk,0.0
+CUST00824,Male,No,No,No,11,No,No,One year,Mailed check,85.95,968.98,Yes,1,0-12 Months (New),High (70-90),Medium Risk,85.95
+CUST00825,Male,No,No,Yes,28,Yes,No,Month-to-month,Credit card,38.79,1046.57,Yes,1,25-48 Months,Low (<40),High Risk,38.79
+CUST00826,Female,Yes,No,Yes,65,Yes,DSL,Month-to-month,Bank transfer,58.56,3801.64,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST00827,Male,Yes,Yes,Yes,36,No,DSL,One year,Electronic check,34.73,1287.9,No,0,25-48 Months,Low (<40),Medium Risk,0.0
+CUST00828,Male,No,No,Yes,35,Yes,Fiber optic,One year,Credit card,55.2,1893.83,No,0,25-48 Months,Medium (40-70),Medium Risk,0.0
+CUST00829,Female,Yes,Yes,Yes,51,No,No,Month-to-month,Credit card,47.26,2370.04,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST00830,Female,No,No,Yes,52,Yes,No,Month-to-month,Credit card,71.86,3697.64,Yes,1,49+ Months (Loyal),High (70-90),High Risk,71.86
+CUST00831,Male,No,Yes,Yes,7,Yes,No,Month-to-month,Electronic check,73.21,490.02,No,0,0-12 Months (New),High (70-90),High Risk,0.0
+CUST00832,Female,Yes,No,Yes,29,No,Fiber optic,Month-to-month,Mailed check,54.76,1566.84,Yes,1,25-48 Months,Medium (40-70),High Risk,54.76
+CUST00833,Male,No,Yes,No,40,Yes,DSL,Month-to-month,Electronic check,36.66,1449.62,Yes,1,25-48 Months,Low (<40),High Risk,36.66
+CUST00834,Male,Yes,No,No,3,Yes,Fiber optic,Two year,Mailed check,87.92,299.07,Yes,1,0-12 Months (New),High (70-90),Low Risk,87.92
+CUST00835,Female,No,No,Yes,61,Yes,DSL,One year,Bank transfer,103.54,6318.47,Yes,1,49+ Months (Loyal),Premium (90+),Medium Risk,103.54
+CUST00836,Male,No,Yes,No,43,No,Fiber optic,One year,Bank transfer,86.34,3687.97,No,0,25-48 Months,High (70-90),Medium Risk,0.0
+CUST00837,Female,Yes,No,No,15,No,No,Month-to-month,Electronic check,34.79,512.88,Yes,1,13-24 Months,Low (<40),High Risk,34.79
+CUST00838,Male,Yes,No,Yes,32,No,Fiber optic,Month-to-month,Electronic check,39.38,1305.64,Yes,1,25-48 Months,Low (<40),High Risk,39.38
+CUST00839,Female,Yes,Yes,No,45,No,Fiber optic,Month-to-month,Bank transfer,50.93,2245.96,Yes,1,25-48 Months,Medium (40-70),High Risk,50.93
+CUST00840,Female,No,No,No,45,No,DSL,Two year,Credit card,112.72,5037.11,No,0,25-48 Months,Premium (90+),Low Risk,0.0
+CUST00841,Female,No,No,No,37,Yes,Fiber optic,Month-to-month,Electronic check,41.73,1576.56,Yes,1,25-48 Months,Medium (40-70),High Risk,41.73
+CUST00842,Female,Yes,Yes,No,46,Yes,DSL,Month-to-month,Bank transfer,107.87,4990.55,Yes,1,25-48 Months,Premium (90+),High Risk,107.87
+CUST00843,Male,No,No,Yes,26,No,No,Two year,Bank transfer,41.89,1086.46,No,0,25-48 Months,Medium (40-70),Low Risk,0.0
+CUST00844,Female,Yes,No,Yes,34,No,No,Month-to-month,Credit card,87.89,2970.51,Yes,1,25-48 Months,High (70-90),High Risk,87.89
+CUST00845,Male,Yes,Yes,No,71,Yes,Fiber optic,Month-to-month,Bank transfer,76.67,5456.4,Yes,1,49+ Months (Loyal),High (70-90),High Risk,76.67
+CUST00846,Female,Yes,Yes,Yes,68,No,No,Month-to-month,Bank transfer,66.84,4537.89,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,66.84
+CUST00847,Female,Yes,Yes,Yes,54,Yes,DSL,One year,Bank transfer,98.66,5335.67,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
+CUST00848,Female,No,No,Yes,52,Yes,Fiber optic,One year,Credit card,103.92,5362.31,Yes,1,49+ Months (Loyal),Premium (90+),Medium Risk,103.92
+CUST00849,Male,Yes,Yes,No,62,No,DSL,Month-to-month,Electronic check,90.16,5591.55,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,90.16
+CUST00850,Female,No,Yes,Yes,39,No,No,Two year,Electronic check,100.56,3934.21,Yes,1,25-48 Months,Premium (90+),Low Risk,100.56
+CUST00851,Male,No,Yes,Yes,67,Yes,DSL,Month-to-month,Credit card,22.47,1506.07,Yes,1,49+ Months (Loyal),Low (<40),High Risk,22.47
+CUST00852,Male,Yes,No,No,24,Yes,No,Month-to-month,Credit card,105.93,2554.04,Yes,1,13-24 Months,Premium (90+),High Risk,105.93
+CUST00853,Male,No,Yes,Yes,22,Yes,Fiber optic,Month-to-month,Bank transfer,86.75,1954.41,Yes,1,13-24 Months,High (70-90),High Risk,86.75
+CUST00854,Female,Yes,No,Yes,60,No,Fiber optic,Month-to-month,Bank transfer,65.71,3949.02,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,65.71
+CUST00855,Female,No,No,Yes,46,Yes,Fiber optic,Two year,Credit card,47.69,2241.92,No,0,25-48 Months,Medium (40-70),Low Risk,0.0
+CUST00856,Male,Yes,No,Yes,23,Yes,Fiber optic,One year,Bank transfer,65.95,1552.72,Yes,1,13-24 Months,Medium (40-70),Medium Risk,65.95
+CUST00857,Female,Yes,Yes,No,49,No,No,One year,Bank transfer,32.94,1596.47,No,0,49+ Months (Loyal),Low (<40),Medium Risk,0.0
+CUST00858,Female,Yes,Yes,Yes,4,Yes,DSL,Month-to-month,Electronic check,69.94,297.69,Yes,1,0-12 Months (New),Medium (40-70),High Risk,69.94
+CUST00859,Male,No,Yes,Yes,50,No,DSL,Month-to-month,Bank transfer,31.45,1607.18,Yes,1,49+ Months (Loyal),Low (<40),High Risk,31.45
+CUST00860,Female,No,Yes,No,14,No,Fiber optic,Month-to-month,Mailed check,39.57,553.09,Yes,1,13-24 Months,Low (<40),High Risk,39.57
+CUST00861,Male,No,Yes,No,68,Yes,DSL,Month-to-month,Electronic check,40.35,2774.8,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST00862,Female,Yes,Yes,No,24,No,DSL,One year,Credit card,70.09,1667.81,No,0,13-24 Months,High (70-90),Medium Risk,0.0
+CUST00863,Male,No,No,No,49,Yes,No,Month-to-month,Bank transfer,30.09,1474.28,Yes,1,49+ Months (Loyal),Low (<40),High Risk,30.09
+CUST00864,Female,No,Yes,No,33,No,No,Month-to-month,Mailed check,116.81,3812.21,Yes,1,25-48 Months,Premium (90+),High Risk,116.81
+CUST00865,Female,Yes,Yes,Yes,61,No,No,Month-to-month,Bank transfer,62.14,3760.59,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST00866,Male,No,Yes,No,8,Yes,Fiber optic,Month-to-month,Electronic check,54.58,393.72,Yes,1,0-12 Months (New),Medium (40-70),High Risk,54.58
+CUST00867,Male,Yes,Yes,No,6,Yes,DSL,Month-to-month,Mailed check,85.03,503.33,Yes,1,0-12 Months (New),High (70-90),High Risk,85.03
+CUST00868,Male,No,Yes,Yes,26,No,No,One year,Electronic check,75.25,1911.71,No,0,25-48 Months,High (70-90),Medium Risk,0.0
+CUST00869,Male,Yes,No,Yes,15,No,DSL,Two year,Bank transfer,55.18,812.01,No,0,13-24 Months,Medium (40-70),Low Risk,0.0
+CUST00870,Male,No,Yes,Yes,30,No,No,One year,Electronic check,119.09,3524.19,No,0,25-48 Months,Premium (90+),Medium Risk,0.0
+CUST00871,Male,No,Yes,Yes,57,Yes,Fiber optic,Month-to-month,Bank transfer,80.24,4612.72,No,0,49+ Months (Loyal),High (70-90),High Risk,0.0
+CUST00872,Male,Yes,No,Yes,10,Yes,Fiber optic,Two year,Mailed check,69.49,718.42,Yes,1,0-12 Months (New),Medium (40-70),Low Risk,69.49
+CUST00873,Male,Yes,No,No,71,No,No,Month-to-month,Bank transfer,51.89,3688.33,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,51.89
+CUST00874,Female,Yes,No,No,11,Yes,DSL,One year,Mailed check,50.49,560.69,Yes,1,0-12 Months (New),Medium (40-70),Medium Risk,50.49
+CUST00875,Male,No,Yes,No,59,Yes,DSL,Month-to-month,Electronic check,47.03,2783.59,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,47.03
+CUST00876,Male,No,No,No,64,Yes,Fiber optic,Month-to-month,Electronic check,42.44,2704.09,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,42.44
+CUST00877,Male,Yes,Yes,No,4,No,Fiber optic,One year,Mailed check,95.73,367.01,No,0,0-12 Months (New),Premium (90+),Medium Risk,0.0
+CUST00878,Female,Yes,Yes,Yes,71,No,No,Two year,Bank transfer,105.85,7559.15,No,0,49+ Months (Loyal),Premium (90+),Low Risk,0.0
+CUST00879,Female,No,No,No,31,Yes,DSL,Month-to-month,Bank transfer,28.55,860.04,Yes,1,25-48 Months,Low (<40),High Risk,28.55
+CUST00880,Female,Yes,Yes,No,47,No,No,Month-to-month,Electronic check,32.43,1531.05,Yes,1,25-48 Months,Low (<40),High Risk,32.43
+CUST00881,Female,No,No,No,3,No,DSL,Month-to-month,Bank transfer,68.02,238.49,Yes,1,0-12 Months (New),Medium (40-70),High Risk,68.02
+CUST00882,Male,No,No,No,9,No,DSL,Month-to-month,Bank transfer,45.95,413.04,Yes,1,0-12 Months (New),Medium (40-70),High Risk,45.95
+CUST00883,Male,No,Yes,Yes,15,Yes,DSL,One year,Credit card,77.99,1124.05,No,0,13-24 Months,High (70-90),Medium Risk,0.0
+CUST00884,Male,Yes,No,Yes,46,Yes,No,Month-to-month,Electronic check,27.75,1270.88,Yes,1,25-48 Months,Low (<40),High Risk,27.75
+CUST00885,Male,No,No,No,54,Yes,No,Month-to-month,Bank transfer,34.31,1835.39,No,0,49+ Months (Loyal),Low (<40),High Risk,0.0
+CUST00886,Female,Yes,No,No,38,Yes,DSL,Month-to-month,Bank transfer,113.03,4336.33,Yes,1,25-48 Months,Premium (90+),High Risk,113.03
+CUST00887,Male,Yes,No,Yes,49,Yes,No,One year,Credit card,96.26,4731.66,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
+CUST00888,Male,Yes,Yes,Yes,61,No,Fiber optic,Month-to-month,Bank transfer,111.11,6760.58,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,111.11
+CUST00889,Female,No,No,No,15,Yes,Fiber optic,One year,Credit card,56.19,828.05,No,0,13-24 Months,Medium (40-70),Medium Risk,0.0
+CUST00890,Female,Yes,Yes,No,54,Yes,No,One year,Mailed check,112.57,6053.27,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
+CUST00891,Male,Yes,No,No,41,Yes,DSL,Month-to-month,Mailed check,77.6,3194.86,No,0,25-48 Months,High (70-90),High Risk,0.0
+CUST00892,Male,Yes,Yes,Yes,16,No,Fiber optic,One year,Credit card,94.29,1471.28,Yes,1,13-24 Months,Premium (90+),Medium Risk,94.29
+CUST00893,Female,No,Yes,Yes,17,No,Fiber optic,Month-to-month,Credit card,89.69,1498.87,Yes,1,13-24 Months,High (70-90),High Risk,89.69
+CUST00894,Female,Yes,Yes,Yes,10,No,Fiber optic,Two year,Credit card,94.07,934.27,No,0,0-12 Months (New),Premium (90+),Low Risk,0.0
+CUST00895,Male,No,Yes,Yes,1,No,No,One year,Credit card,52.04,19.71,No,0,0-12 Months (New),Medium (40-70),Medium Risk,0.0
+CUST00896,Female,No,Yes,No,64,No,DSL,Month-to-month,Credit card,48.53,3094.33,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST00897,Male,No,Yes,No,67,No,No,Two year,Bank transfer,29.95,1985.13,Yes,1,49+ Months (Loyal),Low (<40),Low Risk,29.95
+CUST00898,Female,Yes,No,Yes,22,No,Fiber optic,Two year,Electronic check,112.45,2490.54,Yes,1,13-24 Months,Premium (90+),Low Risk,112.45
+CUST00899,Male,No,Yes,Yes,70,Yes,DSL,Month-to-month,Electronic check,56.95,3964.68,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST00900,Female,Yes,Yes,No,38,Yes,No,One year,Electronic check,64.44,2441.95,No,0,25-48 Months,Medium (40-70),Medium Risk,0.0
+CUST00901,Male,Yes,Yes,No,11,Yes,No,Month-to-month,Mailed check,70.71,755.42,Yes,1,0-12 Months (New),High (70-90),High Risk,70.71
+CUST00902,Male,Yes,Yes,No,13,No,DSL,One year,Electronic check,114.92,1506.69,Yes,1,13-24 Months,Premium (90+),Medium Risk,114.92
+CUST00903,Female,No,Yes,No,61,Yes,Fiber optic,One year,Credit card,48.26,2913.72,No,0,49+ Months (Loyal),Medium (40-70),Medium Risk,0.0
+CUST00904,Male,No,No,Yes,63,Yes,No,Month-to-month,Credit card,88.8,5605.74,Yes,1,49+ Months (Loyal),High (70-90),High Risk,88.8
+CUST00905,Male,Yes,No,Yes,39,Yes,Fiber optic,One year,Credit card,99.67,3876.35,Yes,1,25-48 Months,Premium (90+),Medium Risk,99.67
+CUST00906,Female,Yes,Yes,Yes,15,No,Fiber optic,Two year,Bank transfer,44.74,663.59,Yes,1,13-24 Months,Medium (40-70),Low Risk,44.74
+CUST00907,Female,No,No,No,17,No,Fiber optic,One year,Mailed check,22.9,366.09,Yes,1,13-24 Months,Low (<40),Medium Risk,22.9
+CUST00908,Female,No,No,No,41,No,Fiber optic,One year,Credit card,59.87,2495.91,Yes,1,25-48 Months,Medium (40-70),Medium Risk,59.87
+CUST00909,Male,Yes,Yes,No,58,No,DSL,Month-to-month,Mailed check,73.6,4296.76,Yes,1,49+ Months (Loyal),High (70-90),High Risk,73.6
+CUST00910,Female,No,Yes,Yes,49,Yes,No,Month-to-month,Bank transfer,96.68,4742.61,No,0,49+ Months (Loyal),Premium (90+),High Risk,0.0
+CUST00911,Male,Yes,Yes,Yes,69,No,No,Month-to-month,Mailed check,111.07,7646.98,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,111.07
+CUST00912,Male,No,Yes,Yes,68,Yes,No,Month-to-month,Credit card,24.23,1625.95,Yes,1,49+ Months (Loyal),Low (<40),High Risk,24.23
+CUST00913,Male,No,No,Yes,49,No,DSL,One year,Bank transfer,106.2,5161.45,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
+CUST00914,Female,No,Yes,Yes,13,No,DSL,One year,Bank transfer,98.48,1272.76,No,0,13-24 Months,Premium (90+),Medium Risk,0.0
+CUST00915,Female,Yes,No,Yes,13,No,No,Month-to-month,Credit card,49.12,597.87,No,0,13-24 Months,Medium (40-70),High Risk,0.0
+CUST00916,Female,Yes,No,Yes,49,Yes,Fiber optic,One year,Bank transfer,96.27,4738.69,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
+CUST00917,Male,Yes,Yes,No,48,No,No,Month-to-month,Bank transfer,53.24,2586.49,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST00918,Male,No,Yes,No,32,Yes,DSL,Month-to-month,Credit card,72.34,2348.85,No,0,25-48 Months,High (70-90),High Risk,0.0
+CUST00919,Male,Yes,No,No,40,No,DSL,Month-to-month,Credit card,107.14,4262.41,Yes,1,25-48 Months,Premium (90+),High Risk,107.14
+CUST00920,Female,Yes,No,Yes,42,No,No,Month-to-month,Electronic check,112.12,4701.61,Yes,1,25-48 Months,Premium (90+),High Risk,112.12
+CUST00921,Male,No,Yes,Yes,22,Yes,Fiber optic,Two year,Electronic check,23.91,518.44,Yes,1,13-24 Months,Low (<40),Low Risk,23.91
+CUST00922,Female,No,No,No,2,No,DSL,Month-to-month,Bank transfer,91.99,222.0,Yes,1,0-12 Months (New),Premium (90+),High Risk,91.99
+CUST00923,Female,Yes,Yes,Yes,38,Yes,No,Two year,Bank transfer,71.94,2708.84,No,0,25-48 Months,High (70-90),Low Risk,0.0
+CUST00924,Female,No,Yes,No,2,No,Fiber optic,Month-to-month,Credit card,26.7,101.1,Yes,1,0-12 Months (New),Low (<40),High Risk,26.7
+CUST00925,Male,No,Yes,No,43,Yes,DSL,One year,Mailed check,26.68,1160.87,No,0,25-48 Months,Low (<40),Medium Risk,0.0
+CUST00926,Female,No,Yes,No,37,No,No,One year,Bank transfer,82.45,3040.98,Yes,1,25-48 Months,High (70-90),Medium Risk,82.45
+CUST00927,Male,No,Yes,Yes,28,No,DSL,Month-to-month,Electronic check,32.67,916.99,No,0,25-48 Months,Low (<40),High Risk,0.0
+CUST00928,Female,Yes,No,No,27,Yes,DSL,One year,Mailed check,29.13,816.85,Yes,1,25-48 Months,Low (<40),Medium Risk,29.13
+CUST00929,Male,Yes,Yes,No,10,Yes,DSL,Month-to-month,Credit card,62.54,622.57,Yes,1,0-12 Months (New),Medium (40-70),High Risk,62.54
+CUST00930,Male,No,No,No,50,No,Fiber optic,Month-to-month,Bank transfer,73.07,3691.83,No,0,49+ Months (Loyal),High (70-90),High Risk,0.0
+CUST00931,Male,Yes,Yes,No,72,No,Fiber optic,One year,Bank transfer,88.54,6380.67,Yes,1,49+ Months (Loyal),High (70-90),Medium Risk,88.54
+CUST00932,Female,No,Yes,No,60,No,No,Month-to-month,Mailed check,58.25,3462.9,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST00933,Male,No,No,No,68,Yes,DSL,Month-to-month,Bank transfer,29.41,1986.77,Yes,1,49+ Months (Loyal),Low (<40),High Risk,29.41
+CUST00934,Male,Yes,Yes,No,62,No,DSL,Two year,Bank transfer,47.42,2895.76,No,0,49+ Months (Loyal),Medium (40-70),Low Risk,0.0
+CUST00935,Male,Yes,No,No,23,No,No,Two year,Electronic check,23.82,500.74,No,0,13-24 Months,Low (<40),Low Risk,0.0
+CUST00936,Male,No,Yes,Yes,54,Yes,DSL,Month-to-month,Electronic check,51.42,2812.47,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,51.42
+CUST00937,Male,No,No,No,22,No,No,Month-to-month,Credit card,61.64,1372.85,Yes,1,13-24 Months,Medium (40-70),High Risk,61.64
+CUST00938,Male,No,No,Yes,23,No,DSL,Month-to-month,Mailed check,88.87,2034.94,Yes,1,13-24 Months,High (70-90),High Risk,88.87
+CUST00939,Male,Yes,No,No,16,No,Fiber optic,Month-to-month,Electronic check,76.62,1222.22,Yes,1,13-24 Months,High (70-90),High Risk,76.62
+CUST00940,Male,No,Yes,Yes,41,Yes,DSL,One year,Mailed check,83.79,3431.42,No,0,25-48 Months,High (70-90),Medium Risk,0.0
+CUST00941,Male,Yes,Yes,Yes,40,Yes,Fiber optic,One year,Mailed check,47.9,1922.5,No,0,25-48 Months,Medium (40-70),Medium Risk,0.0
+CUST00942,Male,Yes,Yes,Yes,38,No,No,Month-to-month,Electronic check,68.99,2629.49,Yes,1,25-48 Months,Medium (40-70),High Risk,68.99
+CUST00943,Female,No,Yes,No,20,Yes,No,Month-to-month,Bank transfer,40.74,834.77,Yes,1,13-24 Months,Medium (40-70),High Risk,40.74
+CUST00944,Female,No,Yes,No,28,No,Fiber optic,Month-to-month,Electronic check,71.7,2020.71,Yes,1,25-48 Months,High (70-90),High Risk,71.7
+CUST00945,Female,Yes,No,No,5,No,No,Month-to-month,Bank transfer,106.93,485.44,Yes,1,0-12 Months (New),Premium (90+),High Risk,106.93
+CUST00946,Female,Yes,Yes,Yes,46,No,DSL,Month-to-month,Mailed check,95.2,4373.1,Yes,1,25-48 Months,Premium (90+),High Risk,95.2
+CUST00947,Female,Yes,No,Yes,33,No,No,Month-to-month,Credit card,50.02,1697.74,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST00948,Male,Yes,No,No,52,Yes,DSL,Month-to-month,Bank transfer,108.66,5696.84,No,0,49+ Months (Loyal),Premium (90+),High Risk,0.0
+CUST00949,Male,No,Yes,No,7,Yes,Fiber optic,One year,Mailed check,100.15,696.92,Yes,1,0-12 Months (New),Premium (90+),Medium Risk,100.15
+CUST00950,Male,No,Yes,Yes,39,No,DSL,Month-to-month,Mailed check,63.65,2504.76,Yes,1,25-48 Months,Medium (40-70),High Risk,63.65
+CUST00951,Female,No,No,Yes,45,Yes,Fiber optic,Month-to-month,Credit card,89.88,4085.88,Yes,1,25-48 Months,High (70-90),High Risk,89.88
+CUST00952,Female,No,Yes,No,17,No,DSL,Month-to-month,Bank transfer,109.8,1898.58,No,0,13-24 Months,Premium (90+),High Risk,0.0
+CUST00953,Female,Yes,Yes,No,63,Yes,DSL,Two year,Mailed check,96.78,6084.05,No,0,49+ Months (Loyal),Premium (90+),Low Risk,0.0
+CUST00954,Male,Yes,Yes,Yes,18,No,DSL,Month-to-month,Bank transfer,63.54,1127.68,No,0,13-24 Months,Medium (40-70),High Risk,0.0
+CUST00955,Female,No,No,No,50,No,DSL,Month-to-month,Credit card,37.95,1887.32,Yes,1,49+ Months (Loyal),Low (<40),High Risk,37.95
+CUST00956,Male,Yes,Yes,No,13,No,DSL,Month-to-month,Mailed check,77.47,995.51,Yes,1,13-24 Months,High (70-90),High Risk,77.47
+CUST00957,Female,Yes,No,Yes,39,No,Fiber optic,One year,Electronic check,80.36,3164.28,No,0,25-48 Months,High (70-90),Medium Risk,0.0
+CUST00958,Female,Yes,No,No,15,Yes,Fiber optic,Month-to-month,Credit card,107.03,1563.45,Yes,1,13-24 Months,Premium (90+),High Risk,107.03
+CUST00959,Female,No,No,No,7,No,Fiber optic,Month-to-month,Credit card,66.03,417.22,Yes,1,0-12 Months (New),Medium (40-70),High Risk,66.03
+CUST00960,Female,Yes,No,No,38,Yes,No,Month-to-month,Bank transfer,55.69,2067.97,Yes,1,25-48 Months,Medium (40-70),High Risk,55.69
+CUST00961,Male,No,No,Yes,69,No,DSL,Month-to-month,Electronic check,32.61,2214.55,Yes,1,49+ Months (Loyal),Low (<40),High Risk,32.61
+CUST00962,Female,Yes,No,Yes,68,No,DSL,Month-to-month,Bank transfer,23.83,1631.38,No,0,49+ Months (Loyal),Low (<40),High Risk,0.0
+CUST00963,Male,Yes,Yes,No,39,No,Fiber optic,Month-to-month,Bank transfer,92.16,3618.51,Yes,1,25-48 Months,Premium (90+),High Risk,92.16
+CUST00964,Female,No,Yes,No,39,Yes,No,One year,Bank transfer,77.33,2987.39,No,0,25-48 Months,High (70-90),Medium Risk,0.0
+CUST00965,Female,No,No,Yes,52,Yes,No,Month-to-month,Electronic check,60.72,3109.31,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,60.72
+CUST00966,Male,Yes,No,No,41,Yes,DSL,Month-to-month,Bank transfer,42.11,1737.65,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST00967,Female,Yes,No,No,61,Yes,Fiber optic,Month-to-month,Bank transfer,102.26,6203.04,No,0,49+ Months (Loyal),Premium (90+),High Risk,0.0
+CUST00968,Female,No,Yes,No,33,No,DSL,One year,Electronic check,83.14,2749.75,No,0,25-48 Months,High (70-90),Medium Risk,0.0
+CUST00969,Male,Yes,No,No,41,No,No,Month-to-month,Mailed check,82.49,3348.76,Yes,1,25-48 Months,High (70-90),High Risk,82.49
+CUST00970,Female,Yes,Yes,No,72,No,DSL,Month-to-month,Mailed check,57.84,4209.36,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,57.84
+CUST00971,Female,No,Yes,Yes,38,Yes,DSL,One year,Credit card,75.01,2835.58,No,0,25-48 Months,High (70-90),Medium Risk,0.0
+CUST00972,Female,Yes,No,Yes,41,No,DSL,Two year,Credit card,95.68,3901.51,No,0,25-48 Months,Premium (90+),Low Risk,0.0
+CUST00973,Male,No,No,No,1,No,Fiber optic,One year,Electronic check,58.34,73.65,No,0,0-12 Months (New),Medium (40-70),Medium Risk,0.0
+CUST00974,Female,No,Yes,Yes,18,Yes,No,Month-to-month,Credit card,114.55,2044.4,Yes,1,13-24 Months,Premium (90+),High Risk,114.55
+CUST00975,Female,No,No,Yes,50,Yes,DSL,Month-to-month,Mailed check,37.52,1919.71,No,0,49+ Months (Loyal),Low (<40),High Risk,0.0
+CUST00976,Female,No,No,Yes,4,Yes,No,Month-to-month,Mailed check,88.37,347.85,Yes,1,0-12 Months (New),High (70-90),High Risk,88.37
+CUST00977,Male,Yes,Yes,No,21,Yes,Fiber optic,One year,Electronic check,20.69,387.72,No,0,13-24 Months,Low (<40),Medium Risk,0.0
+CUST00978,Female,Yes,Yes,No,34,Yes,No,One year,Electronic check,63.85,2203.68,Yes,1,25-48 Months,Medium (40-70),Medium Risk,63.85
+CUST00979,Female,No,No,No,66,No,Fiber optic,One year,Electronic check,34.6,2259.85,No,0,49+ Months (Loyal),Low (<40),Medium Risk,0.0
+CUST00980,Male,No,No,No,44,Yes,DSL,One year,Mailed check,46.45,2026.8,No,0,25-48 Months,Medium (40-70),Medium Risk,0.0
+CUST00981,Female,Yes,Yes,No,44,No,No,Month-to-month,Credit card,89.96,3965.06,Yes,1,25-48 Months,High (70-90),High Risk,89.96
+CUST00982,Male,No,No,Yes,29,No,No,Month-to-month,Bank transfer,50.67,1491.01,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST00983,Female,Yes,No,No,20,Yes,DSL,One year,Credit card,45.73,887.39,No,0,13-24 Months,Medium (40-70),Medium Risk,0.0
+CUST00984,Female,No,Yes,No,47,No,Fiber optic,One year,Mailed check,117.24,5524.67,No,0,25-48 Months,Premium (90+),Medium Risk,0.0
+CUST00985,Female,Yes,No,No,22,No,DSL,Month-to-month,Credit card,21.42,515.93,Yes,1,13-24 Months,Low (<40),High Risk,21.42
+CUST00986,Female,No,Yes,Yes,36,Yes,No,Month-to-month,Credit card,65.93,2414.75,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST00987,Male,No,No,Yes,52,Yes,Fiber optic,Month-to-month,Bank transfer,75.33,3920.64,No,0,49+ Months (Loyal),High (70-90),High Risk,0.0
+CUST00988,Male,No,No,Yes,32,No,No,Month-to-month,Mailed check,42.83,1392.3,Yes,1,25-48 Months,Medium (40-70),High Risk,42.83
+CUST00989,Female,Yes,Yes,Yes,9,Yes,No,Month-to-month,Mailed check,42.76,393.41,Yes,1,0-12 Months (New),Medium (40-70),High Risk,42.76
+CUST00990,Female,No,Yes,No,10,Yes,Fiber optic,Month-to-month,Electronic check,67.6,635.99,Yes,1,0-12 Months (New),Medium (40-70),High Risk,67.6
+CUST00991,Female,Yes,Yes,No,15,No,No,Month-to-month,Credit card,119.22,1763.47,Yes,1,13-24 Months,Premium (90+),High Risk,119.22
+CUST00992,Female,Yes,Yes,No,65,No,No,Month-to-month,Bank transfer,46.42,3020.52,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,46.42
+CUST00993,Female,Yes,Yes,Yes,63,Yes,Fiber optic,Two year,Credit card,69.58,4351.42,No,0,49+ Months (Loyal),Medium (40-70),Low Risk,0.0
+CUST00994,Female,No,No,No,69,Yes,DSL,One year,Mailed check,41.32,2851.26,No,0,49+ Months (Loyal),Medium (40-70),Medium Risk,0.0
+CUST00995,Female,No,No,Yes,20,No,DSL,Month-to-month,Credit card,98.58,2006.84,Yes,1,13-24 Months,Premium (90+),High Risk,98.58
+CUST00996,Male,Yes,No,No,35,Yes,Fiber optic,Month-to-month,Bank transfer,57.08,1978.42,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST00997,Female,Yes,No,No,51,No,DSL,One year,Credit card,25.53,1292.91,No,0,49+ Months (Loyal),Low (<40),Medium Risk,0.0
+CUST00998,Male,Yes,No,Yes,26,Yes,No,One year,Bank transfer,103.26,2637.13,No,0,25-48 Months,Premium (90+),Medium Risk,0.0
+CUST00999,Female,Yes,Yes,Yes,65,No,Fiber optic,Month-to-month,Mailed check,36.04,2364.88,No,0,49+ Months (Loyal),Low (<40),High Risk,0.0
+CUST01000,Female,No,No,No,32,No,No,Month-to-month,Electronic check,30.14,978.44,Yes,1,25-48 Months,Low (<40),High Risk,30.14
+CUST01001,Female,Yes,No,Yes,61,Yes,No,Month-to-month,Credit card,102.43,6285.63,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,102.43
+CUST01002,Male,No,No,Yes,42,No,No,Month-to-month,Bank transfer,88.96,3700.37,No,0,25-48 Months,High (70-90),High Risk,0.0
+CUST01003,Female,Yes,No,Yes,24,No,Fiber optic,Month-to-month,Bank transfer,53.3,1296.97,No,0,13-24 Months,Medium (40-70),High Risk,0.0
+CUST01004,Female,No,Yes,Yes,53,No,Fiber optic,One year,Electronic check,103.17,5424.04,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
+CUST01005,Female,No,No,Yes,65,No,No,Month-to-month,Bank transfer,83.44,5447.04,Yes,1,49+ Months (Loyal),High (70-90),High Risk,83.44
+CUST01006,Male,No,Yes,No,25,Yes,No,Month-to-month,Bank transfer,66.57,1703.19,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST01007,Male,Yes,Yes,Yes,44,No,No,One year,Credit card,108.94,4783.51,Yes,1,25-48 Months,Premium (90+),Medium Risk,108.94
+CUST01008,Female,No,Yes,Yes,42,No,DSL,Month-to-month,Mailed check,78.44,3321.26,Yes,1,25-48 Months,High (70-90),High Risk,78.44
+CUST01009,Male,Yes,Yes,Yes,19,Yes,Fiber optic,Month-to-month,Electronic check,73.34,1437.91,Yes,1,13-24 Months,High (70-90),High Risk,73.34
+CUST01010,Male,Yes,Yes,No,41,Yes,No,Month-to-month,Bank transfer,36.33,1538.63,Yes,1,25-48 Months,Low (<40),High Risk,36.33
+CUST01011,Male,Yes,Yes,Yes,57,Yes,Fiber optic,Month-to-month,Mailed check,58.04,3302.96,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,58.04
+CUST01012,Male,Yes,Yes,Yes,23,Yes,DSL,One year,Electronic check,114.07,2647.67,No,0,13-24 Months,Premium (90+),Medium Risk,0.0
+CUST01013,Female,Yes,Yes,Yes,12,No,Fiber optic,Month-to-month,Electronic check,114.49,1325.49,Yes,1,0-12 Months (New),Premium (90+),High Risk,114.49
+CUST01014,Female,Yes,Yes,No,47,No,DSL,Month-to-month,Bank transfer,42.94,2038.3,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST01015,Female,Yes,Yes,No,42,Yes,DSL,One year,Mailed check,76.46,3174.11,Yes,1,25-48 Months,High (70-90),Medium Risk,76.46
+CUST01016,Female,No,Yes,Yes,38,No,No,Month-to-month,Mailed check,61.92,2320.42,Yes,1,25-48 Months,Medium (40-70),High Risk,61.92
+CUST01017,Male,No,No,Yes,21,Yes,Fiber optic,Month-to-month,Credit card,82.53,1774.03,Yes,1,13-24 Months,High (70-90),High Risk,82.53
+CUST01018,Female,No,Yes,No,4,No,DSL,One year,Mailed check,111.36,400.09,Yes,1,0-12 Months (New),Premium (90+),Medium Risk,111.36
+CUST01019,Male,No,Yes,Yes,45,Yes,DSL,Month-to-month,Electronic check,31.24,1403.37,No,0,25-48 Months,Low (<40),High Risk,0.0
+CUST01020,Female,No,Yes,No,61,No,Fiber optic,Month-to-month,Bank transfer,115.69,7073.93,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,115.69
+CUST01021,Female,No,Yes,Yes,66,Yes,DSL,Month-to-month,Electronic check,94.32,6246.85,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,94.32
+CUST01022,Male,No,Yes,No,24,No,Fiber optic,One year,Credit card,86.84,2086.15,No,0,13-24 Months,High (70-90),Medium Risk,0.0
+CUST01023,Female,No,No,No,48,Yes,No,One year,Electronic check,94.79,4579.9,No,0,25-48 Months,Premium (90+),Medium Risk,0.0
+CUST01024,Male,No,Yes,Yes,5,Yes,DSL,Month-to-month,Electronic check,77.21,384.43,Yes,1,0-12 Months (New),High (70-90),High Risk,77.21
+CUST01025,Female,Yes,Yes,No,34,No,DSL,One year,Bank transfer,53.73,1866.07,No,0,25-48 Months,Medium (40-70),Medium Risk,0.0
+CUST01026,Female,Yes,Yes,No,67,No,DSL,One year,Credit card,84.23,5689.89,Yes,1,49+ Months (Loyal),High (70-90),Medium Risk,84.23
+CUST01027,Male,Yes,Yes,Yes,71,No,DSL,Two year,Bank transfer,65.26,4638.79,No,0,49+ Months (Loyal),Medium (40-70),Low Risk,0.0
+CUST01028,Male,Yes,Yes,Yes,29,Yes,DSL,One year,Bank transfer,72.56,2132.23,No,0,25-48 Months,High (70-90),Medium Risk,0.0
+CUST01029,Male,Yes,Yes,Yes,48,Yes,DSL,One year,Mailed check,104.32,5032.47,Yes,1,25-48 Months,Premium (90+),Medium Risk,104.32
+CUST01030,Female,No,No,Yes,52,No,Fiber optic,Two year,Credit card,109.37,5684.04,Yes,1,49+ Months (Loyal),Premium (90+),Low Risk,109.37
+CUST01031,Female,No,Yes,No,72,No,DSL,Two year,Electronic check,25.92,1857.28,Yes,1,49+ Months (Loyal),Low (<40),Low Risk,25.92
+CUST01032,Male,No,No,Yes,54,No,No,Month-to-month,Bank transfer,27.05,1507.04,Yes,1,49+ Months (Loyal),Low (<40),High Risk,27.05
+CUST01033,Female,No,Yes,Yes,57,Yes,No,Month-to-month,Bank transfer,21.08,1163.29,Yes,1,49+ Months (Loyal),Low (<40),High Risk,21.08
+CUST01034,Male,Yes,Yes,No,39,Yes,No,One year,Credit card,35.37,1417.45,No,0,25-48 Months,Low (<40),Medium Risk,0.0
+CUST01035,Female,Yes,Yes,No,33,Yes,No,Month-to-month,Mailed check,107.62,3570.6,No,0,25-48 Months,Premium (90+),High Risk,0.0
+CUST01036,Female,No,Yes,Yes,47,Yes,No,Month-to-month,Credit card,62.17,2935.8,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST01037,Female,Yes,No,No,54,No,Fiber optic,Month-to-month,Electronic check,91.31,4929.29,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,91.31
+CUST01038,Male,Yes,No,Yes,63,No,No,Month-to-month,Credit card,24.21,1486.01,No,0,49+ Months (Loyal),Low (<40),High Risk,0.0
+CUST01039,Male,No,Yes,Yes,47,No,Fiber optic,One year,Electronic check,54.73,2601.12,No,0,25-48 Months,Medium (40-70),Medium Risk,0.0
+CUST01040,Male,Yes,No,Yes,28,Yes,DSL,One year,Bank transfer,29.88,878.71,No,0,25-48 Months,Low (<40),Medium Risk,0.0
+CUST01041,Female,Yes,No,No,46,Yes,Fiber optic,Month-to-month,Electronic check,52.45,2432.61,Yes,1,25-48 Months,Medium (40-70),High Risk,52.45
+CUST01042,Male,No,No,No,45,Yes,Fiber optic,Two year,Bank transfer,55.18,2486.92,No,0,25-48 Months,Medium (40-70),Low Risk,0.0
+CUST01043,Male,Yes,No,Yes,12,No,Fiber optic,One year,Mailed check,95.66,1118.13,No,0,0-12 Months (New),Premium (90+),Medium Risk,0.0
+CUST01044,Female,Yes,No,No,47,Yes,DSL,Month-to-month,Electronic check,38.98,1813.11,Yes,1,25-48 Months,Low (<40),High Risk,38.98
+CUST01045,Female,No,No,Yes,26,Yes,DSL,One year,Credit card,105.22,2700.3,No,0,25-48 Months,Premium (90+),Medium Risk,0.0
+CUST01046,Female,Yes,Yes,No,14,No,No,Month-to-month,Electronic check,52.38,705.8,No,0,13-24 Months,Medium (40-70),High Risk,0.0
+CUST01047,Male,No,No,Yes,64,Yes,No,Two year,Mailed check,107.51,6874.68,No,0,49+ Months (Loyal),Premium (90+),Low Risk,0.0
+CUST01048,Male,No,No,Yes,3,No,Fiber optic,Month-to-month,Mailed check,61.23,218.48,Yes,1,0-12 Months (New),Medium (40-70),High Risk,61.23
+CUST01049,Female,Yes,No,No,56,No,Fiber optic,Two year,Mailed check,52.02,2898.83,No,0,49+ Months (Loyal),Medium (40-70),Low Risk,0.0
+CUST01050,Male,Yes,Yes,Yes,13,No,No,Month-to-month,Mailed check,92.01,1217.89,Yes,1,13-24 Months,Premium (90+),High Risk,92.01
+CUST01051,Male,Yes,No,Yes,59,No,Fiber optic,Month-to-month,Electronic check,115.32,6771.01,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,115.32
+CUST01052,Male,Yes,No,Yes,9,No,DSL,Two year,Bank transfer,76.98,737.56,No,0,0-12 Months (New),High (70-90),Low Risk,0.0
+CUST01053,Female,Yes,Yes,No,28,No,Fiber optic,Month-to-month,Bank transfer,53.05,1492.39,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST01054,Female,No,No,Yes,7,No,No,Month-to-month,Electronic check,81.39,572.71,Yes,1,0-12 Months (New),High (70-90),High Risk,81.39
+CUST01055,Male,No,Yes,Yes,4,No,No,Month-to-month,Electronic check,29.42,108.04,No,0,0-12 Months (New),Low (<40),High Risk,0.0
+CUST01056,Female,Yes,No,No,18,No,DSL,Month-to-month,Bank transfer,37.74,672.36,Yes,1,13-24 Months,Low (<40),High Risk,37.74
+CUST01057,Male,No,No,No,26,Yes,Fiber optic,Two year,Electronic check,53.97,1428.4,No,0,25-48 Months,Medium (40-70),Low Risk,0.0
+CUST01058,Male,No,Yes,No,13,Yes,DSL,Two year,Electronic check,20.47,254.59,Yes,1,13-24 Months,Low (<40),Low Risk,20.47
+CUST01059,Female,No,Yes,Yes,64,Yes,No,Month-to-month,Bank transfer,29.7,1919.12,Yes,1,49+ Months (Loyal),Low (<40),High Risk,29.7
+CUST01060,Female,No,No,Yes,65,Yes,Fiber optic,Month-to-month,Electronic check,113.53,7418.27,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,113.53
+CUST01061,Male,Yes,No,Yes,45,Yes,No,Month-to-month,Electronic check,69.77,3150.0,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST01062,Female,Yes,No,No,15,Yes,Fiber optic,Month-to-month,Mailed check,43.95,691.01,Yes,1,13-24 Months,Medium (40-70),High Risk,43.95
+CUST01063,Female,No,No,Yes,62,Yes,No,Month-to-month,Bank transfer,111.19,6900.08,No,0,49+ Months (Loyal),Premium (90+),High Risk,0.0
+CUST01064,Female,No,No,No,18,No,DSL,Month-to-month,Credit card,60.42,1075.27,Yes,1,13-24 Months,Medium (40-70),High Risk,60.42
+CUST01065,Female,No,No,No,50,No,Fiber optic,Two year,Bank transfer,97.08,4873.89,No,0,49+ Months (Loyal),Premium (90+),Low Risk,0.0
+CUST01066,Male,No,Yes,No,70,Yes,No,Month-to-month,Electronic check,73.43,5094.82,Yes,1,49+ Months (Loyal),High (70-90),High Risk,73.43
+CUST01067,Male,Yes,Yes,No,66,Yes,No,Month-to-month,Electronic check,111.07,7290.49,No,0,49+ Months (Loyal),Premium (90+),High Risk,0.0
+CUST01068,Male,Yes,Yes,Yes,64,Yes,No,One year,Electronic check,24.52,1557.43,No,0,49+ Months (Loyal),Low (<40),Medium Risk,0.0
+CUST01069,Male,Yes,Yes,Yes,43,Yes,Fiber optic,One year,Bank transfer,111.76,4795.88,Yes,1,25-48 Months,Premium (90+),Medium Risk,111.76
+CUST01070,Male,Yes,No,No,27,No,Fiber optic,One year,Credit card,102.36,2751.43,No,0,25-48 Months,Premium (90+),Medium Risk,0.0
+CUST01071,Male,Yes,No,Yes,51,Yes,No,One year,Mailed check,86.3,4373.6,No,0,49+ Months (Loyal),High (70-90),Medium Risk,0.0
+CUST01072,Male,No,No,Yes,24,No,DSL,Two year,Bank transfer,115.53,2794.22,No,0,13-24 Months,Premium (90+),Low Risk,0.0
+CUST01073,Female,Yes,No,No,14,Yes,Fiber optic,One year,Mailed check,115.02,1615.75,No,0,13-24 Months,Premium (90+),Medium Risk,0.0
+CUST01074,Male,No,No,No,14,Yes,DSL,Month-to-month,Credit card,38.45,564.55,No,0,13-24 Months,Low (<40),High Risk,0.0
+CUST01075,Male,Yes,No,No,19,No,No,One year,Mailed check,96.85,1862.64,Yes,1,13-24 Months,Premium (90+),Medium Risk,96.85
+CUST01076,Male,No,No,No,23,No,Fiber optic,Month-to-month,Electronic check,59.13,1325.3,Yes,1,13-24 Months,Medium (40-70),High Risk,59.13
+CUST01077,Male,No,Yes,Yes,43,No,DSL,Two year,Electronic check,104.34,4496.79,Yes,1,25-48 Months,Premium (90+),Low Risk,104.34
+CUST01078,Male,No,No,Yes,15,Yes,Fiber optic,Month-to-month,Electronic check,81.86,1194.89,No,0,13-24 Months,High (70-90),High Risk,0.0
+CUST01079,Female,No,Yes,Yes,30,Yes,Fiber optic,Month-to-month,Electronic check,101.37,3067.97,Yes,1,25-48 Months,Premium (90+),High Risk,101.37
+CUST01080,Male,No,Yes,Yes,61,No,Fiber optic,One year,Credit card,64.97,3987.98,No,0,49+ Months (Loyal),Medium (40-70),Medium Risk,0.0
+CUST01081,Female,Yes,No,No,20,No,No,Two year,Mailed check,34.44,702.51,Yes,1,13-24 Months,Low (<40),Low Risk,34.44
+CUST01082,Female,Yes,Yes,No,3,No,Fiber optic,Month-to-month,Credit card,61.04,221.1,No,0,0-12 Months (New),Medium (40-70),High Risk,0.0
+CUST01083,Female,No,No,Yes,52,No,Fiber optic,Month-to-month,Credit card,64.39,3337.12,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,64.39
+CUST01084,Female,Yes,Yes,Yes,32,Yes,No,Month-to-month,Mailed check,114.8,3696.53,No,0,25-48 Months,Premium (90+),High Risk,0.0
+CUST01085,Female,Yes,No,No,40,Yes,Fiber optic,Month-to-month,Electronic check,74.28,2966.43,No,0,25-48 Months,High (70-90),High Risk,0.0
+CUST01086,Female,No,Yes,Yes,44,Yes,No,Month-to-month,Credit card,38.03,1667.62,No,0,25-48 Months,Low (<40),High Risk,0.0
+CUST01087,Female,No,No,Yes,52,Yes,DSL,Month-to-month,Credit card,44.57,2341.49,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST01088,Female,Yes,Yes,Yes,9,Yes,DSL,Month-to-month,Electronic check,53.15,437.34,No,0,0-12 Months (New),Medium (40-70),High Risk,0.0
+CUST01089,Female,No,Yes,Yes,40,Yes,Fiber optic,One year,Bank transfer,78.34,3166.43,No,0,25-48 Months,High (70-90),Medium Risk,0.0
+CUST01090,Male,Yes,No,Yes,72,Yes,DSL,Month-to-month,Electronic check,73.23,5284.39,Yes,1,49+ Months (Loyal),High (70-90),High Risk,73.23
+CUST01091,Female,Yes,Yes,Yes,19,No,DSL,One year,Mailed check,108.02,2049.66,No,0,13-24 Months,Premium (90+),Medium Risk,0.0
+CUST01092,Male,Yes,No,Yes,58,Yes,Fiber optic,Two year,Bank transfer,108.56,6345.26,No,0,49+ Months (Loyal),Premium (90+),Low Risk,0.0
+CUST01093,Male,No,Yes,No,51,Yes,DSL,Two year,Mailed check,116.16,5906.23,No,0,49+ Months (Loyal),Premium (90+),Low Risk,0.0
+CUST01094,Male,Yes,No,Yes,54,Yes,Fiber optic,Two year,Mailed check,71.34,3900.56,No,0,49+ Months (Loyal),High (70-90),Low Risk,0.0
+CUST01095,Male,Yes,No,Yes,7,Yes,No,Month-to-month,Credit card,119.62,821.09,Yes,1,0-12 Months (New),Premium (90+),High Risk,119.62
+CUST01096,Female,No,No,Yes,17,Yes,No,Month-to-month,Bank transfer,58.07,1027.64,Yes,1,13-24 Months,Medium (40-70),High Risk,58.07
+CUST01097,Male,Yes,No,No,47,No,Fiber optic,One year,Mailed check,114.29,5393.54,No,0,25-48 Months,Premium (90+),Medium Risk,0.0
+CUST01098,Female,Yes,No,Yes,58,Yes,No,Two year,Electronic check,22.3,1256.25,No,0,49+ Months (Loyal),Low (<40),Low Risk,0.0
+CUST01099,Male,No,Yes,No,9,Yes,No,One year,Electronic check,106.37,908.29,Yes,1,0-12 Months (New),Premium (90+),Medium Risk,106.37
+CUST01100,Female,No,Yes,No,43,Yes,No,Month-to-month,Mailed check,39.95,1742.46,Yes,1,25-48 Months,Low (<40),High Risk,39.95
+CUST01101,Male,No,Yes,No,30,Yes,DSL,One year,Credit card,52.04,1564.13,No,0,25-48 Months,Medium (40-70),Medium Risk,0.0
+CUST01102,Male,Yes,Yes,No,37,Yes,Fiber optic,Month-to-month,Electronic check,27.96,1081.94,Yes,1,25-48 Months,Low (<40),High Risk,27.96
+CUST01103,Male,No,Yes,Yes,24,No,DSL,Month-to-month,Bank transfer,80.16,1924.51,Yes,1,13-24 Months,High (70-90),High Risk,80.16
+CUST01104,Female,Yes,No,Yes,68,Yes,No,Two year,Bank transfer,48.14,3239.65,Yes,1,49+ Months (Loyal),Medium (40-70),Low Risk,48.14
+CUST01105,Female,Yes,Yes,No,11,No,DSL,Two year,Electronic check,51.84,597.38,No,0,0-12 Months (New),Medium (40-70),Low Risk,0.0
+CUST01106,Male,Yes,No,No,46,No,Fiber optic,Month-to-month,Credit card,51.35,2412.01,Yes,1,25-48 Months,Medium (40-70),High Risk,51.35
+CUST01107,Male,No,No,No,60,No,Fiber optic,Two year,Credit card,66.36,4021.51,No,0,49+ Months (Loyal),Medium (40-70),Low Risk,0.0
+CUST01108,Male,Yes,No,Yes,18,No,Fiber optic,Two year,Mailed check,59.94,1030.32,No,0,13-24 Months,Medium (40-70),Low Risk,0.0
+CUST01109,Male,No,Yes,Yes,13,Yes,Fiber optic,Month-to-month,Bank transfer,53.73,650.66,Yes,1,13-24 Months,Medium (40-70),High Risk,53.73
+CUST01110,Female,Yes,Yes,Yes,63,No,Fiber optic,Month-to-month,Mailed check,68.73,4346.57,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,68.73
+CUST01111,Male,No,No,No,38,Yes,DSL,Month-to-month,Credit card,100.36,3805.31,Yes,1,25-48 Months,Premium (90+),High Risk,100.36
+CUST01112,Female,No,No,No,55,Yes,No,Month-to-month,Bank transfer,54.11,2963.39,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST01113,Male,Yes,No,Yes,3,No,Fiber optic,Month-to-month,Mailed check,114.46,362.21,Yes,1,0-12 Months (New),Premium (90+),High Risk,114.46
+CUST01114,Female,Yes,No,No,43,Yes,DSL,Two year,Mailed check,90.81,3915.77,No,0,25-48 Months,Premium (90+),Low Risk,0.0
+CUST01115,Male,Yes,No,Yes,41,Yes,Fiber optic,One year,Bank transfer,28.13,1152.42,No,0,25-48 Months,Low (<40),Medium Risk,0.0
+CUST01116,Female,No,No,No,25,No,No,Month-to-month,Electronic check,67.37,1656.58,Yes,1,25-48 Months,Medium (40-70),High Risk,67.37
+CUST01117,Female,Yes,Yes,No,41,No,Fiber optic,One year,Mailed check,102.41,4213.39,No,0,25-48 Months,Premium (90+),Medium Risk,0.0
+CUST01118,Male,Yes,Yes,Yes,68,No,DSL,One year,Credit card,90.06,6159.35,Yes,1,49+ Months (Loyal),Premium (90+),Medium Risk,90.06
+CUST01119,Male,No,No,Yes,4,No,DSL,Month-to-month,Mailed check,64.67,246.88,Yes,1,0-12 Months (New),Medium (40-70),High Risk,64.67
+CUST01120,Female,Yes,Yes,No,59,No,DSL,One year,Credit card,48.48,2868.97,No,0,49+ Months (Loyal),Medium (40-70),Medium Risk,0.0
+CUST01121,Male,No,Yes,No,71,No,Fiber optic,Month-to-month,Credit card,75.01,5338.6,Yes,1,49+ Months (Loyal),High (70-90),High Risk,75.01
+CUST01122,Female,No,No,Yes,37,No,No,One year,Electronic check,108.33,3963.8,No,0,25-48 Months,Premium (90+),Medium Risk,0.0
+CUST01123,Male,Yes,Yes,Yes,18,Yes,DSL,Month-to-month,Mailed check,29.19,511.45,Yes,1,13-24 Months,Low (<40),High Risk,29.19
+CUST01124,Male,Yes,No,Yes,64,No,No,Month-to-month,Credit card,84.18,5377.12,Yes,1,49+ Months (Loyal),High (70-90),High Risk,84.18
+CUST01125,Male,No,No,Yes,15,No,DSL,Month-to-month,Electronic check,25.25,413.04,Yes,1,13-24 Months,Low (<40),High Risk,25.25
+CUST01126,Male,No,Yes,Yes,20,Yes,No,Month-to-month,Credit card,95.6,1929.03,Yes,1,13-24 Months,Premium (90+),High Risk,95.6
+CUST01127,Female,Yes,Yes,No,71,Yes,DSL,Month-to-month,Electronic check,40.88,2910.75,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,40.88
+CUST01128,Male,Yes,Yes,No,28,Yes,No,Month-to-month,Bank transfer,46.56,1291.11,Yes,1,25-48 Months,Medium (40-70),High Risk,46.56
+CUST01129,Male,Yes,No,Yes,42,No,Fiber optic,Month-to-month,Bank transfer,65.16,2731.27,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST01130,Female,No,Yes,Yes,6,No,DSL,One year,Mailed check,40.01,247.08,No,0,0-12 Months (New),Medium (40-70),Medium Risk,0.0
+CUST01131,Male,Yes,No,No,7,Yes,No,Two year,Bank transfer,41.68,244.14,Yes,1,0-12 Months (New),Medium (40-70),Low Risk,41.68
+CUST01132,Male,Yes,Yes,No,50,No,Fiber optic,Two year,Mailed check,112.08,5602.02,No,0,49+ Months (Loyal),Premium (90+),Low Risk,0.0
+CUST01133,Male,No,Yes,Yes,4,Yes,DSL,Two year,Electronic check,50.34,189.5,No,0,0-12 Months (New),Medium (40-70),Low Risk,0.0
+CUST01134,Male,No,Yes,No,28,Yes,Fiber optic,One year,Bank transfer,27.61,764.83,Yes,1,25-48 Months,Low (<40),Medium Risk,27.61
+CUST01135,Male,No,No,Yes,34,No,DSL,Month-to-month,Electronic check,108.03,3716.22,Yes,1,25-48 Months,Premium (90+),High Risk,108.03
+CUST01136,Male,No,Yes,No,72,No,Fiber optic,Month-to-month,Credit card,26.33,1914.94,Yes,1,49+ Months (Loyal),Low (<40),High Risk,26.33
+CUST01137,Female,Yes,Yes,Yes,64,No,Fiber optic,Month-to-month,Electronic check,77.68,4925.92,Yes,1,49+ Months (Loyal),High (70-90),High Risk,77.68
+CUST01138,Female,Yes,No,Yes,35,Yes,No,Month-to-month,Mailed check,43.48,1516.6,Yes,1,25-48 Months,Medium (40-70),High Risk,43.48
+CUST01139,Male,Yes,No,Yes,7,No,Fiber optic,Month-to-month,Bank transfer,65.63,456.66,Yes,1,0-12 Months (New),Medium (40-70),High Risk,65.63
+CUST01140,Female,No,No,No,53,Yes,No,Month-to-month,Credit card,118.35,6299.28,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,118.35
+CUST01141,Female,Yes,No,No,12,No,DSL,Month-to-month,Bank transfer,84.55,1009.68,Yes,1,0-12 Months (New),High (70-90),High Risk,84.55
+CUST01142,Male,No,No,Yes,44,Yes,No,Month-to-month,Mailed check,102.47,4498.32,No,0,25-48 Months,Premium (90+),High Risk,0.0
+CUST01143,Male,No,Yes,Yes,33,Yes,No,Month-to-month,Bank transfer,68.92,2256.91,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST01144,Female,Yes,No,Yes,45,No,No,One year,Electronic check,42.58,1930.49,Yes,1,25-48 Months,Medium (40-70),Medium Risk,42.58
+CUST01145,Male,No,Yes,No,19,Yes,No,Two year,Mailed check,95.58,1796.31,Yes,1,13-24 Months,Premium (90+),Low Risk,95.58
+CUST01146,Male,No,Yes,Yes,4,No,DSL,Month-to-month,Electronic check,26.7,102.06,Yes,1,0-12 Months (New),Low (<40),High Risk,26.7
+CUST01147,Female,Yes,Yes,No,44,No,Fiber optic,Month-to-month,Credit card,81.93,3646.88,Yes,1,25-48 Months,High (70-90),High Risk,81.93
+CUST01148,Male,Yes,Yes,No,41,No,DSL,Month-to-month,Credit card,106.12,4339.3,Yes,1,25-48 Months,Premium (90+),High Risk,106.12
+CUST01149,Male,Yes,No,No,4,No,DSL,Two year,Electronic check,67.49,274.33,Yes,1,0-12 Months (New),Medium (40-70),Low Risk,67.49
+CUST01150,Male,Yes,No,No,31,No,DSL,Month-to-month,Credit card,41.66,1282.52,Yes,1,25-48 Months,Medium (40-70),High Risk,41.66
+CUST01151,Male,No,No,Yes,65,Yes,Fiber optic,Month-to-month,Credit card,100.13,6512.02,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,100.13
+CUST01152,Female,No,No,Yes,58,No,DSL,Month-to-month,Bank transfer,62.67,3653.54,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST01153,Male,No,No,No,32,Yes,Fiber optic,One year,Mailed check,97.25,3066.39,Yes,1,25-48 Months,Premium (90+),Medium Risk,97.25
+CUST01154,Female,Yes,Yes,No,15,Yes,DSL,Month-to-month,Electronic check,63.81,943.82,No,0,13-24 Months,Medium (40-70),High Risk,0.0
+CUST01155,Male,Yes,Yes,No,61,Yes,Fiber optic,Month-to-month,Credit card,26.69,1586.81,No,0,49+ Months (Loyal),Low (<40),High Risk,0.0
+CUST01156,Female,Yes,No,Yes,18,Yes,DSL,Month-to-month,Mailed check,86.46,1550.89,No,0,13-24 Months,High (70-90),High Risk,0.0
+CUST01157,Female,Yes,No,Yes,24,No,DSL,Month-to-month,Mailed check,40.24,945.79,No,0,13-24 Months,Medium (40-70),High Risk,0.0
+CUST01158,Female,No,No,Yes,66,Yes,DSL,Month-to-month,Bank transfer,78.56,5135.85,No,0,49+ Months (Loyal),High (70-90),High Risk,0.0
+CUST01159,Male,Yes,Yes,No,28,Yes,No,Month-to-month,Credit card,41.41,1126.72,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST01160,Male,No,Yes,Yes,9,No,No,Two year,Electronic check,76.62,664.29,No,0,0-12 Months (New),High (70-90),Low Risk,0.0
+CUST01161,Female,No,No,No,8,No,DSL,Two year,Credit card,22.77,199.33,No,0,0-12 Months (New),Low (<40),Low Risk,0.0
+CUST01162,Female,Yes,Yes,Yes,62,No,No,Two year,Mailed check,44.13,2738.19,No,0,49+ Months (Loyal),Medium (40-70),Low Risk,0.0
+CUST01163,Male,Yes,Yes,No,9,Yes,No,Two year,Mailed check,97.29,829.6,Yes,1,0-12 Months (New),Premium (90+),Low Risk,97.29
+CUST01164,Female,Yes,No,No,69,No,Fiber optic,Two year,Credit card,71.14,4897.27,No,0,49+ Months (Loyal),High (70-90),Low Risk,0.0
+CUST01165,Male,Yes,No,Yes,63,No,No,Month-to-month,Electronic check,45.16,2821.9,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,45.16
+CUST01166,Female,No,No,No,31,Yes,Fiber optic,Two year,Mailed check,102.57,3181.44,Yes,1,25-48 Months,Premium (90+),Low Risk,102.57
+CUST01167,Female,Yes,Yes,Yes,38,Yes,No,One year,Bank transfer,40.45,1533.37,No,0,25-48 Months,Medium (40-70),Medium Risk,0.0
+CUST01168,Male,Yes,Yes,Yes,44,Yes,No,One year,Bank transfer,44.56,1959.07,No,0,25-48 Months,Medium (40-70),Medium Risk,0.0
+CUST01169,Female,Yes,Yes,No,10,No,DSL,Two year,Credit card,20.33,172.19,No,0,0-12 Months (New),Low (<40),Low Risk,0.0
+CUST01170,Female,Yes,No,No,26,No,DSL,Two year,Credit card,79.53,2065.42,No,0,25-48 Months,High (70-90),Low Risk,0.0
+CUST01171,Male,No,Yes,Yes,47,Yes,DSL,One year,Bank transfer,30.75,1448.77,Yes,1,25-48 Months,Low (<40),Medium Risk,30.75
+CUST01172,Male,Yes,Yes,Yes,8,Yes,DSL,Month-to-month,Bank transfer,48.42,361.43,Yes,1,0-12 Months (New),Medium (40-70),High Risk,48.42
+CUST01173,Female,Yes,Yes,Yes,3,No,DSL,Month-to-month,Credit card,40.31,132.56,No,0,0-12 Months (New),Medium (40-70),High Risk,0.0
+CUST01174,Male,Yes,No,Yes,13,Yes,Fiber optic,Month-to-month,Credit card,80.96,1091.67,No,0,13-24 Months,High (70-90),High Risk,0.0
+CUST01175,Female,No,Yes,Yes,40,No,No,Two year,Credit card,64.62,2558.02,No,0,25-48 Months,Medium (40-70),Low Risk,0.0
+CUST01176,Female,Yes,No,Yes,50,No,DSL,Month-to-month,Bank transfer,40.51,2042.83,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,40.51
+CUST01177,Female,Yes,Yes,No,65,No,Fiber optic,One year,Bank transfer,34.45,2196.99,No,0,49+ Months (Loyal),Low (<40),Medium Risk,0.0
+CUST01178,Female,No,No,Yes,28,No,Fiber optic,Month-to-month,Mailed check,91.49,2601.57,Yes,1,25-48 Months,Premium (90+),High Risk,91.49
+CUST01179,Female,No,Yes,Yes,58,Yes,Fiber optic,Month-to-month,Bank transfer,58.1,3368.9,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST01180,Female,No,No,No,45,Yes,Fiber optic,Month-to-month,Bank transfer,67.85,3020.1,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST01181,Male,No,No,No,7,Yes,DSL,One year,Mailed check,29.24,224.21,Yes,1,0-12 Months (New),Low (<40),Medium Risk,29.24
+CUST01182,Male,Yes,No,Yes,38,Yes,Fiber optic,Month-to-month,Mailed check,42.91,1611.74,Yes,1,25-48 Months,Medium (40-70),High Risk,42.91
+CUST01183,Male,No,Yes,Yes,37,No,Fiber optic,Two year,Mailed check,21.72,849.77,No,0,25-48 Months,Low (<40),Low Risk,0.0
+CUST01184,Male,No,Yes,No,23,Yes,Fiber optic,Month-to-month,Bank transfer,92.32,2088.63,No,0,13-24 Months,Premium (90+),High Risk,0.0
+CUST01185,Male,No,No,Yes,35,Yes,No,Month-to-month,Electronic check,59.38,2045.0,Yes,1,25-48 Months,Medium (40-70),High Risk,59.38
+CUST01186,Male,No,No,No,60,Yes,Fiber optic,Month-to-month,Electronic check,91.34,5446.61,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,91.34
+CUST01187,Male,No,No,Yes,1,No,Fiber optic,Month-to-month,Credit card,87.75,77.25,Yes,1,0-12 Months (New),High (70-90),High Risk,87.75
+CUST01188,Female,Yes,No,No,33,No,DSL,Month-to-month,Credit card,32.62,1030.1,Yes,1,25-48 Months,Low (<40),High Risk,32.62
+CUST01189,Female,Yes,Yes,No,49,No,Fiber optic,Month-to-month,Bank transfer,68.72,3392.31,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,68.72
+CUST01190,Male,Yes,Yes,No,51,Yes,DSL,Month-to-month,Mailed check,110.37,5604.16,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,110.37
+CUST01191,Female,Yes,Yes,No,17,No,DSL,Month-to-month,Mailed check,109.7,1907.17,Yes,1,13-24 Months,Premium (90+),High Risk,109.7
+CUST01192,Male,Yes,No,No,56,Yes,No,Month-to-month,Credit card,24.05,1394.94,No,0,49+ Months (Loyal),Low (<40),High Risk,0.0
+CUST01193,Male,Yes,No,Yes,40,Yes,DSL,Two year,Mailed check,94.43,3783.36,Yes,1,25-48 Months,Premium (90+),Low Risk,94.43
+CUST01194,Male,Yes,Yes,No,52,No,No,Month-to-month,Bank transfer,48.49,2476.57,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,48.49
+CUST01195,Male,Yes,No,No,66,Yes,No,One year,Electronic check,119.86,7876.09,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
+CUST01196,Female,Yes,No,Yes,19,Yes,DSL,One year,Bank transfer,59.44,1083.55,No,0,13-24 Months,Medium (40-70),Medium Risk,0.0
+CUST01197,Male,No,No,Yes,54,Yes,Fiber optic,Month-to-month,Bank transfer,119.04,6399.22,No,0,49+ Months (Loyal),Premium (90+),High Risk,0.0
+CUST01198,Male,No,No,No,9,Yes,Fiber optic,Two year,Mailed check,112.48,1011.67,Yes,1,0-12 Months (New),Premium (90+),Low Risk,112.48
+CUST01199,Female,Yes,No,No,34,No,No,One year,Mailed check,86.78,2984.06,No,0,25-48 Months,High (70-90),Medium Risk,0.0
+CUST01200,Female,No,Yes,Yes,56,No,Fiber optic,Month-to-month,Bank transfer,69.89,3936.27,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,69.89
+CUST01201,Female,Yes,Yes,Yes,72,Yes,DSL,Two year,Mailed check,66.43,4748.29,Yes,1,49+ Months (Loyal),Medium (40-70),Low Risk,66.43
+CUST01202,Female,Yes,No,No,43,No,DSL,Month-to-month,Credit card,114.85,4954.84,No,0,25-48 Months,Premium (90+),High Risk,0.0
+CUST01203,Male,Yes,No,No,20,No,Fiber optic,Two year,Bank transfer,113.76,2237.02,Yes,1,13-24 Months,Premium (90+),Low Risk,113.76
+CUST01204,Female,Yes,Yes,No,56,Yes,Fiber optic,Month-to-month,Mailed check,53.61,3011.96,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,53.61
+CUST01205,Male,No,Yes,Yes,2,Yes,No,Month-to-month,Electronic check,113.44,256.24,Yes,1,0-12 Months (New),Premium (90+),High Risk,113.44
+CUST01206,Male,No,Yes,No,23,Yes,DSL,Month-to-month,Bank transfer,87.87,2062.82,No,0,13-24 Months,High (70-90),High Risk,0.0
+CUST01207,Male,No,Yes,No,43,Yes,DSL,Two year,Electronic check,118.82,5120.7,No,0,25-48 Months,Premium (90+),Low Risk,0.0
+CUST01208,Male,No,No,No,14,No,No,Month-to-month,Electronic check,103.18,1422.96,Yes,1,13-24 Months,Premium (90+),High Risk,103.18
+CUST01209,Female,No,Yes,No,29,No,DSL,Month-to-month,Bank transfer,86.5,2527.99,No,0,25-48 Months,High (70-90),High Risk,0.0
+CUST01210,Female,Yes,No,No,54,Yes,Fiber optic,One year,Mailed check,44.07,2344.65,Yes,1,49+ Months (Loyal),Medium (40-70),Medium Risk,44.07
+CUST01211,Male,No,Yes,Yes,14,No,DSL,Month-to-month,Electronic check,48.25,658.77,Yes,1,13-24 Months,Medium (40-70),High Risk,48.25
+CUST01212,Male,Yes,No,No,16,No,No,Month-to-month,Credit card,85.62,1356.34,Yes,1,13-24 Months,High (70-90),High Risk,85.62
+CUST01213,Female,No,Yes,Yes,33,No,DSL,One year,Credit card,85.83,2822.14,No,0,25-48 Months,High (70-90),Medium Risk,0.0
+CUST01214,Female,Yes,Yes,No,55,No,No,Two year,Mailed check,20.74,1169.02,No,0,49+ Months (Loyal),Low (<40),Low Risk,0.0
+CUST01215,Female,No,No,No,19,Yes,DSL,Month-to-month,Credit card,115.71,2239.22,No,0,13-24 Months,Premium (90+),High Risk,0.0
+CUST01216,Female,No,Yes,No,44,No,Fiber optic,Month-to-month,Credit card,97.16,4321.97,Yes,1,25-48 Months,Premium (90+),High Risk,97.16
+CUST01217,Male,Yes,No,No,68,Yes,Fiber optic,One year,Electronic check,65.5,4475.91,No,0,49+ Months (Loyal),Medium (40-70),Medium Risk,0.0
+CUST01218,Female,No,No,No,3,No,No,One year,Electronic check,67.45,240.17,No,0,0-12 Months (New),Medium (40-70),Medium Risk,0.0
+CUST01219,Male,Yes,Yes,No,34,No,No,Two year,Mailed check,86.84,2960.52,No,0,25-48 Months,High (70-90),Low Risk,0.0
+CUST01220,Male,No,Yes,Yes,58,Yes,Fiber optic,Month-to-month,Electronic check,115.86,6750.12,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,115.86
+CUST01221,Female,No,No,Yes,64,Yes,No,One year,Bank transfer,97.97,6305.6,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
+CUST01222,Female,Yes,Yes,Yes,2,No,DSL,Month-to-month,Mailed check,114.66,181.39,Yes,1,0-12 Months (New),Premium (90+),High Risk,114.66
+CUST01223,Female,No,No,No,54,Yes,Fiber optic,Month-to-month,Mailed check,56.14,3058.07,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,56.14
+CUST01224,Male,No,Yes,Yes,1,Yes,DSL,One year,Bank transfer,116.51,77.85,No,0,0-12 Months (New),Premium (90+),Medium Risk,0.0
+CUST01225,Male,Yes,Yes,No,36,Yes,Fiber optic,One year,Bank transfer,37.64,1385.7,No,0,25-48 Months,Low (<40),Medium Risk,0.0
+CUST01226,Female,No,Yes,Yes,21,Yes,Fiber optic,Month-to-month,Mailed check,67.87,1467.74,Yes,1,13-24 Months,Medium (40-70),High Risk,67.87
+CUST01227,Male,Yes,No,No,14,No,DSL,Month-to-month,Credit card,97.35,1387.67,Yes,1,13-24 Months,Premium (90+),High Risk,97.35
+CUST01228,Male,Yes,No,No,42,No,DSL,Two year,Electronic check,65.29,2692.55,No,0,25-48 Months,Medium (40-70),Low Risk,0.0
+CUST01229,Female,Yes,No,Yes,41,No,DSL,Month-to-month,Electronic check,79.46,3264.0,Yes,1,25-48 Months,High (70-90),High Risk,79.46
+CUST01230,Male,Yes,No,No,16,Yes,No,Month-to-month,Bank transfer,73.71,1171.92,Yes,1,13-24 Months,High (70-90),High Risk,73.71
+CUST01231,Male,No,No,Yes,34,No,DSL,Month-to-month,Credit card,118.13,4063.93,Yes,1,25-48 Months,Premium (90+),High Risk,118.13
+CUST01232,Female,Yes,No,No,3,Yes,Fiber optic,Month-to-month,Electronic check,106.95,363.99,Yes,1,0-12 Months (New),Premium (90+),High Risk,106.95
+CUST01233,Male,Yes,Yes,Yes,34,No,Fiber optic,Two year,Mailed check,77.64,2647.98,Yes,1,25-48 Months,High (70-90),Low Risk,77.64
+CUST01234,Male,Yes,No,Yes,71,No,No,One year,Electronic check,109.53,7801.86,Yes,1,49+ Months (Loyal),Premium (90+),Medium Risk,109.53
+CUST01235,Female,No,No,No,7,Yes,DSL,Month-to-month,Electronic check,30.68,212.46,Yes,1,0-12 Months (New),Low (<40),High Risk,30.68
+CUST01236,Female,Yes,Yes,No,21,Yes,DSL,Month-to-month,Mailed check,84.85,1788.75,No,0,13-24 Months,High (70-90),High Risk,0.0
+CUST01237,Male,Yes,Yes,Yes,22,Yes,Fiber optic,Month-to-month,Bank transfer,77.67,1731.73,No,0,13-24 Months,High (70-90),High Risk,0.0
+CUST01238,Female,No,Yes,No,28,No,DSL,One year,Bank transfer,54.43,1514.49,No,0,25-48 Months,Medium (40-70),Medium Risk,0.0
+CUST01239,Female,Yes,Yes,Yes,54,No,No,One year,Electronic check,117.78,6350.67,Yes,1,49+ Months (Loyal),Premium (90+),Medium Risk,117.78
+CUST01240,Female,No,Yes,Yes,32,Yes,No,Month-to-month,Mailed check,94.49,3046.81,No,0,25-48 Months,Premium (90+),High Risk,0.0
+CUST01241,Male,No,No,Yes,1,Yes,No,Month-to-month,Electronic check,61.34,45.48,Yes,1,0-12 Months (New),Medium (40-70),High Risk,61.34
+CUST01242,Male,No,No,No,53,No,No,Month-to-month,Bank transfer,64.34,3380.17,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST01243,Male,Yes,No,Yes,32,No,Fiber optic,Two year,Credit card,24.89,746.79,No,0,25-48 Months,Low (<40),Low Risk,0.0
+CUST01244,Male,No,No,No,27,No,DSL,Two year,Mailed check,48.34,1272.89,No,0,25-48 Months,Medium (40-70),Low Risk,0.0
+CUST01245,Female,No,No,No,39,Yes,Fiber optic,Month-to-month,Bank transfer,103.95,4100.4,Yes,1,25-48 Months,Premium (90+),High Risk,103.95
+CUST01246,Female,No,No,Yes,3,Yes,No,Month-to-month,Mailed check,118.65,361.12,Yes,1,0-12 Months (New),Premium (90+),High Risk,118.65
+CUST01247,Male,No,No,No,67,No,No,Month-to-month,Bank transfer,94.64,6292.91,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,94.64
+CUST01248,Male,No,No,No,32,Yes,No,Month-to-month,Electronic check,34.91,1069.08,No,0,25-48 Months,Low (<40),High Risk,0.0
+CUST01249,Female,Yes,Yes,No,25,Yes,DSL,One year,Credit card,45.12,1158.46,No,0,25-48 Months,Medium (40-70),Medium Risk,0.0
+CUST01250,Female,Yes,Yes,No,61,Yes,DSL,Month-to-month,Bank transfer,55.69,3422.98,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,55.69
+CUST01251,Female,No,No,Yes,10,Yes,No,Two year,Mailed check,61.07,565.09,No,0,0-12 Months (New),Medium (40-70),Low Risk,0.0
+CUST01252,Male,No,No,Yes,29,Yes,DSL,Month-to-month,Electronic check,45.65,1365.67,Yes,1,25-48 Months,Medium (40-70),High Risk,45.65
+CUST01253,Female,Yes,Yes,Yes,44,Yes,No,Month-to-month,Bank transfer,99.11,4364.53,Yes,1,25-48 Months,Premium (90+),High Risk,99.11
+CUST01254,Male,No,No,No,70,Yes,No,One year,Electronic check,112.62,7882.35,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
+CUST01255,Female,Yes,Yes,Yes,65,Yes,No,Month-to-month,Credit card,89.64,5870.07,No,0,49+ Months (Loyal),High (70-90),High Risk,0.0
+CUST01256,Male,No,Yes,Yes,36,Yes,DSL,One year,Mailed check,93.75,3398.24,Yes,1,25-48 Months,Premium (90+),Medium Risk,93.75
+CUST01257,Male,No,Yes,No,59,Yes,No,Month-to-month,Mailed check,23.15,1388.42,No,0,49+ Months (Loyal),Low (<40),High Risk,0.0
+CUST01258,Female,Yes,No,Yes,9,Yes,Fiber optic,Month-to-month,Mailed check,57.45,520.35,Yes,1,0-12 Months (New),Medium (40-70),High Risk,57.45
+CUST01259,Female,No,Yes,Yes,28,Yes,DSL,Month-to-month,Credit card,42.93,1233.3,Yes,1,25-48 Months,Medium (40-70),High Risk,42.93
+CUST01260,Female,Yes,Yes,Yes,58,No,DSL,One year,Credit card,47.92,2755.38,No,0,49+ Months (Loyal),Medium (40-70),Medium Risk,0.0
+CUST01261,Male,No,No,No,49,No,DSL,Two year,Electronic check,99.66,4846.02,Yes,1,49+ Months (Loyal),Premium (90+),Low Risk,99.66
+CUST01262,Male,Yes,No,Yes,7,Yes,No,Two year,Mailed check,44.05,263.43,No,0,0-12 Months (New),Medium (40-70),Low Risk,0.0
+CUST01263,Male,No,Yes,No,68,Yes,Fiber optic,Month-to-month,Mailed check,102.81,6945.48,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,102.81
+CUST01264,Male,No,Yes,Yes,67,Yes,No,Month-to-month,Credit card,92.09,6174.7,No,0,49+ Months (Loyal),Premium (90+),High Risk,0.0
+CUST01265,Female,Yes,Yes,No,44,Yes,DSL,One year,Electronic check,97.53,4310.41,No,0,25-48 Months,Premium (90+),Medium Risk,0.0
+CUST01266,Male,No,No,Yes,11,Yes,No,Month-to-month,Electronic check,63.9,742.33,Yes,1,0-12 Months (New),Medium (40-70),High Risk,63.9
+CUST01267,Male,No,Yes,No,41,No,No,Month-to-month,Bank transfer,95.25,3881.33,Yes,1,25-48 Months,Premium (90+),High Risk,95.25
+CUST01268,Male,Yes,No,No,67,Yes,DSL,Month-to-month,Bank transfer,70.14,4728.21,Yes,1,49+ Months (Loyal),High (70-90),High Risk,70.14
+CUST01269,Female,No,No,No,4,Yes,No,Month-to-month,Bank transfer,108.58,422.11,Yes,1,0-12 Months (New),Premium (90+),High Risk,108.58
+CUST01270,Male,Yes,No,Yes,52,No,No,Month-to-month,Credit card,34.93,1793.3,Yes,1,49+ Months (Loyal),Low (<40),High Risk,34.93
+CUST01271,Female,Yes,Yes,No,40,Yes,No,Month-to-month,Electronic check,75.25,2963.94,Yes,1,25-48 Months,High (70-90),High Risk,75.25
+CUST01272,Female,No,Yes,No,72,No,No,Month-to-month,Electronic check,97.24,7029.14,No,0,49+ Months (Loyal),Premium (90+),High Risk,0.0
+CUST01273,Male,No,Yes,Yes,35,Yes,DSL,Two year,Bank transfer,103.49,3584.58,No,0,25-48 Months,Premium (90+),Low Risk,0.0
+CUST01274,Male,Yes,No,Yes,71,No,Fiber optic,Two year,Mailed check,71.57,5069.28,No,0,49+ Months (Loyal),High (70-90),Low Risk,0.0
+CUST01275,Male,Yes,No,Yes,20,Yes,DSL,One year,Bank transfer,92.6,1854.17,No,0,13-24 Months,Premium (90+),Medium Risk,0.0
+CUST01276,Female,Yes,No,Yes,3,Yes,Fiber optic,One year,Mailed check,56.83,193.01,No,0,0-12 Months (New),Medium (40-70),Medium Risk,0.0
+CUST01277,Male,No,No,No,11,No,DSL,One year,Bank transfer,114.55,1273.21,Yes,1,0-12 Months (New),Premium (90+),Medium Risk,114.55
+CUST01278,Female,Yes,Yes,Yes,52,Yes,No,One year,Bank transfer,74.35,3834.9,Yes,1,49+ Months (Loyal),High (70-90),Medium Risk,74.35
+CUST01279,Male,No,No,No,40,No,Fiber optic,Two year,Electronic check,97.2,3911.08,Yes,1,25-48 Months,Premium (90+),Low Risk,97.2
+CUST01280,Male,Yes,No,Yes,60,Yes,No,One year,Electronic check,48.97,2952.11,No,0,49+ Months (Loyal),Medium (40-70),Medium Risk,0.0
+CUST01281,Female,No,Yes,Yes,27,No,DSL,One year,Bank transfer,78.71,2163.52,Yes,1,25-48 Months,High (70-90),Medium Risk,78.71
+CUST01282,Male,No,Yes,Yes,13,No,No,Month-to-month,Electronic check,74.44,978.37,Yes,1,13-24 Months,High (70-90),High Risk,74.44
+CUST01283,Male,No,No,Yes,18,No,No,Month-to-month,Mailed check,23.92,421.22,Yes,1,13-24 Months,Low (<40),High Risk,23.92
+CUST01284,Male,No,No,No,50,Yes,Fiber optic,Two year,Credit card,97.89,4916.53,No,0,49+ Months (Loyal),Premium (90+),Low Risk,0.0
+CUST01285,Male,No,Yes,Yes,4,Yes,No,Month-to-month,Credit card,31.2,87.59,Yes,1,0-12 Months (New),Low (<40),High Risk,31.2
+CUST01286,Male,No,No,No,61,No,Fiber optic,One year,Electronic check,116.04,7119.23,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
+CUST01287,Male,Yes,No,No,18,Yes,DSL,Month-to-month,Electronic check,100.85,1852.38,Yes,1,13-24 Months,Premium (90+),High Risk,100.85
+CUST01288,Female,No,No,Yes,30,No,No,Month-to-month,Electronic check,78.66,2385.45,Yes,1,25-48 Months,High (70-90),High Risk,78.66
+CUST01289,Male,No,Yes,Yes,10,Yes,Fiber optic,Month-to-month,Bank transfer,61.83,577.52,No,0,0-12 Months (New),Medium (40-70),High Risk,0.0
+CUST01290,Female,No,No,Yes,47,Yes,Fiber optic,Month-to-month,Credit card,62.87,3001.52,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST01291,Male,No,Yes,No,3,Yes,DSL,Two year,Electronic check,72.03,186.41,No,0,0-12 Months (New),High (70-90),Low Risk,0.0
+CUST01292,Male,No,No,Yes,59,Yes,Fiber optic,Two year,Mailed check,29.99,1736.96,Yes,1,49+ Months (Loyal),Low (<40),Low Risk,29.99
+CUST01293,Female,Yes,Yes,No,66,Yes,Fiber optic,Month-to-month,Credit card,82.64,5452.77,Yes,1,49+ Months (Loyal),High (70-90),High Risk,82.64
+CUST01294,Male,No,No,No,6,Yes,DSL,Month-to-month,Electronic check,99.38,644.79,Yes,1,0-12 Months (New),Premium (90+),High Risk,99.38
+CUST01295,Female,Yes,Yes,No,71,Yes,Fiber optic,Month-to-month,Mailed check,84.51,6011.66,Yes,1,49+ Months (Loyal),High (70-90),High Risk,84.51
+CUST01296,Male,Yes,No,Yes,7,No,No,Month-to-month,Electronic check,100.33,680.89,Yes,1,0-12 Months (New),Premium (90+),High Risk,100.33
+CUST01297,Male,Yes,No,Yes,52,No,No,Month-to-month,Credit card,106.96,5577.6,No,0,49+ Months (Loyal),Premium (90+),High Risk,0.0
+CUST01298,Female,No,No,Yes,69,No,No,Month-to-month,Mailed check,34.69,2400.14,Yes,1,49+ Months (Loyal),Low (<40),High Risk,34.69
+CUST01299,Female,No,Yes,Yes,14,Yes,DSL,Month-to-month,Mailed check,97.63,1359.81,Yes,1,13-24 Months,Premium (90+),High Risk,97.63
+CUST01300,Male,Yes,Yes,No,20,No,No,Month-to-month,Credit card,117.23,2297.65,Yes,1,13-24 Months,Premium (90+),High Risk,117.23
+CUST01301,Male,Yes,Yes,Yes,42,No,No,Month-to-month,Mailed check,85.73,3606.78,Yes,1,25-48 Months,High (70-90),High Risk,85.73
+CUST01302,Female,No,No,No,16,Yes,No,Month-to-month,Credit card,54.13,871.01,No,0,13-24 Months,Medium (40-70),High Risk,0.0
+CUST01303,Male,Yes,No,Yes,56,No,DSL,One year,Credit card,77.29,4312.71,No,0,49+ Months (Loyal),High (70-90),Medium Risk,0.0
+CUST01304,Male,No,No,No,13,Yes,DSL,One year,Bank transfer,77.15,1051.0,No,0,13-24 Months,High (70-90),Medium Risk,0.0
+CUST01305,Female,No,No,No,70,Yes,DSL,Month-to-month,Bank transfer,104.98,7325.79,No,0,49+ Months (Loyal),Premium (90+),High Risk,0.0
+CUST01306,Male,No,No,Yes,1,Yes,No,Two year,Credit card,80.04,120.77,Yes,1,0-12 Months (New),High (70-90),Low Risk,80.04
+CUST01307,Male,No,No,Yes,10,Yes,No,Month-to-month,Bank transfer,102.36,1055.93,Yes,1,0-12 Months (New),Premium (90+),High Risk,102.36
+CUST01308,Male,Yes,Yes,No,11,No,No,One year,Bank transfer,25.43,270.51,Yes,1,0-12 Months (New),Low (<40),Medium Risk,25.43
+CUST01309,Male,Yes,No,Yes,7,No,DSL,One year,Bank transfer,21.68,151.29,No,0,0-12 Months (New),Low (<40),Medium Risk,0.0
+CUST01310,Female,Yes,Yes,Yes,58,Yes,No,Month-to-month,Credit card,87.14,5063.75,Yes,1,49+ Months (Loyal),High (70-90),High Risk,87.14
+CUST01311,Male,Yes,No,No,7,Yes,No,One year,Electronic check,96.91,654.72,Yes,1,0-12 Months (New),Premium (90+),Medium Risk,96.91
+CUST01312,Female,No,Yes,Yes,26,No,DSL,Month-to-month,Mailed check,115.42,2982.34,No,0,25-48 Months,Premium (90+),High Risk,0.0
+CUST01313,Male,No,No,No,14,No,No,Two year,Credit card,21.06,329.79,No,0,13-24 Months,Low (<40),Low Risk,0.0
+CUST01314,Male,No,Yes,Yes,1,No,DSL,Month-to-month,Credit card,43.8,45.13,Yes,1,0-12 Months (New),Medium (40-70),High Risk,43.8
+CUST01315,Male,Yes,No,No,49,Yes,DSL,Month-to-month,Electronic check,109.14,5352.38,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,109.14
+CUST01316,Male,No,No,Yes,19,No,Fiber optic,Month-to-month,Electronic check,63.12,1177.76,Yes,1,13-24 Months,Medium (40-70),High Risk,63.12
+CUST01317,Female,No,No,Yes,51,No,No,Month-to-month,Mailed check,110.5,5659.59,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,110.5
+CUST01318,Male,No,Yes,Yes,21,Yes,Fiber optic,Two year,Mailed check,30.23,604.17,No,0,13-24 Months,Low (<40),Low Risk,0.0
+CUST01319,Female,No,No,No,57,Yes,Fiber optic,Two year,Mailed check,107.47,6129.73,No,0,49+ Months (Loyal),Premium (90+),Low Risk,0.0
+CUST01320,Male,Yes,No,Yes,44,Yes,No,One year,Electronic check,69.28,3068.6,No,0,25-48 Months,Medium (40-70),Medium Risk,0.0
+CUST01321,Female,Yes,Yes,No,62,Yes,Fiber optic,Two year,Credit card,43.59,2693.09,No,0,49+ Months (Loyal),Medium (40-70),Low Risk,0.0
+CUST01322,Male,No,No,Yes,49,Yes,DSL,One year,Mailed check,38.04,1876.88,No,0,49+ Months (Loyal),Low (<40),Medium Risk,0.0
+CUST01323,Male,No,No,No,2,No,No,Two year,Electronic check,88.67,167.83,Yes,1,0-12 Months (New),High (70-90),Low Risk,88.67
+CUST01324,Male,No,Yes,Yes,42,No,Fiber optic,One year,Electronic check,75.75,3184.93,No,0,25-48 Months,High (70-90),Medium Risk,0.0
+CUST01325,Male,Yes,No,Yes,21,Yes,DSL,Two year,Electronic check,115.14,2437.12,Yes,1,13-24 Months,Premium (90+),Low Risk,115.14
+CUST01326,Female,Yes,No,Yes,39,No,No,One year,Electronic check,84.73,3282.83,No,0,25-48 Months,High (70-90),Medium Risk,0.0
+CUST01327,Female,No,No,Yes,46,Yes,DSL,Two year,Credit card,64.76,2976.72,No,0,25-48 Months,Medium (40-70),Low Risk,0.0
+CUST01328,Male,No,No,No,49,Yes,No,Month-to-month,Credit card,69.49,3408.23,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,69.49
+CUST01329,Male,Yes,No,Yes,17,No,No,Month-to-month,Credit card,119.42,1983.96,Yes,1,13-24 Months,Premium (90+),High Risk,119.42
+CUST01330,Female,No,No,Yes,31,No,DSL,One year,Electronic check,86.36,2713.94,No,0,25-48 Months,High (70-90),Medium Risk,0.0
+CUST01331,Female,Yes,No,No,5,Yes,No,Month-to-month,Bank transfer,109.98,517.49,Yes,1,0-12 Months (New),Premium (90+),High Risk,109.98
+CUST01332,Female,Yes,No,Yes,68,No,Fiber optic,Month-to-month,Mailed check,34.04,2347.37,Yes,1,49+ Months (Loyal),Low (<40),High Risk,34.04
+CUST01333,Male,No,Yes,No,51,Yes,DSL,Month-to-month,Electronic check,54.02,2721.46,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,54.02
+CUST01334,Female,No,No,No,23,No,Fiber optic,Month-to-month,Mailed check,60.37,1397.42,No,0,13-24 Months,Medium (40-70),High Risk,0.0
+CUST01335,Male,Yes,No,Yes,29,Yes,No,One year,Bank transfer,56.58,1685.98,No,0,25-48 Months,Medium (40-70),Medium Risk,0.0
+CUST01336,Female,Yes,No,Yes,42,No,No,Month-to-month,Bank transfer,42.42,1751.06,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST01337,Male,No,Yes,No,62,Yes,DSL,Month-to-month,Bank transfer,78.2,4825.31,Yes,1,49+ Months (Loyal),High (70-90),High Risk,78.2
+CUST01338,Female,No,No,No,12,No,Fiber optic,Month-to-month,Bank transfer,102.76,1203.35,Yes,1,0-12 Months (New),Premium (90+),High Risk,102.76
+CUST01339,Male,Yes,Yes,No,61,Yes,DSL,One year,Credit card,105.16,6369.34,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
+CUST01340,Female,No,Yes,No,12,Yes,Fiber optic,Month-to-month,Credit card,81.57,1023.64,Yes,1,0-12 Months (New),High (70-90),High Risk,81.57
+CUST01341,Female,No,Yes,No,1,No,Fiber optic,Month-to-month,Bank transfer,60.22,99.24,No,0,0-12 Months (New),Medium (40-70),High Risk,0.0
+CUST01342,Female,Yes,Yes,No,65,No,Fiber optic,Month-to-month,Bank transfer,49.87,3208.31,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,49.87
+CUST01343,Female,Yes,No,No,55,No,Fiber optic,One year,Bank transfer,37.78,2040.79,No,0,49+ Months (Loyal),Low (<40),Medium Risk,0.0
+CUST01344,Male,No,No,No,4,Yes,DSL,Two year,Electronic check,35.59,123.04,No,0,0-12 Months (New),Low (<40),Low Risk,0.0
+CUST01345,Male,No,Yes,Yes,15,No,Fiber optic,Month-to-month,Electronic check,52.4,784.05,Yes,1,13-24 Months,Medium (40-70),High Risk,52.4
+CUST01346,Female,No,Yes,No,39,No,No,Month-to-month,Credit card,58.58,2296.62,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST01347,Male,Yes,Yes,No,58,No,No,Two year,Credit card,34.97,1978.9,No,0,49+ Months (Loyal),Low (<40),Low Risk,0.0
+CUST01348,Male,Yes,No,Yes,9,Yes,DSL,One year,Electronic check,93.7,812.34,Yes,1,0-12 Months (New),Premium (90+),Medium Risk,93.7
+CUST01349,Male,No,Yes,No,12,Yes,Fiber optic,One year,Electronic check,71.96,855.06,No,0,0-12 Months (New),High (70-90),Medium Risk,0.0
+CUST01350,Male,Yes,No,Yes,69,Yes,Fiber optic,Month-to-month,Electronic check,86.52,5937.57,Yes,1,49+ Months (Loyal),High (70-90),High Risk,86.52
+CUST01351,Female,Yes,No,No,34,No,No,One year,Credit card,33.57,1106.86,No,0,25-48 Months,Low (<40),Medium Risk,0.0
+CUST01352,Male,Yes,Yes,Yes,66,No,Fiber optic,Two year,Mailed check,92.96,6124.61,No,0,49+ Months (Loyal),Premium (90+),Low Risk,0.0
+CUST01353,Male,Yes,Yes,No,23,Yes,Fiber optic,One year,Mailed check,64.29,1500.39,Yes,1,13-24 Months,Medium (40-70),Medium Risk,64.29
+CUST01354,Male,No,No,Yes,23,Yes,No,Two year,Mailed check,94.1,2202.46,No,0,13-24 Months,Premium (90+),Low Risk,0.0
+CUST01355,Female,Yes,Yes,No,31,Yes,DSL,Two year,Bank transfer,85.33,2665.48,Yes,1,25-48 Months,High (70-90),Low Risk,85.33
+CUST01356,Male,Yes,No,No,54,Yes,Fiber optic,One year,Credit card,93.71,5098.59,Yes,1,49+ Months (Loyal),Premium (90+),Medium Risk,93.71
+CUST01357,Female,Yes,Yes,Yes,43,No,Fiber optic,Month-to-month,Credit card,81.12,3510.66,Yes,1,25-48 Months,High (70-90),High Risk,81.12
+CUST01358,Female,Yes,Yes,Yes,23,No,DSL,Month-to-month,Bank transfer,44.65,1067.06,Yes,1,13-24 Months,Medium (40-70),High Risk,44.65
+CUST01359,Female,No,Yes,No,42,Yes,No,Two year,Mailed check,33.07,1341.75,No,0,25-48 Months,Low (<40),Low Risk,0.0
+CUST01360,Male,No,No,No,7,Yes,DSL,Month-to-month,Electronic check,46.53,331.13,Yes,1,0-12 Months (New),Medium (40-70),High Risk,46.53
+CUST01361,Female,Yes,No,Yes,48,No,DSL,Month-to-month,Credit card,112.43,5426.51,No,0,25-48 Months,Premium (90+),High Risk,0.0
+CUST01362,Male,No,Yes,No,39,Yes,Fiber optic,One year,Bank transfer,30.95,1163.69,No,0,25-48 Months,Low (<40),Medium Risk,0.0
+CUST01363,Male,No,Yes,Yes,20,Yes,No,Two year,Bank transfer,86.4,1687.25,Yes,1,13-24 Months,High (70-90),Low Risk,86.4
+CUST01364,Female,No,Yes,Yes,1,No,Fiber optic,Month-to-month,Credit card,29.29,76.03,Yes,1,0-12 Months (New),Low (<40),High Risk,29.29
+CUST01365,Male,No,Yes,Yes,27,Yes,DSL,Two year,Credit card,61.01,1672.54,Yes,1,25-48 Months,Medium (40-70),Low Risk,61.01
+CUST01366,Male,No,Yes,Yes,49,No,DSL,Month-to-month,Mailed check,24.19,1197.06,Yes,1,49+ Months (Loyal),Low (<40),High Risk,24.19
+CUST01367,Male,Yes,No,Yes,26,Yes,DSL,Month-to-month,Mailed check,63.14,1625.37,Yes,1,25-48 Months,Medium (40-70),High Risk,63.14
+CUST01368,Male,Yes,No,Yes,20,No,DSL,Month-to-month,Bank transfer,22.27,451.24,Yes,1,13-24 Months,Low (<40),High Risk,22.27
+CUST01369,Male,Yes,Yes,No,18,Yes,No,Month-to-month,Mailed check,21.71,423.1,Yes,1,13-24 Months,Low (<40),High Risk,21.71
+CUST01370,Female,Yes,No,Yes,1,Yes,No,One year,Bank transfer,32.82,52.28,No,0,0-12 Months (New),Low (<40),Medium Risk,0.0
+CUST01371,Male,No,Yes,No,16,Yes,Fiber optic,Month-to-month,Bank transfer,74.97,1203.48,Yes,1,13-24 Months,High (70-90),High Risk,74.97
+CUST01372,Male,No,Yes,No,10,Yes,DSL,Month-to-month,Credit card,113.02,1122.45,Yes,1,0-12 Months (New),Premium (90+),High Risk,113.02
+CUST01373,Male,Yes,Yes,No,36,Yes,DSL,Month-to-month,Electronic check,64.31,2337.31,Yes,1,25-48 Months,Medium (40-70),High Risk,64.31
+CUST01374,Female,No,No,Yes,17,Yes,Fiber optic,Month-to-month,Electronic check,54.24,898.19,No,0,13-24 Months,Medium (40-70),High Risk,0.0
+CUST01375,Male,No,No,Yes,32,Yes,DSL,Month-to-month,Bank transfer,110.8,3536.15,Yes,1,25-48 Months,Premium (90+),High Risk,110.8
+CUST01376,Female,Yes,No,No,9,No,Fiber optic,Month-to-month,Bank transfer,57.2,507.32,Yes,1,0-12 Months (New),Medium (40-70),High Risk,57.2
+CUST01377,Male,Yes,No,Yes,18,No,Fiber optic,Month-to-month,Electronic check,24.41,395.32,Yes,1,13-24 Months,Low (<40),High Risk,24.41
+CUST01378,Male,No,Yes,Yes,53,Yes,DSL,Month-to-month,Bank transfer,96.34,5065.02,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,96.34
+CUST01379,Male,No,Yes,No,58,Yes,DSL,Month-to-month,Electronic check,117.42,6830.79,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,117.42
+CUST01380,Male,No,No,No,14,Yes,DSL,Month-to-month,Mailed check,53.21,791.82,No,0,13-24 Months,Medium (40-70),High Risk,0.0
+CUST01381,Female,Yes,No,No,39,Yes,Fiber optic,Month-to-month,Mailed check,22.48,883.23,Yes,1,25-48 Months,Low (<40),High Risk,22.48
+CUST01382,Female,Yes,No,No,33,No,DSL,Month-to-month,Electronic check,53.38,1811.52,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST01383,Male,Yes,Yes,No,33,No,Fiber optic,Month-to-month,Mailed check,27.89,928.88,Yes,1,25-48 Months,Low (<40),High Risk,27.89
+CUST01384,Male,Yes,Yes,Yes,8,No,Fiber optic,Month-to-month,Electronic check,51.06,391.51,Yes,1,0-12 Months (New),Medium (40-70),High Risk,51.06
+CUST01385,Male,No,Yes,No,63,No,DSL,Two year,Electronic check,21.96,1398.99,No,0,49+ Months (Loyal),Low (<40),Low Risk,0.0
+CUST01386,Male,Yes,Yes,No,32,Yes,Fiber optic,One year,Electronic check,45.55,1468.48,Yes,1,25-48 Months,Medium (40-70),Medium Risk,45.55
+CUST01387,Female,Yes,No,No,29,Yes,DSL,Month-to-month,Credit card,88.52,2598.45,Yes,1,25-48 Months,High (70-90),High Risk,88.52
+CUST01388,Female,No,No,No,13,Yes,DSL,Month-to-month,Electronic check,68.5,897.6,Yes,1,13-24 Months,Medium (40-70),High Risk,68.5
+CUST01389,Male,Yes,No,Yes,27,No,No,Month-to-month,Electronic check,119.57,3223.0,Yes,1,25-48 Months,Premium (90+),High Risk,119.57
+CUST01390,Female,No,No,Yes,4,Yes,Fiber optic,Month-to-month,Credit card,101.98,411.98,Yes,1,0-12 Months (New),Premium (90+),High Risk,101.98
+CUST01391,Male,Yes,Yes,Yes,4,No,DSL,One year,Electronic check,43.52,192.51,No,0,0-12 Months (New),Medium (40-70),Medium Risk,0.0
+CUST01392,Female,No,Yes,Yes,57,Yes,No,One year,Bank transfer,112.78,6429.28,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
+CUST01393,Male,Yes,No,No,69,Yes,DSL,One year,Credit card,114.68,7951.26,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
+CUST01394,Male,Yes,No,No,2,Yes,DSL,One year,Bank transfer,74.01,139.9,Yes,1,0-12 Months (New),High (70-90),Medium Risk,74.01
+CUST01395,Male,No,Yes,No,11,No,No,Month-to-month,Electronic check,113.41,1248.6,Yes,1,0-12 Months (New),Premium (90+),High Risk,113.41
+CUST01396,Female,No,No,Yes,60,No,No,Two year,Credit card,86.46,5142.6,Yes,1,49+ Months (Loyal),High (70-90),Low Risk,86.46
+CUST01397,Female,No,Yes,No,12,No,DSL,Month-to-month,Electronic check,69.44,838.46,Yes,1,0-12 Months (New),Medium (40-70),High Risk,69.44
+CUST01398,Female,Yes,Yes,No,49,No,DSL,One year,Credit card,78.1,3862.8,No,0,49+ Months (Loyal),High (70-90),Medium Risk,0.0
+CUST01399,Female,No,No,Yes,54,No,No,Month-to-month,Mailed check,92.04,5013.72,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,92.04
+CUST01400,Female,Yes,No,Yes,9,No,DSL,Month-to-month,Bank transfer,30.22,236.21,No,0,0-12 Months (New),Low (<40),High Risk,0.0
+CUST01401,Female,No,No,No,70,Yes,DSL,Month-to-month,Mailed check,46.59,3251.31,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST01402,Male,No,No,Yes,34,No,Fiber optic,Month-to-month,Credit card,80.19,2683.27,Yes,1,25-48 Months,High (70-90),High Risk,80.19
+CUST01403,Male,No,No,Yes,28,Yes,No,Two year,Mailed check,55.77,1587.11,No,0,25-48 Months,Medium (40-70),Low Risk,0.0
+CUST01404,Male,No,No,Yes,30,Yes,Fiber optic,One year,Electronic check,54.17,1673.2,Yes,1,25-48 Months,Medium (40-70),Medium Risk,54.17
+CUST01405,Female,Yes,Yes,No,43,Yes,DSL,Month-to-month,Bank transfer,95.05,4086.71,Yes,1,25-48 Months,Premium (90+),High Risk,95.05
+CUST01406,Male,Yes,No,Yes,25,No,Fiber optic,Month-to-month,Credit card,60.21,1461.57,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST01407,Female,No,Yes,No,69,Yes,No,Month-to-month,Electronic check,106.63,7353.64,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,106.63
+CUST01408,Male,Yes,Yes,No,35,No,No,One year,Electronic check,98.73,3489.52,No,0,25-48 Months,Premium (90+),Medium Risk,0.0
+CUST01409,Female,Yes,No,No,69,Yes,No,Two year,Credit card,89.65,6190.81,No,0,49+ Months (Loyal),High (70-90),Low Risk,0.0
+CUST01410,Female,Yes,Yes,No,44,No,Fiber optic,One year,Electronic check,31.06,1378.01,No,0,25-48 Months,Low (<40),Medium Risk,0.0
+CUST01411,Male,No,No,No,32,No,No,Month-to-month,Electronic check,27.04,823.14,No,0,25-48 Months,Low (<40),High Risk,0.0
+CUST01412,Male,No,No,Yes,54,No,DSL,Month-to-month,Mailed check,30.0,1627.93,Yes,1,49+ Months (Loyal),Low (<40),High Risk,30.0
+CUST01413,Male,Yes,No,Yes,7,Yes,No,One year,Bank transfer,100.7,684.77,No,0,0-12 Months (New),Premium (90+),Medium Risk,0.0
+CUST01414,Female,No,Yes,No,49,No,No,Two year,Credit card,63.13,3084.42,No,0,49+ Months (Loyal),Medium (40-70),Low Risk,0.0
+CUST01415,Female,Yes,Yes,Yes,40,No,Fiber optic,Two year,Credit card,95.63,3809.19,No,0,25-48 Months,Premium (90+),Low Risk,0.0
+CUST01416,Female,Yes,No,Yes,25,Yes,Fiber optic,Month-to-month,Bank transfer,45.81,1135.69,Yes,1,25-48 Months,Medium (40-70),High Risk,45.81
+CUST01417,Male,No,No,No,38,Yes,DSL,Month-to-month,Bank transfer,80.37,3038.76,No,0,25-48 Months,High (70-90),High Risk,0.0
+CUST01418,Male,Yes,Yes,Yes,16,Yes,DSL,Month-to-month,Credit card,62.82,1043.26,No,0,13-24 Months,Medium (40-70),High Risk,0.0
+CUST01419,Female,Yes,No,Yes,41,Yes,Fiber optic,Month-to-month,Electronic check,37.69,1566.2,Yes,1,25-48 Months,Low (<40),High Risk,37.69
+CUST01420,Female,Yes,No,Yes,1,Yes,DSL,Month-to-month,Credit card,68.12,67.57,Yes,1,0-12 Months (New),Medium (40-70),High Risk,68.12
+CUST01421,Male,No,Yes,No,57,Yes,Fiber optic,Month-to-month,Credit card,99.25,5692.52,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,99.25
+CUST01422,Female,No,Yes,Yes,22,Yes,DSL,Month-to-month,Mailed check,93.54,2096.33,Yes,1,13-24 Months,Premium (90+),High Risk,93.54
+CUST01423,Female,Yes,No,Yes,60,No,No,Month-to-month,Bank transfer,114.8,6855.48,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,114.8
+CUST01424,Male,Yes,No,No,35,Yes,DSL,One year,Credit card,45.45,1606.03,No,0,25-48 Months,Medium (40-70),Medium Risk,0.0
+CUST01425,Female,Yes,Yes,Yes,10,Yes,DSL,Two year,Mailed check,113.47,1183.17,Yes,1,0-12 Months (New),Premium (90+),Low Risk,113.47
+CUST01426,Female,No,No,No,51,Yes,DSL,One year,Mailed check,68.93,3468.5,No,0,49+ Months (Loyal),Medium (40-70),Medium Risk,0.0
+CUST01427,Female,No,Yes,No,46,Yes,No,Month-to-month,Electronic check,80.67,3699.52,Yes,1,25-48 Months,High (70-90),High Risk,80.67
+CUST01428,Male,Yes,No,Yes,5,No,No,Two year,Mailed check,52.5,267.03,No,0,0-12 Months (New),Medium (40-70),Low Risk,0.0
+CUST01429,Female,No,No,Yes,40,Yes,DSL,Two year,Electronic check,71.47,2880.32,No,0,25-48 Months,High (70-90),Low Risk,0.0
+CUST01430,Female,Yes,Yes,No,45,Yes,Fiber optic,Month-to-month,Bank transfer,46.17,2070.4,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST01431,Male,Yes,Yes,No,28,No,No,One year,Electronic check,21.56,622.3,No,0,25-48 Months,Low (<40),Medium Risk,0.0
+CUST01432,Female,No,Yes,Yes,69,No,No,Month-to-month,Bank transfer,107.41,7434.82,No,0,49+ Months (Loyal),Premium (90+),High Risk,0.0
+CUST01433,Female,No,Yes,No,41,No,No,One year,Credit card,30.47,1283.24,No,0,25-48 Months,Low (<40),Medium Risk,0.0
+CUST01434,Female,Yes,Yes,Yes,12,No,No,Month-to-month,Bank transfer,33.22,369.01,No,0,0-12 Months (New),Low (<40),High Risk,0.0
+CUST01435,Male,Yes,Yes,Yes,31,Yes,DSL,Two year,Credit card,23.01,755.31,Yes,1,25-48 Months,Low (<40),Low Risk,23.01
+CUST01436,Male,No,Yes,Yes,22,Yes,DSL,Month-to-month,Electronic check,21.49,445.78,No,0,13-24 Months,Low (<40),High Risk,0.0
+CUST01437,Male,No,No,No,56,No,DSL,Month-to-month,Electronic check,70.79,3977.38,No,0,49+ Months (Loyal),High (70-90),High Risk,0.0
+CUST01438,Female,Yes,Yes,Yes,71,Yes,Fiber optic,Month-to-month,Credit card,99.69,7056.87,No,0,49+ Months (Loyal),Premium (90+),High Risk,0.0
+CUST01439,Male,Yes,No,Yes,11,Yes,Fiber optic,Month-to-month,Mailed check,39.5,415.43,No,0,0-12 Months (New),Low (<40),High Risk,0.0
+CUST01440,Female,No,Yes,Yes,26,Yes,Fiber optic,One year,Credit card,111.6,2851.95,No,0,25-48 Months,Premium (90+),Medium Risk,0.0
+CUST01441,Female,Yes,No,No,10,No,DSL,Two year,Electronic check,63.59,683.14,No,0,0-12 Months (New),Medium (40-70),Low Risk,0.0
+CUST01442,Female,Yes,Yes,Yes,2,No,Fiber optic,Month-to-month,Electronic check,90.9,202.21,Yes,1,0-12 Months (New),Premium (90+),High Risk,90.9
+CUST01443,Male,Yes,Yes,No,70,No,DSL,Month-to-month,Bank transfer,97.24,6803.74,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,97.24
+CUST01444,Male,Yes,Yes,No,54,Yes,Fiber optic,Month-to-month,Credit card,73.43,3971.97,Yes,1,49+ Months (Loyal),High (70-90),High Risk,73.43
+CUST01445,Male,Yes,No,Yes,68,Yes,No,Month-to-month,Electronic check,67.25,4622.5,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST01446,Female,No,No,Yes,48,No,DSL,Month-to-month,Electronic check,76.93,3732.32,Yes,1,25-48 Months,High (70-90),High Risk,76.93
+CUST01447,Male,No,Yes,Yes,17,No,No,One year,Bank transfer,65.46,1159.16,No,0,13-24 Months,Medium (40-70),Medium Risk,0.0
+CUST01448,Male,Yes,Yes,No,11,Yes,No,Month-to-month,Mailed check,114.07,1283.17,Yes,1,0-12 Months (New),Premium (90+),High Risk,114.07
+CUST01449,Female,No,No,No,59,No,No,Month-to-month,Mailed check,68.83,4049.48,Yes,1,49+ Months (Loyal),Medium (40-70),High Risk,68.83
+CUST01450,Male,No,Yes,No,12,No,DSL,Month-to-month,Mailed check,36.27,445.56,Yes,1,0-12 Months (New),Low (<40),High Risk,36.27
+CUST01451,Male,Yes,Yes,No,47,No,DSL,Month-to-month,Bank transfer,88.1,4127.98,No,0,25-48 Months,High (70-90),High Risk,0.0
+CUST01452,Male,Yes,No,Yes,1,Yes,DSL,One year,Bank transfer,69.69,19.7,No,0,0-12 Months (New),Medium (40-70),Medium Risk,0.0
+CUST01453,Male,No,No,Yes,44,No,Fiber optic,Two year,Credit card,37.17,1668.21,Yes,1,25-48 Months,Low (<40),Low Risk,37.17
+CUST01454,Female,No,Yes,No,36,Yes,DSL,Month-to-month,Mailed check,36.09,1275.42,Yes,1,25-48 Months,Low (<40),High Risk,36.09
+CUST01455,Male,No,No,Yes,50,No,DSL,Month-to-month,Electronic check,98.63,4975.8,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,98.63
+CUST01456,Male,No,Yes,No,1,Yes,Fiber optic,Two year,Electronic check,118.11,133.8,Yes,1,0-12 Months (New),Premium (90+),Low Risk,118.11
+CUST01457,Female,No,Yes,No,30,No,DSL,One year,Mailed check,39.96,1152.08,Yes,1,25-48 Months,Low (<40),Medium Risk,39.96
+CUST01458,Female,Yes,Yes,Yes,62,No,No,One year,Electronic check,107.73,6686.66,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
+CUST01459,Female,Yes,Yes,Yes,67,No,Fiber optic,Month-to-month,Mailed check,106.52,7128.05,Yes,1,49+ Months (Loyal),Premium (90+),High Risk,106.52
+CUST01460,Female,Yes,No,Yes,53,Yes,No,One year,Mailed check,117.74,6210.44,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
+CUST01461,Male,No,Yes,Yes,34,No,DSL,Month-to-month,Credit card,42.18,1402.44,Yes,1,25-48 Months,Medium (40-70),High Risk,42.18
+CUST01462,Female,No,No,No,33,Yes,Fiber optic,Two year,Mailed check,62.07,2004.36,No,0,25-48 Months,Medium (40-70),Low Risk,0.0
+CUST01463,Female,No,No,No,25,Yes,No,Two year,Bank transfer,113.09,2827.59,No,0,25-48 Months,Premium (90+),Low Risk,0.0
+CUST01464,Male,Yes,Yes,No,39,No,DSL,Month-to-month,Bank transfer,53.4,2077.15,Yes,1,25-48 Months,Medium (40-70),High Risk,53.4
+CUST01465,Female,No,No,No,58,No,Fiber optic,Month-to-month,Credit card,35.95,2091.56,No,0,49+ Months (Loyal),Low (<40),High Risk,0.0
+CUST01466,Male,No,No,No,14,Yes,Fiber optic,One year,Bank transfer,93.06,1319.45,No,0,13-24 Months,Premium (90+),Medium Risk,0.0
+CUST01467,Male,No,Yes,Yes,60,No,DSL,One year,Electronic check,34.23,2084.34,No,0,49+ Months (Loyal),Low (<40),Medium Risk,0.0
+CUST01468,Female,Yes,Yes,Yes,22,Yes,Fiber optic,One year,Bank transfer,111.94,2444.19,No,0,13-24 Months,Premium (90+),Medium Risk,0.0
+CUST01469,Female,No,Yes,Yes,11,Yes,DSL,Month-to-month,Bank transfer,98.49,1123.4,Yes,1,0-12 Months (New),Premium (90+),High Risk,98.49
+CUST01470,Male,No,Yes,No,7,Yes,Fiber optic,Month-to-month,Mailed check,106.28,787.01,Yes,1,0-12 Months (New),Premium (90+),High Risk,106.28
+CUST01471,Female,Yes,No,No,5,No,Fiber optic,Month-to-month,Credit card,29.99,144.24,Yes,1,0-12 Months (New),Low (<40),High Risk,29.99
+CUST01472,Male,Yes,Yes,No,47,Yes,DSL,One year,Electronic check,24.81,1214.33,No,0,25-48 Months,Low (<40),Medium Risk,0.0
+CUST01473,Male,Yes,Yes,Yes,16,Yes,Fiber optic,Month-to-month,Electronic check,107.83,1718.12,Yes,1,13-24 Months,Premium (90+),High Risk,107.83
+CUST01474,Female,No,Yes,No,13,Yes,No,Month-to-month,Mailed check,115.98,1493.66,No,0,13-24 Months,Premium (90+),High Risk,0.0
+CUST01475,Male,Yes,No,Yes,6,No,Fiber optic,Month-to-month,Electronic check,60.76,363.25,No,0,0-12 Months (New),Medium (40-70),High Risk,0.0
+CUST01476,Male,No,No,No,71,Yes,DSL,Month-to-month,Credit card,67.75,4764.66,No,0,49+ Months (Loyal),Medium (40-70),High Risk,0.0
+CUST01477,Male,Yes,No,Yes,28,Yes,No,One year,Bank transfer,78.11,2233.4,No,0,25-48 Months,High (70-90),Medium Risk,0.0
+CUST01478,Male,No,Yes,No,63,No,Fiber optic,One year,Mailed check,53.42,3316.26,Yes,1,49+ Months (Loyal),Medium (40-70),Medium Risk,53.42
+CUST01479,Female,No,Yes,No,28,No,Fiber optic,Month-to-month,Credit card,38.36,1034.66,Yes,1,25-48 Months,Low (<40),High Risk,38.36
+CUST01480,Male,No,Yes,Yes,29,Yes,Fiber optic,Month-to-month,Electronic check,26.97,805.85,Yes,1,25-48 Months,Low (<40),High Risk,26.97
+CUST01481,Male,Yes,Yes,No,32,Yes,No,One year,Credit card,71.04,2247.58,Yes,1,25-48 Months,High (70-90),Medium Risk,71.04
+CUST01482,Male,No,No,No,57,Yes,DSL,One year,Electronic check,48.16,2762.95,No,0,49+ Months (Loyal),Medium (40-70),Medium Risk,0.0
+CUST01483,Female,Yes,No,No,24,Yes,DSL,Month-to-month,Credit card,51.17,1217.6,Yes,1,13-24 Months,Medium (40-70),High Risk,51.17
+CUST01484,Male,Yes,Yes,Yes,19,No,Fiber optic,Month-to-month,Mailed check,27.77,523.82,Yes,1,13-24 Months,Low (<40),High Risk,27.77
+CUST01485,Male,No,Yes,No,15,Yes,Fiber optic,One year,Mailed check,91.37,1375.62,Yes,1,13-24 Months,Premium (90+),Medium Risk,91.37
+CUST01486,Female,No,Yes,Yes,9,No,No,One year,Credit card,92.28,849.16,No,0,0-12 Months (New),Premium (90+),Medium Risk,0.0
+CUST01487,Female,No,Yes,No,28,No,Fiber optic,Month-to-month,Electronic check,93.03,2642.91,Yes,1,25-48 Months,Premium (90+),High Risk,93.03
+CUST01488,Female,Yes,Yes,Yes,49,Yes,No,Month-to-month,Bank transfer,111.72,5472.16,No,0,49+ Months (Loyal),Premium (90+),High Risk,0.0
+CUST01489,Male,No,No,Yes,66,No,DSL,One year,Bank transfer,53.17,3547.43,No,0,49+ Months (Loyal),Medium (40-70),Medium Risk,0.0
+CUST01490,Male,No,Yes,No,21,Yes,DSL,Month-to-month,Mailed check,81.5,1715.17,Yes,1,13-24 Months,High (70-90),High Risk,81.5
+CUST01491,Male,No,Yes,Yes,33,Yes,Fiber optic,Month-to-month,Bank transfer,85.48,2843.95,No,0,25-48 Months,High (70-90),High Risk,0.0
+CUST01492,Male,No,No,No,26,Yes,No,Month-to-month,Electronic check,32.76,865.16,No,0,25-48 Months,Low (<40),High Risk,0.0
+CUST01493,Female,No,Yes,Yes,17,No,Fiber optic,Month-to-month,Mailed check,89.55,1482.67,Yes,1,13-24 Months,High (70-90),High Risk,89.55
+CUST01494,Male,No,Yes,Yes,54,No,DSL,Month-to-month,Credit card,39.7,2162.02,No,0,49+ Months (Loyal),Low (<40),High Risk,0.0
+CUST01495,Female,No,No,No,59,No,Fiber optic,Two year,Electronic check,81.11,4757.91,No,0,49+ Months (Loyal),High (70-90),Low Risk,0.0
+CUST01496,Male,No,Yes,No,10,No,Fiber optic,Month-to-month,Electronic check,106.06,1026.51,Yes,1,0-12 Months (New),Premium (90+),High Risk,106.06
+CUST01497,Male,No,Yes,No,32,No,DSL,One year,Credit card,36.22,1165.79,No,0,25-48 Months,Low (<40),Medium Risk,0.0
+CUST01498,Male,No,No,No,2,Yes,Fiber optic,Month-to-month,Bank transfer,116.88,225.53,No,0,0-12 Months (New),Premium (90+),High Risk,0.0
+CUST01499,Female,Yes,Yes,No,30,No,DSL,Month-to-month,Credit card,56.21,1642.34,No,0,25-48 Months,Medium (40-70),High Risk,0.0
+CUST01500,Female,Yes,Yes,No,56,No,DSL,One year,Mailed check,91.73,5143.64,No,0,49+ Months (Loyal),Premium (90+),Medium Risk,0.0
